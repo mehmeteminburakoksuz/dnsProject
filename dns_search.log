@@ -1,0 +1,405 @@
+2025-02-25 10:31:48,921 - WARNING -  * Debugger is active!
+2025-02-25 10:31:48,926 - INFO -  * Debugger PIN: 101-815-113
+2025-02-25 10:32:06,952 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.0.1.170:8000
+2025-02-25 10:32:06,952 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-25 10:32:06,952 - INFO -  * Restarting with stat
+2025-02-25 10:32:07,064 - WARNING -  * Debugger is active!
+2025-02-25 10:32:07,069 - INFO -  * Debugger PIN: 101-815-113
+2025-02-25 10:32:15,184 - INFO - 127.0.0.1 - - [25/Feb/2025 10:32:15] "GET / HTTP/1.1" 200 -
+2025-02-25 10:32:15,199 - INFO - 127.0.0.1 - - [25/Feb/2025 10:32:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-25 10:32:17,858 - INFO - 127.0.0.1 - - [25/Feb/2025 10:32:17] "GET /suggest?query=s HTTP/1.1" 200 -
+2025-02-25 10:32:18,159 - INFO - 127.0.0.1 - - [25/Feb/2025 10:32:18] "GET /suggest?query=sı HTTP/1.1" 200 -
+2025-02-25 10:32:18,267 - INFO - 127.0.0.1 - - [25/Feb/2025 10:32:18] "GET /suggest?query=sıc HTTP/1.1" 200 -
+2025-02-25 10:32:18,834 - INFO - 127.0.0.1 - - [25/Feb/2025 10:32:18] "GET /suggest?query=sı HTTP/1.1" 200 -
+2025-02-25 10:32:19,000 - INFO - 127.0.0.1 - - [25/Feb/2025 10:32:19] "GET /suggest?query=s HTTP/1.1" 200 -
+2025-02-25 10:32:19,487 - INFO - 127.0.0.1 - - [25/Feb/2025 10:32:19] "GET /suggest?query=so HTTP/1.1" 200 -
+2025-02-25 10:32:19,653 - INFO - 127.0.0.1 - - [25/Feb/2025 10:32:19] "GET /suggest?query=soc HTTP/1.1" 200 -
+2025-02-25 10:32:20,151 - INFO - 127.0.0.1 - - [25/Feb/2025 10:32:20] "GET /suggest?query=so HTTP/1.1" 200 -
+2025-02-25 10:32:20,322 - INFO - 127.0.0.1 - - [25/Feb/2025 10:32:20] "GET /suggest?query=s HTTP/1.1" 200 -
+2025-02-25 10:32:22,834 - INFO - 127.0.0.1 - - [25/Feb/2025 10:32:22] "GET /suggest?query=socradar.io HTTP/1.1" 200 -
+2025-02-25 10:32:25,210 - INFO - TXT records fetched for socradar.io: ['v=spf1 include:spf.protection.outlook.com include:_spf.google.com ip4:149.72.189.221 ip4:149.72.139.86 include:servers.mcsv.net include:21028238.spf01.hubspotemail.net -all', 'google-site-verification=78m1M02hJpPMXluW7Yx8OLe9sGFQeecjtwbPBT4hUYI']
+2025-02-25 10:32:25,256 - INFO - Services found for TXT 'v=spf1 include:spf.protection.outlook.com include:_spf.google.com ip4:149.72.189.221 ip4:149.72.139.86 include:servers.mcsv.net include:21028238.spf01.hubspotemail.net -all google-site-verification=78m1M02hJpPMXluW7Yx8OLe9sGFQeecjtwbPBT4hUYI': 44 matches
+2025-02-25 10:32:25,257 - INFO - 127.0.0.1 - - [25/Feb/2025 10:32:25] "POST / HTTP/1.1" 200 -
+2025-02-25 10:32:25,280 - INFO - 127.0.0.1 - - [25/Feb/2025 10:32:25] "[33mGET /v-icon-url HTTP/1.1[0m" 404 -
+2025-02-25 10:32:39,722 - INFO - TXT records fetched for socradar.io: ['v=spf1 include:spf.protection.outlook.com include:_spf.google.com ip4:149.72.189.221 ip4:149.72.139.86 include:servers.mcsv.net include:21028238.spf01.hubspotemail.net -all', 'google-site-verification=78m1M02hJpPMXluW7Yx8OLe9sGFQeecjtwbPBT4hUYI']
+2025-02-25 10:32:39,769 - INFO - Services found for TXT 'v=spf1 include:spf.protection.outlook.com include:_spf.google.com ip4:149.72.189.221 ip4:149.72.139.86 include:servers.mcsv.net include:21028238.spf01.hubspotemail.net -all google-site-verification=78m1M02hJpPMXluW7Yx8OLe9sGFQeecjtwbPBT4hUYI': 44 matches
+2025-02-25 10:32:39,769 - INFO - 127.0.0.1 - - [25/Feb/2025 10:32:39] "POST / HTTP/1.1" 200 -
+2025-02-25 10:32:39,788 - INFO - 127.0.0.1 - - [25/Feb/2025 10:32:39] "[33mGET /v-icon-url HTTP/1.1[0m" 404 -
+2025-02-25 10:32:49,563 - INFO - 127.0.0.1 - - [25/Feb/2025 10:32:49] "GET /suggest?query=d HTTP/1.1" 200 -
+2025-02-25 10:33:33,403 - INFO -  * Detected change in '/Users/burak/PycharmProjects/pythonProjectEmin/web.py', reloading
+2025-02-25 10:33:33,427 - INFO -  * Restarting with stat
+2025-02-25 10:37:40,629 - WARNING -  * Debugger is active!
+2025-02-25 10:37:40,633 - INFO -  * Debugger PIN: 101-815-113
+2025-02-25 10:37:58,045 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-25 10:37:58,045 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-25 10:37:58,045 - INFO -  * Restarting with stat
+2025-02-25 10:37:58,152 - WARNING -  * Debugger is active!
+2025-02-25 10:37:58,156 - INFO -  * Debugger PIN: 101-815-113
+2025-02-25 10:38:11,554 - INFO -  * Detected change in '/Users/burak/PycharmProjects/pythonProjectEmin/web.py', reloading
+2025-02-25 10:38:11,572 - INFO -  * Restarting with stat
+2025-02-25 10:38:11,692 - WARNING -  * Debugger is active!
+2025-02-25 10:38:11,698 - INFO -  * Debugger PIN: 101-815-113
+2025-02-25 10:38:26,537 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.0.1.170:8000
+2025-02-25 10:38:26,537 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-25 10:38:26,537 - INFO -  * Restarting with stat
+2025-02-25 10:38:26,643 - WARNING -  * Debugger is active!
+2025-02-25 10:38:26,647 - INFO -  * Debugger PIN: 101-815-113
+2025-02-25 10:38:29,469 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.0.1.170:8000
+2025-02-25 10:38:29,469 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-25 10:38:29,470 - INFO -  * Restarting with stat
+2025-02-25 10:38:29,574 - WARNING -  * Debugger is active!
+2025-02-25 10:38:29,577 - INFO -  * Debugger PIN: 101-815-113
+2025-02-25 11:19:41,275 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.0.1.170:8000
+2025-02-25 11:19:41,275 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-25 11:19:41,276 - INFO -  * Restarting with stat
+2025-02-25 11:19:41,383 - WARNING -  * Debugger is active!
+2025-02-25 11:19:41,389 - INFO -  * Debugger PIN: 101-815-113
+2025-02-25 11:19:51,120 - INFO - 127.0.0.1 - - [25/Feb/2025 11:19:51] "GET / HTTP/1.1" 200 -
+2025-02-25 11:19:51,257 - INFO - 127.0.0.1 - - [25/Feb/2025 11:19:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-25 11:19:53,903 - INFO - 127.0.0.1 - - [25/Feb/2025 11:19:53] "GET /suggest?query=amazon.com HTTP/1.1" 200 -
+2025-02-25 11:19:56,098 - INFO - TXT records for amazon.com: ['spf2.0/pra include:spf1.amazon.com include:spf2.amazon.com include:amazonses.com -all', 'pendo-domain-verification=ecbe1a51-954d-4202-ab86-d15e04b96769', 'google-site-verification=G_-mXb0ZYjjGkQVGjpOOB2deSOaVdxVj4i4vozJTREs', 'sending_domain1003771=f1303d8ee3b86e39db2703b11feb83e1e8b712a9ffc64c3d56505192e5b3bf4f', 'apple-domain-verification=_j3fIZD8uuYetbG64YKTEpz-8mwyvYrLRqM5CoVZVTk', 'google-site-verification=14WGW2MdNMxchG8PlinF7LgqqE0OwwHqOq0HKhb7rDQ', 'sending_domain1014172=003846595520e80ec84e8cc47c07e3a71afb855fc743bb92cdec93f88c7a4029', 'sending_domain949422=43d714838567583460e7720e6049505edb8e25c1ef4321419d41bc5255db7ba5', 'stripe-verification=65883709F0B36AB2B73FFC870338AE9F817315DDBB1CAB28910F074F4A8DE1EC', 'box-domain-verification=ffea95cd0e0d61c302198367155b07e74fd534fa1d867662dc9bf9969b6f535d', 'dell-technologies-domain-verification=amazon.com_2dc4b285-482d-4948-bf92-16e698f2cab9_1738858526', 'apple-domain-verification=dVkKZnu17XS0EN2X', 'brevo-code:9be7f7c39958d253a31de6593fa831bc', 'sending_domain229492=7cde83fbc5246557c64d9d9ba79f0d11f7ba9eb6127f60451a9aa6f8dead4381', 'ZOOM_verify_ARI4AiKALCcjulAUZNwR8S', 'stripe-verification=B0AD8DC1918B8A717E5B6A29C2E04594A9872AB05F8DA24CB762BBA0A0487BC6', 'canva-site-verification=WhUvTbfe6tUQWmIXnQifGA', 'canva-site-verification=Hksh9WEUPWP13_SEU1mPMA', 'stripe-verification=79C640ED20153B836A623F16A3DCF65E2072948FB80C42D19300514DADF94EC5', 'cisco-ci-domain-verification=1b256bd11daa486ba2fa405d2d5de70f75feb6757dd8993ca8de685a7dfea1df', 'stripe-verification=26EFABF97D624D7F4F3C062366A04C4B1399841F23F275DD81E58D00A981979C', 'sending_domain608861=81b0d52095dae60d604e7cbea5e58e1d842f7d950d6673a43feae339b664ca31', 'stripe-verification=a5c01aa4d732f4b93154d67983d77982ef1a2db73fecfd4bcd64e224d3ab4075', 'sending_domain949422=99a7b44052aefc4dec2abf56189160824664d2fdac00ca962f4455be62b51d56', 'v=spf1 include:spf1.amazon.com include:spf2.amazon.com include:amazonses.com -all', 'facebook-domain-verification=d9u57u52gylohx845ogo1axzpywpmq', 'wrike-verification=MzI3NzM2ODo2NDk5MjE4NjQ2MWJmOTEwMGMxM2MzNzJmNWJlY2U5ZDU4MmVlNzQ2NWU4MTY5OWJjMjlmYjQ4Mjc5M2JiMzky', 'liveramp-site-verification=jZJKgMEQ_1mdjMhKj02iqNACZ-NJHRWhCEQdQ_OuCMo', 'pardot326621=b26a7b44d7c73d119ef9dfd1a24d93c77d583ac50ba4ecedd899a9134734403b', 'stripe-verification=C7ABA7B41F5AC26E3C397015A34CD46ACD2130DC8DAAFA7F59AAEFEDBC3FA517', 'MS=4B600B22799EB2CAC0D8FF0A3A3CAECA5EE2BF3A', 'autodesk-domain-verification=dmryiygGOGBJFJFVo5Bl', 'stripe-verification=76924B623B7105057C67D4F5EAE19F65EE8BD92635581BCACA2CCACA4D38FE1B', 'sending_domain608861=d33a88e8540c33a1217138cf8a25879734bd35673bb7cfbd639f95c550b33ec4', 'stripe-verification=45f746e3b195198f419af3f685fdf217532ce552b4b47070b3caefe325559a67', 'stripe-verification=a27edc0da55836ea6bb7eac592bf2ca8e246eb652608d54493119df7df005afc', 'apple-domain-verification=4wbNaeWvAH0pU1yi', 'uber-domain-verification=7a35217f-6956-41a0-be5c-a28ea2646964', 'atlassian-domain-verification=ZT4AapXgobCpXIWoNcd7gtMjZyOUdr4EDFMnFUWrqqqgdaQVbDvoGpRaIwj/tgPH', 'stripe-verification=6a5d107aa37465eac2101bb1c725b02072689a4fa7bd38b455970baac4979a17', 'google-site-verification=D0RwRb_QApkpApKTFaFlRwbm_yrkey0uokKw0wQUIdk', 'sending_domain1003771=199bc63a54ace5d8d5c5d08286af86d7049b4afacb5ef7decd6b22cf9e8d5efb', 'sending_domain229492=341509a116ea4311fcb2e489303bf09a139b10ce9b90e5029d2677055cb4dc89']
+2025-02-25 11:19:56,175 - INFO - Found 78 services for TXT data: spf2.0/pra include:spf1.amazon.com include:spf2.amazon.com include:amazonses.com -all pendo-domain-v...
+2025-02-25 11:19:56,175 - INFO - Returning 78 results for amazon.com
+2025-02-25 11:19:56,176 - INFO - 127.0.0.1 - - [25/Feb/2025 11:19:56] "POST / HTTP/1.1" 200 -
+2025-02-25 11:19:56,196 - INFO - 127.0.0.1 - - [25/Feb/2025 11:19:56] "[33mGET /h1-icon-url HTTP/1.1[0m" 404 -
+2025-02-25 11:19:56,197 - INFO - 127.0.0.1 - - [25/Feb/2025 11:19:56] "[33mGET /v-icon-url HTTP/1.1[0m" 404 -
+2025-02-25 11:20:12,604 - INFO - 127.0.0.1 - - [25/Feb/2025 11:20:12] "GET /suggest?query=socradar.io HTTP/1.1" 200 -
+2025-02-25 11:20:13,575 - INFO - TXT records for socradar.io: ['google-site-verification=78m1M02hJpPMXluW7Yx8OLe9sGFQeecjtwbPBT4hUYI', 'v=spf1 include:spf.protection.outlook.com include:_spf.google.com ip4:149.72.189.221 ip4:149.72.139.86 include:servers.mcsv.net include:21028238.spf01.hubspotemail.net -all']
+2025-02-25 11:20:13,620 - INFO - Found 42 services for TXT data: google-site-verification=78m1M02hJpPMXluW7Yx8OLe9sGFQeecjtwbPBT4hUYI v=spf1 include:spf.protection.o...
+2025-02-25 11:20:13,621 - INFO - Returning 42 results for socradar.io
+2025-02-25 11:20:13,621 - INFO - 127.0.0.1 - - [25/Feb/2025 11:20:13] "POST / HTTP/1.1" 200 -
+2025-02-25 11:20:13,638 - INFO - 127.0.0.1 - - [25/Feb/2025 11:20:13] "[33mGET /v-icon-url HTTP/1.1[0m" 404 -
+2025-02-25 11:20:32,322 - INFO -  * Detected change in '/Users/burak/PycharmProjects/pythonProjectEmin/web.py', reloading
+2025-02-25 11:20:32,354 - INFO -  * Restarting with stat
+2025-02-25 11:32:33,579 - WARNING -  * Debugger is active!
+2025-02-25 11:32:33,585 - INFO -  * Debugger PIN: 101-815-113
+2025-02-25 11:32:58,364 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.0.1.170:8000
+2025-02-25 11:32:58,364 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-25 11:32:58,364 - INFO -  * Restarting with stat
+2025-02-25 11:32:58,470 - WARNING -  * Debugger is active!
+2025-02-25 11:32:58,476 - INFO -  * Debugger PIN: 101-815-113
+2025-02-25 11:33:00,166 - INFO - Rendering index page without search
+2025-02-25 11:33:00,181 - INFO - 127.0.0.1 - - [25/Feb/2025 11:33:00] "GET / HTTP/1.1" 200 -
+2025-02-25 11:33:02,541 - INFO - 127.0.0.1 - - [25/Feb/2025 11:33:02] "[33mGET /suggest?query=m HTTP/1.1[0m" 404 -
+2025-02-25 11:33:02,912 - INFO - 127.0.0.1 - - [25/Feb/2025 11:33:02] "[33mGET /suggest?query=mi HTTP/1.1[0m" 404 -
+2025-02-25 11:33:03,026 - INFO - 127.0.0.1 - - [25/Feb/2025 11:33:03] "[33mGET /suggest?query=mic HTTP/1.1[0m" 404 -
+2025-02-25 11:33:03,345 - INFO - 127.0.0.1 - - [25/Feb/2025 11:33:03] "[33mGET /suggest?query=micr HTTP/1.1[0m" 404 -
+2025-02-25 11:33:03,549 - INFO - 127.0.0.1 - - [25/Feb/2025 11:33:03] "[33mGET /suggest?query=micro HTTP/1.1[0m" 404 -
+2025-02-25 11:33:03,831 - INFO - 127.0.0.1 - - [25/Feb/2025 11:33:03] "[33mGET /suggest?query=micros HTTP/1.1[0m" 404 -
+2025-02-25 11:33:04,013 - INFO - 127.0.0.1 - - [25/Feb/2025 11:33:04] "[33mGET /suggest?query=microso HTTP/1.1[0m" 404 -
+2025-02-25 11:33:04,039 - INFO - 127.0.0.1 - - [25/Feb/2025 11:33:04] "[33mGET /suggest?query=microsof HTTP/1.1[0m" 404 -
+2025-02-25 11:33:04,564 - INFO - 127.0.0.1 - - [25/Feb/2025 11:33:04] "[33mGET /suggest?query=microsoft HTTP/1.1[0m" 404 -
+2025-02-25 11:33:04,771 - INFO - 127.0.0.1 - - [25/Feb/2025 11:33:04] "[33mGET /suggest?query=microsoft. HTTP/1.1[0m" 404 -
+2025-02-25 11:33:05,243 - INFO - 127.0.0.1 - - [25/Feb/2025 11:33:05] "[33mGET /suggest?query=microsoft.c HTTP/1.1[0m" 404 -
+2025-02-25 11:33:05,367 - INFO - 127.0.0.1 - - [25/Feb/2025 11:33:05] "[33mGET /suggest?query=microsoft.co HTTP/1.1[0m" 404 -
+2025-02-25 11:33:05,679 - INFO - 127.0.0.1 - - [25/Feb/2025 11:33:05] "[33mGET /suggest?query=microsoft.com HTTP/1.1[0m" 404 -
+2025-02-25 11:33:06,632 - INFO - TXT records fetched for microsoft.com: ['MS=ms79629062', 'atlassian-domain-verification=xvoaqRfxSg3PnlVnR4xCSOlKyw1Aln0MMxRiKXnwWroFG7vI76TUC8xYb03MwMXv', 'd365mktkey=3l6dste9txazu0Qd2zu4135PUB4E35txLxyzJxjkPbsx', 'd365mktkey=3uc1cf82cpv750lzk70v9bvf2', 'd365mktkey=6358r1b7e13hox60tl1uagv14', 'd365mktkey=JlXV17lfZjyvWxNje1qiP390ACSKzTxo5mGqZ3V2BmYx', 'd365mktkey=PNcDqkW71x8VOUhcE96aGM4l5PYX1gnlRl6ieXUl5eMx', 'd365mktkey=QDa792dLCZhvaAOOCe2Hz6WTzmTssOp1snABhxWibhMx', 'd365mktkey=SxDf1EZxLvMwx6eEZUxzjFFgHoapF8DvtWEUjwq7ZTwx', 'd365mktkey=ZGFU0tlXPekPusNHPo5QQQWpVf0gic0xpuKroNy3NQEx', 'd365mktkey=j2qHWq9BHdaa3ZXZH8x64daJZxEWsFa0dxDeilxDoYYx', 'd365mktkey=wbU64GRacxVEQxwcLSQnx0zisXLYzgUbfvsufIqO9ZUx', 'docusign=d5a3737c-c23c-4bd0-9095-d2ff621f2840', 'facebook-domain-verification=fwzwhbbzwmg5fzgotc2go51olc3566', 'fg2t0gov9424p2tdcuo94goe9j', 'google-site-verification=GfDnTUdATPsK1230J0mXbfsYw-3A9BVMVaKSd4DcKgI', 'google-site-verification=M--CVfn_YwsV-2FGbCp_HFaEj23BmT0cTF4l8hXgpvM', 'google-site-verification=mEAmcTy1e8jIB9W6ENPk2GDg9hjuNytQQRGlK0hPm0c', 'google-site-verification=pjPOauSPcrfXOZS9jnPPa5axowcHGCDAl1_86dCqFpk', 'google-site-verification=uFg3wr5PWsK8lV029RoXXBBUW0_E6qf1WEWVHhetkOY', 'google-site-verification=uhh5_jbxpcQgnb-A7gDIjlrr5Ef34lA2t2_BAveYpnk', 'hubspot-developer-verification=OTQ5NGIwYWEtODNmZi00YWE1LTkyNmQtNDhjMDMxY2JjNDAx', 'linear-domain-verification=iuq6saifcnbe', 'ms-domain-verification=9feeb5bd-0f21-44bd-aa3d-ad0b1085c629', 't7sebee51jrj7vm932k531hipa', 'v=spf1 include:_spf-a.microsoft.com include:_spf-b.microsoft.com include:_spf-c.microsoft.com include:_spf-ssg-a.msft.net include:spf-a.hotmail.com include:_spf1-meo.microsoft.com -all', 'workplace-domain-verification=lK0QDLk73xymCYMKUXNpfKAT8TY5Mx']
+2025-02-25 11:33:06,697 - INFO - Found 86 services for TXT: MS=ms79629062 atlassian-domain-verification=xvoaqRfxSg3PnlVnR4xCSOlKyw1Aln0MMxRiKXnwWroFG7vI76TUC8xY...
+2025-02-25 11:33:06,697 - INFO - Returning 86 results for microsoft.com
+2025-02-25 11:33:06,698 - INFO - 127.0.0.1 - - [25/Feb/2025 11:33:06] "POST / HTTP/1.1" 200 -
+2025-02-25 11:33:06,718 - INFO - 127.0.0.1 - - [25/Feb/2025 11:33:06] "[33mGET /d365-icon-url HTTP/1.1[0m" 404 -
+2025-02-25 11:33:06,718 - INFO - 127.0.0.1 - - [25/Feb/2025 11:33:06] "[33mGET /h1-icon-url HTTP/1.1[0m" 404 -
+2025-02-25 11:33:06,720 - INFO - 127.0.0.1 - - [25/Feb/2025 11:33:06] "[33mGET /notion-icon-url HTTP/1.1[0m" 404 -
+2025-02-25 11:33:06,721 - INFO - 127.0.0.1 - - [25/Feb/2025 11:33:06] "[33mGET /v-icon-url HTTP/1.1[0m" 404 -
+2025-02-25 11:33:18,794 - INFO - 127.0.0.1 - - [25/Feb/2025 11:33:18] "[33mGET /suggest?query=s HTTP/1.1[0m" 404 -
+2025-02-25 11:33:19,023 - INFO - 127.0.0.1 - - [25/Feb/2025 11:33:19] "[33mGET /suggest?query=so HTTP/1.1[0m" 404 -
+2025-02-25 11:33:19,067 - INFO - 127.0.0.1 - - [25/Feb/2025 11:33:19] "[33mGET /suggest?query=soc HTTP/1.1[0m" 404 -
+2025-02-25 11:33:19,388 - INFO - 127.0.0.1 - - [25/Feb/2025 11:33:19] "[33mGET /suggest?query=socr HTTP/1.1[0m" 404 -
+2025-02-25 11:33:19,533 - INFO - 127.0.0.1 - - [25/Feb/2025 11:33:19] "[33mGET /suggest?query=socra HTTP/1.1[0m" 404 -
+2025-02-25 11:33:19,651 - INFO - 127.0.0.1 - - [25/Feb/2025 11:33:19] "[33mGET /suggest?query=socrad HTTP/1.1[0m" 404 -
+2025-02-25 11:33:19,757 - INFO - 127.0.0.1 - - [25/Feb/2025 11:33:19] "[33mGET /suggest?query=socrada HTTP/1.1[0m" 404 -
+2025-02-25 11:33:19,874 - INFO - 127.0.0.1 - - [25/Feb/2025 11:33:19] "[33mGET /suggest?query=socradar HTTP/1.1[0m" 404 -
+2025-02-25 11:33:20,028 - INFO - 127.0.0.1 - - [25/Feb/2025 11:33:20] "[33mGET /suggest?query=socradar. HTTP/1.1[0m" 404 -
+2025-02-25 11:33:20,317 - INFO - 127.0.0.1 - - [25/Feb/2025 11:33:20] "[33mGET /suggest?query=socradar.i HTTP/1.1[0m" 404 -
+2025-02-25 11:33:20,878 - INFO - 127.0.0.1 - - [25/Feb/2025 11:33:20] "[33mGET /suggest?query=socradar.io HTTP/1.1[0m" 404 -
+2025-02-25 11:33:22,502 - INFO - TXT records fetched for socradar.io: ['google-site-verification=78m1M02hJpPMXluW7Yx8OLe9sGFQeecjtwbPBT4hUYI', 'v=spf1 include:spf.protection.outlook.com include:_spf.google.com ip4:149.72.189.221 ip4:149.72.139.86 include:servers.mcsv.net include:21028238.spf01.hubspotemail.net -all']
+2025-02-25 11:33:22,549 - INFO - Found 42 services for TXT: google-site-verification=78m1M02hJpPMXluW7Yx8OLe9sGFQeecjtwbPBT4hUYI v=spf1 include:spf.protection.o...
+2025-02-25 11:33:22,550 - INFO - Returning 42 results for socradar.io
+2025-02-25 11:33:22,550 - INFO - 127.0.0.1 - - [25/Feb/2025 11:33:22] "POST / HTTP/1.1" 200 -
+2025-02-25 11:33:22,574 - INFO - 127.0.0.1 - - [25/Feb/2025 11:33:22] "[33mGET /v-icon-url HTTP/1.1[0m" 404 -
+2025-02-25 11:33:25,370 - INFO - Cache hit for socradar.io: ['google-site-verification=78m1M02hJpPMXluW7Yx8OLe9sGFQeecjtwbPBT4hUYI', 'v=spf1 include:spf.protection.outlook.com include:_spf.google.com ip4:149.72.189.221 ip4:149.72.139.86 include:servers.mcsv.net include:21028238.spf01.hubspotemail.net -all']
+2025-02-25 11:33:25,419 - INFO - Found 42 services for TXT: google-site-verification=78m1M02hJpPMXluW7Yx8OLe9sGFQeecjtwbPBT4hUYI v=spf1 include:spf.protection.o...
+2025-02-25 11:33:25,419 - INFO - Returning 42 results for socradar.io
+2025-02-25 11:33:25,420 - INFO - 127.0.0.1 - - [25/Feb/2025 11:33:25] "POST / HTTP/1.1" 200 -
+2025-02-25 11:33:25,437 - INFO - 127.0.0.1 - - [25/Feb/2025 11:33:25] "[33mGET /v-icon-url HTTP/1.1[0m" 404 -
+2025-02-25 11:33:26,393 - INFO - Cache hit for socradar.io: ['google-site-verification=78m1M02hJpPMXluW7Yx8OLe9sGFQeecjtwbPBT4hUYI', 'v=spf1 include:spf.protection.outlook.com include:_spf.google.com ip4:149.72.189.221 ip4:149.72.139.86 include:servers.mcsv.net include:21028238.spf01.hubspotemail.net -all']
+2025-02-25 11:33:26,441 - INFO - Found 42 services for TXT: google-site-verification=78m1M02hJpPMXluW7Yx8OLe9sGFQeecjtwbPBT4hUYI v=spf1 include:spf.protection.o...
+2025-02-25 11:33:26,441 - INFO - Returning 42 results for socradar.io
+2025-02-25 11:33:26,442 - INFO - 127.0.0.1 - - [25/Feb/2025 11:33:26] "POST / HTTP/1.1" 200 -
+2025-02-25 11:33:26,452 - INFO - 127.0.0.1 - - [25/Feb/2025 11:33:26] "[33mGET /v-icon-url HTTP/1.1[0m" 404 -
+2025-02-25 11:34:59,729 - INFO - Cache hit for socradar.io: ['google-site-verification=78m1M02hJpPMXluW7Yx8OLe9sGFQeecjtwbPBT4hUYI', 'v=spf1 include:spf.protection.outlook.com include:_spf.google.com ip4:149.72.189.221 ip4:149.72.139.86 include:servers.mcsv.net include:21028238.spf01.hubspotemail.net -all']
+2025-02-25 11:34:59,776 - INFO - Found 42 services for TXT: google-site-verification=78m1M02hJpPMXluW7Yx8OLe9sGFQeecjtwbPBT4hUYI v=spf1 include:spf.protection.o...
+2025-02-25 11:34:59,776 - INFO - Returning 42 results for socradar.io
+2025-02-25 11:34:59,777 - INFO - 127.0.0.1 - - [25/Feb/2025 11:34:59] "POST / HTTP/1.1" 200 -
+2025-02-25 11:34:59,786 - INFO - 127.0.0.1 - - [25/Feb/2025 11:34:59] "[33mGET /v-icon-url HTTP/1.1[0m" 404 -
+2025-02-25 11:35:01,309 - INFO - Cache hit for socradar.io: ['google-site-verification=78m1M02hJpPMXluW7Yx8OLe9sGFQeecjtwbPBT4hUYI', 'v=spf1 include:spf.protection.outlook.com include:_spf.google.com ip4:149.72.189.221 ip4:149.72.139.86 include:servers.mcsv.net include:21028238.spf01.hubspotemail.net -all']
+2025-02-25 11:35:01,355 - INFO - Found 42 services for TXT: google-site-verification=78m1M02hJpPMXluW7Yx8OLe9sGFQeecjtwbPBT4hUYI v=spf1 include:spf.protection.o...
+2025-02-25 11:35:01,355 - INFO - Returning 42 results for socradar.io
+2025-02-25 11:35:01,356 - INFO - 127.0.0.1 - - [25/Feb/2025 11:35:01] "POST / HTTP/1.1" 200 -
+2025-02-25 11:35:01,367 - INFO - 127.0.0.1 - - [25/Feb/2025 11:35:01] "[33mGET /v-icon-url HTTP/1.1[0m" 404 -
+2025-02-25 11:35:08,196 - INFO - Cache hit for microsoft.com: ['MS=ms79629062', 'atlassian-domain-verification=xvoaqRfxSg3PnlVnR4xCSOlKyw1Aln0MMxRiKXnwWroFG7vI76TUC8xYb03MwMXv', 'd365mktkey=3l6dste9txazu0Qd2zu4135PUB4E35txLxyzJxjkPbsx', 'd365mktkey=3uc1cf82cpv750lzk70v9bvf2', 'd365mktkey=6358r1b7e13hox60tl1uagv14', 'd365mktkey=JlXV17lfZjyvWxNje1qiP390ACSKzTxo5mGqZ3V2BmYx', 'd365mktkey=PNcDqkW71x8VOUhcE96aGM4l5PYX1gnlRl6ieXUl5eMx', 'd365mktkey=QDa792dLCZhvaAOOCe2Hz6WTzmTssOp1snABhxWibhMx', 'd365mktkey=SxDf1EZxLvMwx6eEZUxzjFFgHoapF8DvtWEUjwq7ZTwx', 'd365mktkey=ZGFU0tlXPekPusNHPo5QQQWpVf0gic0xpuKroNy3NQEx', 'd365mktkey=j2qHWq9BHdaa3ZXZH8x64daJZxEWsFa0dxDeilxDoYYx', 'd365mktkey=wbU64GRacxVEQxwcLSQnx0zisXLYzgUbfvsufIqO9ZUx', 'docusign=d5a3737c-c23c-4bd0-9095-d2ff621f2840', 'facebook-domain-verification=fwzwhbbzwmg5fzgotc2go51olc3566', 'fg2t0gov9424p2tdcuo94goe9j', 'google-site-verification=GfDnTUdATPsK1230J0mXbfsYw-3A9BVMVaKSd4DcKgI', 'google-site-verification=M--CVfn_YwsV-2FGbCp_HFaEj23BmT0cTF4l8hXgpvM', 'google-site-verification=mEAmcTy1e8jIB9W6ENPk2GDg9hjuNytQQRGlK0hPm0c', 'google-site-verification=pjPOauSPcrfXOZS9jnPPa5axowcHGCDAl1_86dCqFpk', 'google-site-verification=uFg3wr5PWsK8lV029RoXXBBUW0_E6qf1WEWVHhetkOY', 'google-site-verification=uhh5_jbxpcQgnb-A7gDIjlrr5Ef34lA2t2_BAveYpnk', 'hubspot-developer-verification=OTQ5NGIwYWEtODNmZi00YWE1LTkyNmQtNDhjMDMxY2JjNDAx', 'linear-domain-verification=iuq6saifcnbe', 'ms-domain-verification=9feeb5bd-0f21-44bd-aa3d-ad0b1085c629', 't7sebee51jrj7vm932k531hipa', 'v=spf1 include:_spf-a.microsoft.com include:_spf-b.microsoft.com include:_spf-c.microsoft.com include:_spf-ssg-a.msft.net include:spf-a.hotmail.com include:_spf1-meo.microsoft.com -all', 'workplace-domain-verification=lK0QDLk73xymCYMKUXNpfKAT8TY5Mx']
+2025-02-25 11:35:08,261 - INFO - Found 86 services for TXT: MS=ms79629062 atlassian-domain-verification=xvoaqRfxSg3PnlVnR4xCSOlKyw1Aln0MMxRiKXnwWroFG7vI76TUC8xY...
+2025-02-25 11:35:08,262 - INFO - Returning 86 results for microsoft.com
+2025-02-25 11:35:08,262 - INFO - 127.0.0.1 - - [25/Feb/2025 11:35:08] "POST / HTTP/1.1" 200 -
+2025-02-25 11:35:08,281 - INFO - 127.0.0.1 - - [25/Feb/2025 11:35:08] "[33mGET /d365-icon-url HTTP/1.1[0m" 404 -
+2025-02-25 11:35:08,281 - INFO - 127.0.0.1 - - [25/Feb/2025 11:35:08] "[33mGET /h1-icon-url HTTP/1.1[0m" 404 -
+2025-02-25 11:35:08,282 - INFO - 127.0.0.1 - - [25/Feb/2025 11:35:08] "[33mGET /notion-icon-url HTTP/1.1[0m" 404 -
+2025-02-25 11:35:08,283 - INFO - 127.0.0.1 - - [25/Feb/2025 11:35:08] "[33mGET /v-icon-url HTTP/1.1[0m" 404 -
+2025-02-25 11:35:09,943 - INFO - Cache hit for socradar.io: ['google-site-verification=78m1M02hJpPMXluW7Yx8OLe9sGFQeecjtwbPBT4hUYI', 'v=spf1 include:spf.protection.outlook.com include:_spf.google.com ip4:149.72.189.221 ip4:149.72.139.86 include:servers.mcsv.net include:21028238.spf01.hubspotemail.net -all']
+2025-02-25 11:35:09,991 - INFO - Found 42 services for TXT: google-site-verification=78m1M02hJpPMXluW7Yx8OLe9sGFQeecjtwbPBT4hUYI v=spf1 include:spf.protection.o...
+2025-02-25 11:35:09,991 - INFO - Returning 42 results for socradar.io
+2025-02-25 11:35:09,992 - INFO - 127.0.0.1 - - [25/Feb/2025 11:35:09] "POST / HTTP/1.1" 200 -
+2025-02-25 11:35:10,009 - INFO - 127.0.0.1 - - [25/Feb/2025 11:35:10] "[33mGET /v-icon-url HTTP/1.1[0m" 404 -
+2025-02-25 11:35:27,692 - INFO - Cache hit for microsoft.com: ['MS=ms79629062', 'atlassian-domain-verification=xvoaqRfxSg3PnlVnR4xCSOlKyw1Aln0MMxRiKXnwWroFG7vI76TUC8xYb03MwMXv', 'd365mktkey=3l6dste9txazu0Qd2zu4135PUB4E35txLxyzJxjkPbsx', 'd365mktkey=3uc1cf82cpv750lzk70v9bvf2', 'd365mktkey=6358r1b7e13hox60tl1uagv14', 'd365mktkey=JlXV17lfZjyvWxNje1qiP390ACSKzTxo5mGqZ3V2BmYx', 'd365mktkey=PNcDqkW71x8VOUhcE96aGM4l5PYX1gnlRl6ieXUl5eMx', 'd365mktkey=QDa792dLCZhvaAOOCe2Hz6WTzmTssOp1snABhxWibhMx', 'd365mktkey=SxDf1EZxLvMwx6eEZUxzjFFgHoapF8DvtWEUjwq7ZTwx', 'd365mktkey=ZGFU0tlXPekPusNHPo5QQQWpVf0gic0xpuKroNy3NQEx', 'd365mktkey=j2qHWq9BHdaa3ZXZH8x64daJZxEWsFa0dxDeilxDoYYx', 'd365mktkey=wbU64GRacxVEQxwcLSQnx0zisXLYzgUbfvsufIqO9ZUx', 'docusign=d5a3737c-c23c-4bd0-9095-d2ff621f2840', 'facebook-domain-verification=fwzwhbbzwmg5fzgotc2go51olc3566', 'fg2t0gov9424p2tdcuo94goe9j', 'google-site-verification=GfDnTUdATPsK1230J0mXbfsYw-3A9BVMVaKSd4DcKgI', 'google-site-verification=M--CVfn_YwsV-2FGbCp_HFaEj23BmT0cTF4l8hXgpvM', 'google-site-verification=mEAmcTy1e8jIB9W6ENPk2GDg9hjuNytQQRGlK0hPm0c', 'google-site-verification=pjPOauSPcrfXOZS9jnPPa5axowcHGCDAl1_86dCqFpk', 'google-site-verification=uFg3wr5PWsK8lV029RoXXBBUW0_E6qf1WEWVHhetkOY', 'google-site-verification=uhh5_jbxpcQgnb-A7gDIjlrr5Ef34lA2t2_BAveYpnk', 'hubspot-developer-verification=OTQ5NGIwYWEtODNmZi00YWE1LTkyNmQtNDhjMDMxY2JjNDAx', 'linear-domain-verification=iuq6saifcnbe', 'ms-domain-verification=9feeb5bd-0f21-44bd-aa3d-ad0b1085c629', 't7sebee51jrj7vm932k531hipa', 'v=spf1 include:_spf-a.microsoft.com include:_spf-b.microsoft.com include:_spf-c.microsoft.com include:_spf-ssg-a.msft.net include:spf-a.hotmail.com include:_spf1-meo.microsoft.com -all', 'workplace-domain-verification=lK0QDLk73xymCYMKUXNpfKAT8TY5Mx']
+2025-02-25 11:35:27,758 - INFO - Found 86 services for TXT: MS=ms79629062 atlassian-domain-verification=xvoaqRfxSg3PnlVnR4xCSOlKyw1Aln0MMxRiKXnwWroFG7vI76TUC8xY...
+2025-02-25 11:35:27,758 - INFO - Returning 86 results for microsoft.com
+2025-02-25 11:35:27,759 - INFO - 127.0.0.1 - - [25/Feb/2025 11:35:27] "POST / HTTP/1.1" 200 -
+2025-02-25 11:35:27,780 - INFO - 127.0.0.1 - - [25/Feb/2025 11:35:27] "[33mGET /d365-icon-url HTTP/1.1[0m" 404 -
+2025-02-25 11:35:27,780 - INFO - 127.0.0.1 - - [25/Feb/2025 11:35:27] "[33mGET /h1-icon-url HTTP/1.1[0m" 404 -
+2025-02-25 11:35:27,782 - INFO - 127.0.0.1 - - [25/Feb/2025 11:35:27] "[33mGET /notion-icon-url HTTP/1.1[0m" 404 -
+2025-02-25 11:35:27,782 - INFO - 127.0.0.1 - - [25/Feb/2025 11:35:27] "[33mGET /v-icon-url HTTP/1.1[0m" 404 -
+2025-02-25 11:35:46,341 - INFO - 127.0.0.1 - - [25/Feb/2025 11:35:46] "[33mGET /suggest?query=a HTTP/1.1[0m" 404 -
+2025-02-25 11:35:46,532 - INFO - 127.0.0.1 - - [25/Feb/2025 11:35:46] "[33mGET /suggest?query=ab HTTP/1.1[0m" 404 -
+2025-02-25 11:35:46,695 - INFO - 127.0.0.1 - - [25/Feb/2025 11:35:46] "[33mGET /suggest?query=abl HTTP/1.1[0m" 404 -
+2025-02-25 11:35:46,871 - INFO - 127.0.0.1 - - [25/Feb/2025 11:35:46] "[33mGET /suggest?query=ably HTTP/1.1[0m" 404 -
+2025-02-25 11:35:47,207 - INFO - 127.0.0.1 - - [25/Feb/2025 11:35:47] "[33mGET /suggest?query=ably. HTTP/1.1[0m" 404 -
+2025-02-25 11:35:47,418 - INFO - 127.0.0.1 - - [25/Feb/2025 11:35:47] "[33mGET /suggest?query=ably.c HTTP/1.1[0m" 404 -
+2025-02-25 11:35:47,557 - INFO - 127.0.0.1 - - [25/Feb/2025 11:35:47] "[33mGET /suggest?query=ably.co HTTP/1.1[0m" 404 -
+2025-02-25 11:35:47,799 - INFO - 127.0.0.1 - - [25/Feb/2025 11:35:47] "[33mGET /suggest?query=ably.com HTTP/1.1[0m" 404 -
+2025-02-25 11:35:48,375 - INFO - TXT records fetched for ably.com: ['MS=ms96060904', 'OSSRH-68447', 'ZOOM_verify_pKU-RQNERTeu9h7y8EJAMA', 'apple-domain-verification=SC50xl91y0X1iAE9', 'atlassian-domain-verification=Fa5GwZJBgQgASHd0SrVEBJeQVodPWXJAm3q9eAsGrWiRgavXGvnUGBQiVLZy/p9q', 'atlassian-sending-domain-verification=ceecd069-655e-49c2-a719-ed7948f8a69b', 'docusign=9a1d9cdd-424e-499a-810e-75978a959380', 'globalsign-domain-verification=Uc__2ZfNSSNz_yuMnJpZ8Bh_VVZCUd6W4opEN7_qMK', 'google-site-verification=9W7v8jkDbkJIvRjDRZrkv0ICviROZ0e36f44vlbuE6g', 'google-site-verification=COK7hNQlv_--2FaG9uIYwYI5kq6WEEmlatL_ffZr4FE', 'google-site-verification=HqY69S0r2ZxIH-9531zhQapHTVQpRLzgmEypyawPkJM', 'google-site-verification=HytD_E17HRLu5xwB8GZqDRbDRPZaJTMvAKWEBt3Vnx4', 'loom-site-verification=823aa29fa3d741fdb876744402fdab8d', 'prodpad-domain-verification=rHlb/Bj+dKWtb8Zl6Jmd+SsryQI5qyVfGMGM+Bxm05Y=', 'status-page-domain-verification=1s4t5y13nt6z', 'uwIj6RrZ9L4TT2uW2VhOmjOsc64hd6BxbuQIrlAj+UE=', 'v=spf1 include:_spf.google.com include:sendgrid.net include:6939709.spf05.hubspotemail.net include:stspg-customer.com ~all']
+2025-02-25 11:35:48,434 - INFO - Found 92 services for TXT: MS=ms96060904 OSSRH-68447 ZOOM_verify_pKU-RQNERTeu9h7y8EJAMA apple-domain-verification=SC50xl91y0X1i...
+2025-02-25 11:35:48,434 - INFO - Returning 92 results for ably.com
+2025-02-25 11:35:48,435 - INFO - 127.0.0.1 - - [25/Feb/2025 11:35:48] "POST / HTTP/1.1" 200 -
+2025-02-25 11:35:48,457 - INFO - 127.0.0.1 - - [25/Feb/2025 11:35:48] "[33mGET /h1-icon-url HTTP/1.1[0m" 404 -
+2025-02-25 11:35:48,458 - INFO - 127.0.0.1 - - [25/Feb/2025 11:35:48] "[33mGET /notion-icon-url HTTP/1.1[0m" 404 -
+2025-02-25 11:35:48,462 - INFO - 127.0.0.1 - - [25/Feb/2025 11:35:48] "[33mGET /v-icon-url HTTP/1.1[0m" 404 -
+2025-02-25 11:35:56,441 - INFO - 127.0.0.1 - - [25/Feb/2025 11:35:56] "[33mGET /suggest?query=i HTTP/1.1[0m" 404 -
+2025-02-25 11:35:56,807 - INFO - 127.0.0.1 - - [25/Feb/2025 11:35:56] "[33mGET /suggest?query=in HTTP/1.1[0m" 404 -
+2025-02-25 11:35:56,908 - INFO - 127.0.0.1 - - [25/Feb/2025 11:35:56] "[33mGET /suggest?query=ins HTTP/1.1[0m" 404 -
+2025-02-25 11:35:57,198 - INFO - 127.0.0.1 - - [25/Feb/2025 11:35:57] "[33mGET /suggest?query=inst HTTP/1.1[0m" 404 -
+2025-02-25 11:35:57,322 - INFO - 127.0.0.1 - - [25/Feb/2025 11:35:57] "[33mGET /suggest?query=insta HTTP/1.1[0m" 404 -
+2025-02-25 11:35:57,511 - INFO - 127.0.0.1 - - [25/Feb/2025 11:35:57] "[33mGET /suggest?query=instag HTTP/1.1[0m" 404 -
+2025-02-25 11:35:57,740 - INFO - 127.0.0.1 - - [25/Feb/2025 11:35:57] "[33mGET /suggest?query=instagr HTTP/1.1[0m" 404 -
+2025-02-25 11:35:57,974 - INFO - 127.0.0.1 - - [25/Feb/2025 11:35:57] "[33mGET /suggest?query=instagra HTTP/1.1[0m" 404 -
+2025-02-25 11:35:58,051 - INFO - 127.0.0.1 - - [25/Feb/2025 11:35:58] "[33mGET /suggest?query=instagram HTTP/1.1[0m" 404 -
+2025-02-25 11:35:58,425 - INFO - 127.0.0.1 - - [25/Feb/2025 11:35:58] "[33mGET /suggest?query=instagram. HTTP/1.1[0m" 404 -
+2025-02-25 11:35:58,574 - INFO - 127.0.0.1 - - [25/Feb/2025 11:35:58] "[33mGET /suggest?query=instagram.c HTTP/1.1[0m" 404 -
+2025-02-25 11:35:59,831 - INFO - 127.0.0.1 - - [25/Feb/2025 11:35:59] "[33mGET /suggest?query=instagram.co HTTP/1.1[0m" 404 -
+2025-02-25 11:36:00,368 - INFO - 127.0.0.1 - - [25/Feb/2025 11:36:00] "[33mGET /suggest?query=instagram.com HTTP/1.1[0m" 404 -
+2025-02-25 11:36:00,884 - INFO - TXT records fetched for instagram.com: ['4cbb1b68-601f-4801-8e7f-e8f68a4a41dd', 'adobe-idp-site-verification=367fda82-a8bb-46cf-9cff-0062d452d229', 'google-site-verification=GGtId51KFyq0hqX2xNvt1u0P9Xp0C7k6pp9do49fCNw', 'google-site-verification=_iQgLr68Rdg7YnN2PqOljSG5dnWOFUUXISF9R77fs5c', 'hyWdekepiNsp/V9b1JCR+wZDdzbESurl4GqY+FLMfiN+7aeFaway0Art+kNDHeL5OnGZipNeV/iIC+lOONSQVQ==', 'ms=ms86975275', 'nEXgIFIbDifAKlSMQvAhly5SA-vpsAkm5wiOdwdkrzY', 'v=spf1 include:facebookmail.com include:_spf.fb.com -all']
+2025-02-25 11:36:00,934 - INFO - Found 35 services for TXT: 4cbb1b68-601f-4801-8e7f-e8f68a4a41dd adobe-idp-site-verification=367fda82-a8bb-46cf-9cff-0062d452d22...
+2025-02-25 11:36:00,934 - INFO - Returning 35 results for instagram.com
+2025-02-25 11:36:00,935 - INFO - 127.0.0.1 - - [25/Feb/2025 11:36:00] "POST / HTTP/1.1" 200 -
+2025-02-25 11:36:00,957 - INFO - 127.0.0.1 - - [25/Feb/2025 11:36:00] "[33mGET /v-icon-url HTTP/1.1[0m" 404 -
+2025-02-25 11:38:25,768 - INFO -  * Detected change in '/Users/burak/PycharmProjects/pythonProjectEmin/web.py', reloading
+2025-02-25 11:38:25,788 - INFO -  * Restarting with stat
+2025-02-25 11:38:31,961 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.0.1.170:8000
+2025-02-25 11:38:31,961 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-25 11:38:31,961 - INFO -  * Restarting with stat
+2025-02-25 11:38:32,058 - WARNING -  * Debugger is active!
+2025-02-25 11:38:32,063 - INFO -  * Debugger PIN: 101-815-113
+2025-02-25 11:38:38,083 - INFO - TXT records fetched for instagram.com: ['4cbb1b68-601f-4801-8e7f-e8f68a4a41dd', 'adobe-idp-site-verification=367fda82-a8bb-46cf-9cff-0062d452d229', 'google-site-verification=GGtId51KFyq0hqX2xNvt1u0P9Xp0C7k6pp9do49fCNw', 'google-site-verification=_iQgLr68Rdg7YnN2PqOljSG5dnWOFUUXISF9R77fs5c', 'hyWdekepiNsp/V9b1JCR+wZDdzbESurl4GqY+FLMfiN+7aeFaway0Art+kNDHeL5OnGZipNeV/iIC+lOONSQVQ==', 'ms=ms86975275', 'nEXgIFIbDifAKlSMQvAhly5SA-vpsAkm5wiOdwdkrzY', 'v=spf1 include:facebookmail.com include:_spf.fb.com -all']
+2025-02-25 11:38:38,136 - INFO - Found 35 services for TXT: 4cbb1b68-601f-4801-8e7f-e8f68a4a41dd adobe-idp-site-verification=367fda82-a8bb-46cf-9cff-0062d452d22...
+2025-02-25 11:38:38,137 - INFO - Returning 35 results for instagram.com
+2025-02-25 11:38:38,145 - INFO - 127.0.0.1 - - [25/Feb/2025 11:38:38] "POST / HTTP/1.1" 200 -
+2025-02-25 11:38:38,163 - INFO - 127.0.0.1 - - [25/Feb/2025 11:38:38] "[33mGET /v-icon-url HTTP/1.1[0m" 404 -
+2025-02-25 11:38:40,497 - INFO - TXT records fetched for microsoft.com: ['MS=ms79629062', 'atlassian-domain-verification=xvoaqRfxSg3PnlVnR4xCSOlKyw1Aln0MMxRiKXnwWroFG7vI76TUC8xYb03MwMXv', 'd365mktkey=3l6dste9txazu0Qd2zu4135PUB4E35txLxyzJxjkPbsx', 'd365mktkey=3uc1cf82cpv750lzk70v9bvf2', 'd365mktkey=6358r1b7e13hox60tl1uagv14', 'd365mktkey=JlXV17lfZjyvWxNje1qiP390ACSKzTxo5mGqZ3V2BmYx', 'd365mktkey=PNcDqkW71x8VOUhcE96aGM4l5PYX1gnlRl6ieXUl5eMx', 'd365mktkey=QDa792dLCZhvaAOOCe2Hz6WTzmTssOp1snABhxWibhMx', 'd365mktkey=SxDf1EZxLvMwx6eEZUxzjFFgHoapF8DvtWEUjwq7ZTwx', 'd365mktkey=ZGFU0tlXPekPusNHPo5QQQWpVf0gic0xpuKroNy3NQEx', 'd365mktkey=j2qHWq9BHdaa3ZXZH8x64daJZxEWsFa0dxDeilxDoYYx', 'd365mktkey=wbU64GRacxVEQxwcLSQnx0zisXLYzgUbfvsufIqO9ZUx', 'docusign=d5a3737c-c23c-4bd0-9095-d2ff621f2840', 'facebook-domain-verification=fwzwhbbzwmg5fzgotc2go51olc3566', 'fg2t0gov9424p2tdcuo94goe9j', 'google-site-verification=GfDnTUdATPsK1230J0mXbfsYw-3A9BVMVaKSd4DcKgI', 'google-site-verification=M--CVfn_YwsV-2FGbCp_HFaEj23BmT0cTF4l8hXgpvM', 'google-site-verification=mEAmcTy1e8jIB9W6ENPk2GDg9hjuNytQQRGlK0hPm0c', 'google-site-verification=pjPOauSPcrfXOZS9jnPPa5axowcHGCDAl1_86dCqFpk', 'google-site-verification=uFg3wr5PWsK8lV029RoXXBBUW0_E6qf1WEWVHhetkOY', 'google-site-verification=uhh5_jbxpcQgnb-A7gDIjlrr5Ef34lA2t2_BAveYpnk', 'hubspot-developer-verification=OTQ5NGIwYWEtODNmZi00YWE1LTkyNmQtNDhjMDMxY2JjNDAx', 'linear-domain-verification=iuq6saifcnbe', 'ms-domain-verification=9feeb5bd-0f21-44bd-aa3d-ad0b1085c629', 't7sebee51jrj7vm932k531hipa', 'v=spf1 include:_spf-a.microsoft.com include:_spf-b.microsoft.com include:_spf-c.microsoft.com include:_spf-ssg-a.msft.net include:spf-a.hotmail.com include:_spf1-meo.microsoft.com -all', 'workplace-domain-verification=lK0QDLk73xymCYMKUXNpfKAT8TY5Mx']
+2025-02-25 11:38:40,564 - INFO - Found 86 services for TXT: MS=ms79629062 atlassian-domain-verification=xvoaqRfxSg3PnlVnR4xCSOlKyw1Aln0MMxRiKXnwWroFG7vI76TUC8xY...
+2025-02-25 11:38:40,564 - INFO - Returning 86 results for microsoft.com
+2025-02-25 11:38:40,565 - INFO - 127.0.0.1 - - [25/Feb/2025 11:38:40] "POST / HTTP/1.1" 200 -
+2025-02-25 11:38:40,588 - INFO - 127.0.0.1 - - [25/Feb/2025 11:38:40] "[33mGET /d365-icon-url HTTP/1.1[0m" 404 -
+2025-02-25 11:38:40,588 - INFO - 127.0.0.1 - - [25/Feb/2025 11:38:40] "[33mGET /h1-icon-url HTTP/1.1[0m" 404 -
+2025-02-25 11:38:40,592 - INFO - 127.0.0.1 - - [25/Feb/2025 11:38:40] "[33mGET /notion-icon-url HTTP/1.1[0m" 404 -
+2025-02-25 11:38:40,593 - INFO - 127.0.0.1 - - [25/Feb/2025 11:38:40] "[33mGET /v-icon-url HTTP/1.1[0m" 404 -
+2025-02-25 11:38:56,285 - INFO - Cache hit for instagram.com: ['4cbb1b68-601f-4801-8e7f-e8f68a4a41dd', 'adobe-idp-site-verification=367fda82-a8bb-46cf-9cff-0062d452d229', 'google-site-verification=GGtId51KFyq0hqX2xNvt1u0P9Xp0C7k6pp9do49fCNw', 'google-site-verification=_iQgLr68Rdg7YnN2PqOljSG5dnWOFUUXISF9R77fs5c', 'hyWdekepiNsp/V9b1JCR+wZDdzbESurl4GqY+FLMfiN+7aeFaway0Art+kNDHeL5OnGZipNeV/iIC+lOONSQVQ==', 'ms=ms86975275', 'nEXgIFIbDifAKlSMQvAhly5SA-vpsAkm5wiOdwdkrzY', 'v=spf1 include:facebookmail.com include:_spf.fb.com -all']
+2025-02-25 11:38:56,337 - INFO - Found 35 services for TXT: 4cbb1b68-601f-4801-8e7f-e8f68a4a41dd adobe-idp-site-verification=367fda82-a8bb-46cf-9cff-0062d452d22...
+2025-02-25 11:38:56,337 - INFO - Returning 35 results for instagram.com
+2025-02-25 11:38:56,337 - INFO - 127.0.0.1 - - [25/Feb/2025 11:38:56] "POST / HTTP/1.1" 200 -
+2025-02-25 11:38:56,354 - INFO - 127.0.0.1 - - [25/Feb/2025 11:38:56] "[33mGET /v-icon-url HTTP/1.1[0m" 404 -
+2025-02-25 11:39:05,621 - INFO - 127.0.0.1 - - [25/Feb/2025 11:39:05] "[33mGET /suggest?query=f HTTP/1.1[0m" 404 -
+2025-02-25 11:39:05,743 - INFO - 127.0.0.1 - - [25/Feb/2025 11:39:05] "[33mGET /suggest?query=fa HTTP/1.1[0m" 404 -
+2025-02-25 11:39:06,142 - INFO - 127.0.0.1 - - [25/Feb/2025 11:39:06] "[33mGET /suggest?query=fac HTTP/1.1[0m" 404 -
+2025-02-25 11:39:06,364 - INFO - 127.0.0.1 - - [25/Feb/2025 11:39:06] "[33mGET /suggest?query=face HTTP/1.1[0m" 404 -
+2025-02-25 11:39:06,818 - INFO - 127.0.0.1 - - [25/Feb/2025 11:39:06] "[33mGET /suggest?query=faceb HTTP/1.1[0m" 404 -
+2025-02-25 11:39:07,030 - INFO - 127.0.0.1 - - [25/Feb/2025 11:39:07] "[33mGET /suggest?query=facebo HTTP/1.1[0m" 404 -
+2025-02-25 11:39:07,262 - INFO - 127.0.0.1 - - [25/Feb/2025 11:39:07] "[33mGET /suggest?query=faceboo HTTP/1.1[0m" 404 -
+2025-02-25 11:39:07,593 - INFO - 127.0.0.1 - - [25/Feb/2025 11:39:07] "[33mGET /suggest?query=facebook HTTP/1.1[0m" 404 -
+2025-02-25 11:39:08,133 - INFO - 127.0.0.1 - - [25/Feb/2025 11:39:08] "[33mGET /suggest?query=Facebook HTTP/1.1[0m" 404 -
+2025-02-25 11:39:08,158 - INFO - 127.0.0.1 - - [25/Feb/2025 11:39:08] "[33mGET /suggest?query=Facebook. HTTP/1.1[0m" 404 -
+2025-02-25 11:39:08,284 - INFO - 127.0.0.1 - - [25/Feb/2025 11:39:08] "[33mGET /suggest?query=Facebook.c HTTP/1.1[0m" 404 -
+2025-02-25 11:39:08,937 - INFO - 127.0.0.1 - - [25/Feb/2025 11:39:08] "[33mGET /suggest?query=Facebook.cp HTTP/1.1[0m" 404 -
+2025-02-25 11:39:09,539 - INFO - 127.0.0.1 - - [25/Feb/2025 11:39:09] "[33mGET /suggest?query=Facebook.c HTTP/1.1[0m" 404 -
+2025-02-25 11:39:10,155 - INFO - 127.0.0.1 - - [25/Feb/2025 11:39:10] "[33mGET /suggest?query=Facebook.co HTTP/1.1[0m" 404 -
+2025-02-25 11:39:10,445 - INFO - 127.0.0.1 - - [25/Feb/2025 11:39:10] "[33mGET /suggest?query=Facebook.com HTTP/1.1[0m" 404 -
+2025-02-25 11:39:10,998 - INFO - TXT records fetched for facebook.com: ['google-site-verification=A2WZWCNQHrGV_TWwKh6KHY90tY0SHZo_RnyMJoDaG0s', 'google-site-verification=sK6uY9x7eaMoEMfn3OILqwTFYgaNp4llmguKI-C3_iA', 'google-site-verification=wdH5DTJTc9AYNwVunSVFeK0hYDGUIEOGb-RReU6pJlY', 'v=spf1 redirect=_spf.facebook.com', 'zoom-domain-verification=4b2ef4e1-6dee-4483-9869-9bef353fd147']
+2025-02-25 11:39:11,049 - INFO - Found 66 services for TXT: google-site-verification=A2WZWCNQHrGV_TWwKh6KHY90tY0SHZo_RnyMJoDaG0s google-site-verification=sK6uY9...
+2025-02-25 11:39:11,049 - INFO - Returning 66 results for Facebook.com
+2025-02-25 11:39:11,050 - INFO - 127.0.0.1 - - [25/Feb/2025 11:39:11] "POST / HTTP/1.1" 200 -
+2025-02-25 11:39:11,072 - INFO - 127.0.0.1 - - [25/Feb/2025 11:39:11] "[33mGET /h1-icon-url HTTP/1.1[0m" 404 -
+2025-02-25 11:39:11,073 - INFO - 127.0.0.1 - - [25/Feb/2025 11:39:11] "[33mGET /notion-icon-url HTTP/1.1[0m" 404 -
+2025-02-25 11:39:11,076 - INFO - 127.0.0.1 - - [25/Feb/2025 11:39:11] "[33mGET /v-icon-url HTTP/1.1[0m" 404 -
+2025-02-25 11:39:22,761 - INFO - TXT records fetched for socradar.io: ['google-site-verification=78m1M02hJpPMXluW7Yx8OLe9sGFQeecjtwbPBT4hUYI', 'v=spf1 include:spf.protection.outlook.com include:_spf.google.com ip4:149.72.189.221 ip4:149.72.139.86 include:servers.mcsv.net include:21028238.spf01.hubspotemail.net -all']
+2025-02-25 11:39:22,810 - INFO - Found 42 services for TXT: google-site-verification=78m1M02hJpPMXluW7Yx8OLe9sGFQeecjtwbPBT4hUYI v=spf1 include:spf.protection.o...
+2025-02-25 11:39:22,810 - INFO - Returning 42 results for socradar.io
+2025-02-25 11:39:22,811 - INFO - 127.0.0.1 - - [25/Feb/2025 11:39:22] "POST / HTTP/1.1" 200 -
+2025-02-25 11:39:22,831 - INFO - 127.0.0.1 - - [25/Feb/2025 11:39:22] "[33mGET /v-icon-url HTTP/1.1[0m" 404 -
+2025-02-25 11:40:53,926 - INFO - Cache hit for socradar.io: ['google-site-verification=78m1M02hJpPMXluW7Yx8OLe9sGFQeecjtwbPBT4hUYI', 'v=spf1 include:spf.protection.outlook.com include:_spf.google.com ip4:149.72.189.221 ip4:149.72.139.86 include:servers.mcsv.net include:21028238.spf01.hubspotemail.net -all']
+2025-02-25 11:40:53,975 - INFO - Found 42 services for TXT: google-site-verification=78m1M02hJpPMXluW7Yx8OLe9sGFQeecjtwbPBT4hUYI v=spf1 include:spf.protection.o...
+2025-02-25 11:40:53,975 - INFO - Returning 42 results for socradar.io
+2025-02-25 11:40:53,976 - INFO - 127.0.0.1 - - [25/Feb/2025 11:40:53] "POST / HTTP/1.1" 200 -
+2025-02-25 11:40:53,995 - INFO - 127.0.0.1 - - [25/Feb/2025 11:40:53] "[33mGET /v-icon-url HTTP/1.1[0m" 404 -
+2025-02-25 11:40:55,688 - INFO - Cache hit for microsoft.com: ['MS=ms79629062', 'atlassian-domain-verification=xvoaqRfxSg3PnlVnR4xCSOlKyw1Aln0MMxRiKXnwWroFG7vI76TUC8xYb03MwMXv', 'd365mktkey=3l6dste9txazu0Qd2zu4135PUB4E35txLxyzJxjkPbsx', 'd365mktkey=3uc1cf82cpv750lzk70v9bvf2', 'd365mktkey=6358r1b7e13hox60tl1uagv14', 'd365mktkey=JlXV17lfZjyvWxNje1qiP390ACSKzTxo5mGqZ3V2BmYx', 'd365mktkey=PNcDqkW71x8VOUhcE96aGM4l5PYX1gnlRl6ieXUl5eMx', 'd365mktkey=QDa792dLCZhvaAOOCe2Hz6WTzmTssOp1snABhxWibhMx', 'd365mktkey=SxDf1EZxLvMwx6eEZUxzjFFgHoapF8DvtWEUjwq7ZTwx', 'd365mktkey=ZGFU0tlXPekPusNHPo5QQQWpVf0gic0xpuKroNy3NQEx', 'd365mktkey=j2qHWq9BHdaa3ZXZH8x64daJZxEWsFa0dxDeilxDoYYx', 'd365mktkey=wbU64GRacxVEQxwcLSQnx0zisXLYzgUbfvsufIqO9ZUx', 'docusign=d5a3737c-c23c-4bd0-9095-d2ff621f2840', 'facebook-domain-verification=fwzwhbbzwmg5fzgotc2go51olc3566', 'fg2t0gov9424p2tdcuo94goe9j', 'google-site-verification=GfDnTUdATPsK1230J0mXbfsYw-3A9BVMVaKSd4DcKgI', 'google-site-verification=M--CVfn_YwsV-2FGbCp_HFaEj23BmT0cTF4l8hXgpvM', 'google-site-verification=mEAmcTy1e8jIB9W6ENPk2GDg9hjuNytQQRGlK0hPm0c', 'google-site-verification=pjPOauSPcrfXOZS9jnPPa5axowcHGCDAl1_86dCqFpk', 'google-site-verification=uFg3wr5PWsK8lV029RoXXBBUW0_E6qf1WEWVHhetkOY', 'google-site-verification=uhh5_jbxpcQgnb-A7gDIjlrr5Ef34lA2t2_BAveYpnk', 'hubspot-developer-verification=OTQ5NGIwYWEtODNmZi00YWE1LTkyNmQtNDhjMDMxY2JjNDAx', 'linear-domain-verification=iuq6saifcnbe', 'ms-domain-verification=9feeb5bd-0f21-44bd-aa3d-ad0b1085c629', 't7sebee51jrj7vm932k531hipa', 'v=spf1 include:_spf-a.microsoft.com include:_spf-b.microsoft.com include:_spf-c.microsoft.com include:_spf-ssg-a.msft.net include:spf-a.hotmail.com include:_spf1-meo.microsoft.com -all', 'workplace-domain-verification=lK0QDLk73xymCYMKUXNpfKAT8TY5Mx']
+2025-02-25 11:40:55,754 - INFO - Found 86 services for TXT: MS=ms79629062 atlassian-domain-verification=xvoaqRfxSg3PnlVnR4xCSOlKyw1Aln0MMxRiKXnwWroFG7vI76TUC8xY...
+2025-02-25 11:40:55,754 - INFO - Returning 86 results for microsoft.com
+2025-02-25 11:40:55,755 - INFO - 127.0.0.1 - - [25/Feb/2025 11:40:55] "POST / HTTP/1.1" 200 -
+2025-02-25 11:40:55,775 - INFO - 127.0.0.1 - - [25/Feb/2025 11:40:55] "[33mGET /d365-icon-url HTTP/1.1[0m" 404 -
+2025-02-25 11:40:55,775 - INFO - 127.0.0.1 - - [25/Feb/2025 11:40:55] "[33mGET /h1-icon-url HTTP/1.1[0m" 404 -
+2025-02-25 11:40:55,777 - INFO - 127.0.0.1 - - [25/Feb/2025 11:40:55] "[33mGET /notion-icon-url HTTP/1.1[0m" 404 -
+2025-02-25 11:40:55,777 - INFO - 127.0.0.1 - - [25/Feb/2025 11:40:55] "[33mGET /v-icon-url HTTP/1.1[0m" 404 -
+2025-02-25 11:41:01,389 - INFO - 127.0.0.1 - - [25/Feb/2025 11:41:01] "[33mGET /suggest?query=y HTTP/1.1[0m" 404 -
+2025-02-25 11:41:01,739 - INFO - 127.0.0.1 - - [25/Feb/2025 11:41:01] "[33mGET /suggest?query=yo HTTP/1.1[0m" 404 -
+2025-02-25 11:41:02,028 - INFO - 127.0.0.1 - - [25/Feb/2025 11:41:02] "[33mGET /suggest?query=you HTTP/1.1[0m" 404 -
+2025-02-25 11:41:03,370 - INFO - 127.0.0.1 - - [25/Feb/2025 11:41:03] "[33mGET /suggest?query=yout HTTP/1.1[0m" 404 -
+2025-02-25 11:41:03,448 - INFO - 127.0.0.1 - - [25/Feb/2025 11:41:03] "[33mGET /suggest?query=youtu HTTP/1.1[0m" 404 -
+2025-02-25 11:41:03,725 - INFO - 127.0.0.1 - - [25/Feb/2025 11:41:03] "[33mGET /suggest?query=youtub HTTP/1.1[0m" 404 -
+2025-02-25 11:41:03,844 - INFO - 127.0.0.1 - - [25/Feb/2025 11:41:03] "[33mGET /suggest?query=youtube HTTP/1.1[0m" 404 -
+2025-02-25 11:41:04,485 - INFO - 127.0.0.1 - - [25/Feb/2025 11:41:04] "[33mGET /suggest?query=YouTube HTTP/1.1[0m" 404 -
+2025-02-25 11:41:04,507 - INFO - 127.0.0.1 - - [25/Feb/2025 11:41:04] "[33mGET /suggest?query=YouTube. HTTP/1.1[0m" 404 -
+2025-02-25 11:41:04,612 - INFO - 127.0.0.1 - - [25/Feb/2025 11:41:04] "[33mGET /suggest?query=YouTube.c HTTP/1.1[0m" 404 -
+2025-02-25 11:41:04,840 - INFO - 127.0.0.1 - - [25/Feb/2025 11:41:04] "[33mGET /suggest?query=YouTube.co HTTP/1.1[0m" 404 -
+2025-02-25 11:41:05,077 - INFO - 127.0.0.1 - - [25/Feb/2025 11:41:05] "[33mGET /suggest?query=YouTube.com HTTP/1.1[0m" 404 -
+2025-02-25 11:41:05,533 - INFO - TXT records fetched for youtube.com: ['facebook-domain-verification=64jdes7le4h7e7lfpi22rijygx58j1', 'google-site-verification=QtQWEwHWM8tHiJ4s-jJWzEQrD_fF3luPnpzNDH-Nw-w', 'v=spf1 include:google.com mx -all']
+2025-02-25 11:41:05,575 - INFO - Found 81 services for TXT: facebook-domain-verification=64jdes7le4h7e7lfpi22rijygx58j1 google-site-verification=QtQWEwHWM8tHiJ4...
+2025-02-25 11:41:05,575 - INFO - Returning 81 results for YouTube.com
+2025-02-25 11:41:05,576 - INFO - 127.0.0.1 - - [25/Feb/2025 11:41:05] "POST / HTTP/1.1" 200 -
+2025-02-25 11:41:05,598 - INFO - 127.0.0.1 - - [25/Feb/2025 11:41:05] "[33mGET /h1-icon-url HTTP/1.1[0m" 404 -
+2025-02-25 11:41:05,599 - INFO - 127.0.0.1 - - [25/Feb/2025 11:41:05] "[33mGET /notion-icon-url HTTP/1.1[0m" 404 -
+2025-02-25 11:41:05,602 - INFO - 127.0.0.1 - - [25/Feb/2025 11:41:05] "[33mGET /v-icon-url HTTP/1.1[0m" 404 -
+2025-02-25 11:43:59,311 - INFO -  * Detected change in '/Users/burak/PycharmProjects/pythonProjectEmin/web.py', reloading
+2025-02-25 11:43:59,353 - INFO -  * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.0.1.170:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-815-113
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2025 11:44:33] "POST / HTTP/1.1" 200 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2025 11:44:34] "POST / HTTP/1.1" 200 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2025 11:44:36] "POST / HTTP/1.1" 200 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2025 11:44:36] "POST / HTTP/1.1" 200 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2025 11:44:37] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.0.1.170:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-815-113
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2025 11:44:47] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2025 11:44:49] "[33mGET /suggest?query=a HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2025 11:44:49] "[33mGET /suggest?query=am HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2025 11:44:49] "[33mGET /suggest?query=ama HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2025 11:44:49] "[33mGET /suggest?query=amaz HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2025 11:44:49] "[33mGET /suggest?query=amazo HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2025 11:44:50] "[33mGET /suggest?query=amazon HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2025 11:44:50] "[33mGET /suggest?query=amazon. HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2025 11:44:50] "[33mGET /suggest?query=amazon.c HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2025 11:44:50] "[33mGET /suggest?query=amazon.co HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2025 11:44:51] "[33mGET /suggest?query=amazon.com HTTP/1.1[0m" 404 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2025 11:44:52] "POST / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/burak/PycharmProjects/pythonProjectEmin/web.py', reloading
+INFO:werkzeug: * Restarting with stat
+2025-02-25 11:45:01,194 - WARNING -  * Debugger is active!
+2025-02-25 11:45:01,198 - INFO -  * Debugger PIN: 101-815-113
+2025-02-25 11:45:02,280 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.0.1.170:8000
+2025-02-25 11:45:02,280 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-25 11:45:02,280 - INFO -  * Restarting with stat
+2025-02-25 11:45:02,387 - WARNING -  * Debugger is active!
+2025-02-25 11:45:02,392 - INFO -  * Debugger PIN: 101-815-113
+2025-02-25 11:45:09,016 - INFO - TXT records fetched for amazon.com: ['MS=4B600B22799EB2CAC0D8FF0A3A3CAECA5EE2BF3A', 'ZOOM_verify_ARI4AiKALCcjulAUZNwR8S', 'apple-domain-verification=4wbNaeWvAH0pU1yi', 'apple-domain-verification=_j3fIZD8uuYetbG64YKTEpz-8mwyvYrLRqM5CoVZVTk', 'apple-domain-verification=dVkKZnu17XS0EN2X', 'atlassian-domain-verification=ZT4AapXgobCpXIWoNcd7gtMjZyOUdr4EDFMnFUWrqqqgdaQVbDvoGpRaIwj/tgPH', 'autodesk-domain-verification=dmryiygGOGBJFJFVo5Bl', 'box-domain-verification=ffea95cd0e0d61c302198367155b07e74fd534fa1d867662dc9bf9969b6f535d', 'brevo-code:9be7f7c39958d253a31de6593fa831bc', 'canva-site-verification=Hksh9WEUPWP13_SEU1mPMA', 'canva-site-verification=WhUvTbfe6tUQWmIXnQifGA', 'cisco-ci-domain-verification=1b256bd11daa486ba2fa405d2d5de70f75feb6757dd8993ca8de685a7dfea1df', 'dell-technologies-domain-verification=amazon.com_2dc4b285-482d-4948-bf92-16e698f2cab9_1738858526', 'facebook-domain-verification=d9u57u52gylohx845ogo1axzpywpmq', 'google-site-verification=14WGW2MdNMxchG8PlinF7LgqqE0OwwHqOq0HKhb7rDQ', 'google-site-verification=D0RwRb_QApkpApKTFaFlRwbm_yrkey0uokKw0wQUIdk', 'google-site-verification=G_-mXb0ZYjjGkQVGjpOOB2deSOaVdxVj4i4vozJTREs', 'liveramp-site-verification=jZJKgMEQ_1mdjMhKj02iqNACZ-NJHRWhCEQdQ_OuCMo', 'pardot326621=b26a7b44d7c73d119ef9dfd1a24d93c77d583ac50ba4ecedd899a9134734403b', 'pendo-domain-verification=ecbe1a51-954d-4202-ab86-d15e04b96769', 'sending_domain1003771=199bc63a54ace5d8d5c5d08286af86d7049b4afacb5ef7decd6b22cf9e8d5efb', 'sending_domain1003771=f1303d8ee3b86e39db2703b11feb83e1e8b712a9ffc64c3d56505192e5b3bf4f', 'sending_domain1014172=003846595520e80ec84e8cc47c07e3a71afb855fc743bb92cdec93f88c7a4029', 'sending_domain229492=341509a116ea4311fcb2e489303bf09a139b10ce9b90e5029d2677055cb4dc89', 'sending_domain229492=7cde83fbc5246557c64d9d9ba79f0d11f7ba9eb6127f60451a9aa6f8dead4381', 'sending_domain608861=81b0d52095dae60d604e7cbea5e58e1d842f7d950d6673a43feae339b664ca31', 'sending_domain608861=d33a88e8540c33a1217138cf8a25879734bd35673bb7cfbd639f95c550b33ec4', 'sending_domain949422=43d714838567583460e7720e6049505edb8e25c1ef4321419d41bc5255db7ba5', 'sending_domain949422=99a7b44052aefc4dec2abf56189160824664d2fdac00ca962f4455be62b51d56', 'spf2.0/pra include:spf1.amazon.com include:spf2.amazon.com include:amazonses.com -all', 'stripe-verification=26EFABF97D624D7F4F3C062366A04C4B1399841F23F275DD81E58D00A981979C', 'stripe-verification=45f746e3b195198f419af3f685fdf217532ce552b4b47070b3caefe325559a67', 'stripe-verification=65883709F0B36AB2B73FFC870338AE9F817315DDBB1CAB28910F074F4A8DE1EC', 'stripe-verification=6a5d107aa37465eac2101bb1c725b02072689a4fa7bd38b455970baac4979a17', 'stripe-verification=76924B623B7105057C67D4F5EAE19F65EE8BD92635581BCACA2CCACA4D38FE1B', 'stripe-verification=79C640ED20153B836A623F16A3DCF65E2072948FB80C42D19300514DADF94EC5', 'stripe-verification=B0AD8DC1918B8A717E5B6A29C2E04594A9872AB05F8DA24CB762BBA0A0487BC6', 'stripe-verification=C7ABA7B41F5AC26E3C397015A34CD46ACD2130DC8DAAFA7F59AAEFEDBC3FA517', 'stripe-verification=a27edc0da55836ea6bb7eac592bf2ca8e246eb652608d54493119df7df005afc', 'stripe-verification=a5c01aa4d732f4b93154d67983d77982ef1a2db73fecfd4bcd64e224d3ab4075', 'uber-domain-verification=7a35217f-6956-41a0-be5c-a28ea2646964', 'v=spf1 include:spf1.amazon.com include:spf2.amazon.com include:amazonses.com -all', 'wrike-verification=MzI3NzM2ODo2NDk5MjE4NjQ2MWJmOTEwMGMxM2MzNzJmNWJlY2U5ZDU4MmVlNzQ2NWU4MTY5OWJjMjlmYjQ4Mjc5M2JiMzky']
+2025-02-25 11:45:09,097 - INFO - Found 84 services for TXT: MS=4B600B22799EB2CAC0D8FF0A3A3CAECA5EE2BF3A ZOOM_verify_ARI4AiKALCcjulAUZNwR8S apple-domain-verifica...
+2025-02-25 11:45:09,097 - INFO - Returning 84 results for amazon.com
+2025-02-25 11:45:09,102 - INFO - 127.0.0.1 - - [25/Feb/2025 11:45:09] "POST / HTTP/1.1" 200 -
+2025-02-25 11:45:09,119 - INFO - 127.0.0.1 - - [25/Feb/2025 11:45:09] "[33mGET /h1-icon-url HTTP/1.1[0m" 404 -
+2025-02-25 11:45:09,120 - INFO - 127.0.0.1 - - [25/Feb/2025 11:45:09] "[33mGET /v-icon-url HTTP/1.1[0m" 404 -
+2025-02-25 11:45:10,301 - INFO - TXT records fetched for microsoft.com: ['MS=ms79629062', 'atlassian-domain-verification=xvoaqRfxSg3PnlVnR4xCSOlKyw1Aln0MMxRiKXnwWroFG7vI76TUC8xYb03MwMXv', 'd365mktkey=3l6dste9txazu0Qd2zu4135PUB4E35txLxyzJxjkPbsx', 'd365mktkey=3uc1cf82cpv750lzk70v9bvf2', 'd365mktkey=6358r1b7e13hox60tl1uagv14', 'd365mktkey=JlXV17lfZjyvWxNje1qiP390ACSKzTxo5mGqZ3V2BmYx', 'd365mktkey=PNcDqkW71x8VOUhcE96aGM4l5PYX1gnlRl6ieXUl5eMx', 'd365mktkey=QDa792dLCZhvaAOOCe2Hz6WTzmTssOp1snABhxWibhMx', 'd365mktkey=SxDf1EZxLvMwx6eEZUxzjFFgHoapF8DvtWEUjwq7ZTwx', 'd365mktkey=ZGFU0tlXPekPusNHPo5QQQWpVf0gic0xpuKroNy3NQEx', 'd365mktkey=j2qHWq9BHdaa3ZXZH8x64daJZxEWsFa0dxDeilxDoYYx', 'd365mktkey=wbU64GRacxVEQxwcLSQnx0zisXLYzgUbfvsufIqO9ZUx', 'docusign=d5a3737c-c23c-4bd0-9095-d2ff621f2840', 'facebook-domain-verification=fwzwhbbzwmg5fzgotc2go51olc3566', 'fg2t0gov9424p2tdcuo94goe9j', 'google-site-verification=GfDnTUdATPsK1230J0mXbfsYw-3A9BVMVaKSd4DcKgI', 'google-site-verification=M--CVfn_YwsV-2FGbCp_HFaEj23BmT0cTF4l8hXgpvM', 'google-site-verification=mEAmcTy1e8jIB9W6ENPk2GDg9hjuNytQQRGlK0hPm0c', 'google-site-verification=pjPOauSPcrfXOZS9jnPPa5axowcHGCDAl1_86dCqFpk', 'google-site-verification=uFg3wr5PWsK8lV029RoXXBBUW0_E6qf1WEWVHhetkOY', 'google-site-verification=uhh5_jbxpcQgnb-A7gDIjlrr5Ef34lA2t2_BAveYpnk', 'hubspot-developer-verification=OTQ5NGIwYWEtODNmZi00YWE1LTkyNmQtNDhjMDMxY2JjNDAx', 'linear-domain-verification=iuq6saifcnbe', 'ms-domain-verification=9feeb5bd-0f21-44bd-aa3d-ad0b1085c629', 't7sebee51jrj7vm932k531hipa', 'v=spf1 include:_spf-a.microsoft.com include:_spf-b.microsoft.com include:_spf-c.microsoft.com include:_spf-ssg-a.msft.net include:spf-a.hotmail.com include:_spf1-meo.microsoft.com -all', 'workplace-domain-verification=lK0QDLk73xymCYMKUXNpfKAT8TY5Mx']
+2025-02-25 11:45:10,367 - INFO - Found 86 services for TXT: MS=ms79629062 atlassian-domain-verification=xvoaqRfxSg3PnlVnR4xCSOlKyw1Aln0MMxRiKXnwWroFG7vI76TUC8xY...
+2025-02-25 11:45:10,367 - INFO - Returning 86 results for microsoft.com
+2025-02-25 11:45:10,368 - INFO - 127.0.0.1 - - [25/Feb/2025 11:45:10] "POST / HTTP/1.1" 200 -
+2025-02-25 11:45:10,391 - INFO - 127.0.0.1 - - [25/Feb/2025 11:45:10] "[33mGET /d365-icon-url HTTP/1.1[0m" 404 -
+2025-02-25 11:45:10,391 - INFO - 127.0.0.1 - - [25/Feb/2025 11:45:10] "[33mGET /h1-icon-url HTTP/1.1[0m" 404 -
+2025-02-25 11:45:10,392 - INFO - 127.0.0.1 - - [25/Feb/2025 11:45:10] "[33mGET /notion-icon-url HTTP/1.1[0m" 404 -
+2025-02-25 11:45:10,393 - INFO - 127.0.0.1 - - [25/Feb/2025 11:45:10] "[33mGET /v-icon-url HTTP/1.1[0m" 404 -
+2025-02-25 11:45:12,731 - INFO - TXT records fetched for socradar.io: ['google-site-verification=78m1M02hJpPMXluW7Yx8OLe9sGFQeecjtwbPBT4hUYI', 'v=spf1 include:spf.protection.outlook.com include:_spf.google.com ip4:149.72.189.221 ip4:149.72.139.86 include:servers.mcsv.net include:21028238.spf01.hubspotemail.net -all']
+2025-02-25 11:45:12,779 - INFO - Found 42 services for TXT: google-site-verification=78m1M02hJpPMXluW7Yx8OLe9sGFQeecjtwbPBT4hUYI v=spf1 include:spf.protection.o...
+2025-02-25 11:45:12,779 - INFO - Returning 42 results for socradar.io
+2025-02-25 11:45:12,779 - INFO - 127.0.0.1 - - [25/Feb/2025 11:45:12] "POST / HTTP/1.1" 200 -
+2025-02-25 11:45:12,798 - INFO - 127.0.0.1 - - [25/Feb/2025 11:45:12] "[33mGET /v-icon-url HTTP/1.1[0m" 404 -
+2025-02-25 11:45:41,287 - INFO - 127.0.0.1 - - [25/Feb/2025 11:45:41] "[33mGET /suggest?query=G HTTP/1.1[0m" 404 -
+2025-02-25 11:45:41,712 - INFO - 127.0.0.1 - - [25/Feb/2025 11:45:41] "[33mGET /suggest?query=Gi HTTP/1.1[0m" 404 -
+2025-02-25 11:45:41,796 - INFO - 127.0.0.1 - - [25/Feb/2025 11:45:41] "[33mGET /suggest?query=Git HTTP/1.1[0m" 404 -
+2025-02-25 11:45:42,275 - INFO - 127.0.0.1 - - [25/Feb/2025 11:45:42] "[33mGET /suggest?query=Gith HTTP/1.1[0m" 404 -
+2025-02-25 11:45:42,924 - INFO - 127.0.0.1 - - [25/Feb/2025 11:45:42] "[33mGET /suggest?query=Githu HTTP/1.1[0m" 404 -
+2025-02-25 11:45:43,310 - INFO - 127.0.0.1 - - [25/Feb/2025 11:45:43] "[33mGET /suggest?query=Github HTTP/1.1[0m" 404 -
+2025-02-25 11:45:43,698 - INFO - 127.0.0.1 - - [25/Feb/2025 11:45:43] "[33mGET /suggest?query=Github. HTTP/1.1[0m" 404 -
+2025-02-25 11:45:44,036 - INFO - 127.0.0.1 - - [25/Feb/2025 11:45:44] "[33mGET /suggest?query=Github.i HTTP/1.1[0m" 404 -
+2025-02-25 11:45:44,391 - INFO - 127.0.0.1 - - [25/Feb/2025 11:45:44] "[33mGET /suggest?query=Github.io HTTP/1.1[0m" 404 -
+2025-02-25 11:45:44,709 - INFO - TXT records fetched for github.io: ['v=spf1 a -all']
+2025-02-25 11:45:44,735 - INFO - Found 5 services for TXT: v=spf1 a -all...
+2025-02-25 11:45:44,735 - INFO - Returning 5 results for Github.io
+2025-02-25 11:45:44,736 - INFO - 127.0.0.1 - - [25/Feb/2025 11:45:44] "POST / HTTP/1.1" 200 -
+2025-02-25 11:45:44,755 - INFO - 127.0.0.1 - - [25/Feb/2025 11:45:44] "[33mGET /v-icon-url HTTP/1.1[0m" 404 -
+2025-02-25 11:45:50,410 - INFO - 127.0.0.1 - - [25/Feb/2025 11:45:50] "[33mGET /suggest?query=g HTTP/1.1[0m" 404 -
+2025-02-25 11:45:50,644 - INFO - 127.0.0.1 - - [25/Feb/2025 11:45:50] "[33mGET /suggest?query=gi HTTP/1.1[0m" 404 -
+2025-02-25 11:45:50,729 - INFO - 127.0.0.1 - - [25/Feb/2025 11:45:50] "[33mGET /suggest?query=git HTTP/1.1[0m" 404 -
+2025-02-25 11:45:51,013 - INFO - 127.0.0.1 - - [25/Feb/2025 11:45:51] "[33mGET /suggest?query=gith HTTP/1.1[0m" 404 -
+2025-02-25 11:45:51,363 - INFO - 127.0.0.1 - - [25/Feb/2025 11:45:51] "[33mGET /suggest?query=githu HTTP/1.1[0m" 404 -
+2025-02-25 11:45:51,499 - INFO - 127.0.0.1 - - [25/Feb/2025 11:45:51] "[33mGET /suggest?query=github HTTP/1.1[0m" 404 -
+2025-02-25 11:45:51,847 - INFO - 127.0.0.1 - - [25/Feb/2025 11:45:51] "[33mGET /suggest?query=GitHub HTTP/1.1[0m" 404 -
+2025-02-25 11:45:51,860 - INFO - 127.0.0.1 - - [25/Feb/2025 11:45:51] "[33mGET /suggest?query=GitHub. HTTP/1.1[0m" 404 -
+2025-02-25 11:45:52,169 - INFO - 127.0.0.1 - - [25/Feb/2025 11:45:52] "[33mGET /suggest?query=GitHub.c HTTP/1.1[0m" 404 -
+2025-02-25 11:45:52,618 - INFO - 127.0.0.1 - - [25/Feb/2025 11:45:52] "[33mGET /suggest?query=GitHub.co HTTP/1.1[0m" 404 -
+2025-02-25 11:45:52,846 - INFO - 127.0.0.1 - - [25/Feb/2025 11:45:52] "[33mGET /suggest?query=GitHub.com HTTP/1.1[0m" 404 -
+2025-02-25 11:45:53,372 - INFO - TXT records fetched for github.com: ['MS=6BF03E6AF5CB689E315FB6199603BABF2C88D805', 'MS=ms44452932', 'MS=ms58704441', 'adobe-idp-site-verification=b92c9e999aef825edc36e0a3d847d2dbad5b2fc0e05c79ddd7a16139b48ecf4b', 'apple-domain-verification=RyQhdzTl6Z6x8ZP4', 'atlassian-domain-verification=jjgw98AKv2aeoYFxiL/VFaoyPkn3undEssTRuMg6C/3Fp/iqhkV4HVV7WjYlVeF8', 'calendly-site-verification=at0DQARi7IZvJtXQAWhMqpmIzpvoBNF7aam5VKKxP', 'docusign=087098e3-3d46-47b7-9b4e-8a23028154cd', 'facebook-domain-verification=39xu4jzl7roi7x0n93ldkxjiaarx50', 'google-site-verification=82Le34Flgtd15ojYhHlGF_6g72muSjamlMVThBOJpks', 'google-site-verification=UTM-3akMgubp6tQtgEuAkYNYLyYAvpTnnSrDMWoDR3o', 'krisp-domain-verification=ZlyiK7XLhnaoUQb2hpak1PLY7dFkl1WE', 'loom-site-verification=f3787154f1154b7880e720a511ea664d', 'miro-verification=d2e174fdb00c71e0bcf58f8e58c3da2dd80dcfa9', 'shopify-verification-code=t1YPwcmvnxZyBycaCpk1MPyWoFs72o', 'stripe-verification=f88ef17321660a01bab1660454192e014defa29ba7b8de9633c69d6b4912217f', 'v=spf1 ip4:192.30.252.0/22 include:_netblocks.google.com include:_netblocks2.google.com include:_netblocks3.google.com include:spf.protection.outlook.com include:mail.zendesk.com include:_spf.salesforce.com include:servers.mcsv.net include:mktomail.com ip4:166.78.69.169 ip4:166.78.69.170 ip4:166.78.71.131 ip4:167.89.101.2 ip4:167.89.101.192/28 ip4:192.254.112.60 ip4:192.254.112.98/31 ip4:192.254.113.10 ip4:192.254.113.101 ip4:192.254.114.176 ip4:62.253.227.114 ~all']
+2025-02-25 11:45:53,436 - INFO - Found 106 services for TXT: MS=6BF03E6AF5CB689E315FB6199603BABF2C88D805 MS=ms44452932 MS=ms58704441 adobe-idp-site-verification=...
+2025-02-25 11:45:53,436 - INFO - Returning 106 results for GitHub.com
+2025-02-25 11:45:53,437 - INFO - 127.0.0.1 - - [25/Feb/2025 11:45:53] "POST / HTTP/1.1" 200 -
+2025-02-25 11:45:53,458 - INFO - 127.0.0.1 - - [25/Feb/2025 11:45:53] "[33mGET /salesforce-icon-url HTTP/1.1[0m" 404 -
+2025-02-25 11:45:53,459 - INFO - 127.0.0.1 - - [25/Feb/2025 11:45:53] "[33mGET /canva-icon-url HTTP/1.1[0m" 404 -
+2025-02-25 11:45:53,459 - INFO - 127.0.0.1 - - [25/Feb/2025 11:45:53] "[33mGET /h1-icon-url HTTP/1.1[0m" 404 -
+2025-02-25 11:45:53,460 - INFO - 127.0.0.1 - - [25/Feb/2025 11:45:53] "[33mGET /notion-icon-url HTTP/1.1[0m" 404 -
+2025-02-25 11:45:53,461 - INFO - 127.0.0.1 - - [25/Feb/2025 11:45:53] "[33mGET /v-icon-url HTTP/1.1[0m" 404 -
+2025-02-25 11:46:19,159 - INFO -  * Detected change in '/Users/burak/PycharmProjects/pythonProjectEmin/web.py', reloading
+2025-02-25 11:46:19,180 - INFO -  * Restarting with stat

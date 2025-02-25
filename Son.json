@@ -1,0 +1,3517 @@
+{
+  "MS": [
+    {
+      "Service": "Microsoft",
+      "Url": "https://www.microsoft.com",
+      "Icon": "microsoft-icon-url"
+    }
+  ],
+  "google-site-verification": [
+    {
+      "Service": "Google",
+      "Url": "https://www.google.com",
+      "Icon": "google-icon-url"
+    }
+  ],
+  "_spf.google.com": [
+    {
+      "Service": "Google SPF",
+      "Url": "https://www.google.com",
+      "Icon": "google-spf-icon-url"
+    }
+  ],
+  "spf.protection.outlook.com": [
+    {
+      "Service": "Outlook SPF",
+      "Url": "https://www.outlook.com",
+      "Icon": "outlook-icon-url"
+    }
+  ],
+  "facebook-domain-verification": [
+    {
+      "Service": "Facebook",
+      "Url": "https://www.facebook.com",
+      "Icon": "facebook-icon-url"
+    }
+  ],
+  "atlassian-domain-verification": [
+    {
+      "Service": "Atlassian",
+      "Url": "https://www.atlassian.com",
+      "Icon": "atlassian-icon-url"
+    }
+  ],
+  "apple-domain-verification": [
+    {
+      "Service": "Apple",
+      "Url": "https://www.apple.com",
+      "Icon": "apple-icon-url"
+    }
+  ],
+  "amazonses.com": [
+    {
+      "Service": "Amazon SES",
+      "Url": "https://aws.amazon.com/ses",
+      "Icon": "amazon-ses-icon-url"
+    }
+  ],
+  "_globalsign-domain-verification": [
+    {
+      "Service": "GlobalSign",
+      "Url": "https://www.globalsign.com",
+      "Icon": "globalsign-icon-url"
+    }
+  ],
+  "mail.zendesk.com": [
+    {
+      "Service": "Zendesk Mail",
+      "Url": "https://www.zendesk.com",
+      "Icon": "zendesk-icon-url"
+    }
+  ],
+  "v": [
+    {
+      "Service": "v",
+      "Url": "https://www.example.com",
+      "Icon": "v-icon-url"
+    }
+  ],
+  "sendgrid.net": [
+    {
+      "Service": "SendGrid",
+      "Url": "https://www.sendgrid.com",
+      "Icon": "sendgrid-icon-url"
+    }
+  ],
+  "adobe-idp-site-verification": [
+    {
+      "Service": "Adobe",
+      "Url": "https://www.adobe.com",
+      "Icon": "adobe-icon-url"
+    }
+  ],
+  "docusign": [
+    {
+      "Service": "DocuSign",
+      "Url": "https://www.docusign.com",
+      "Icon": "docusign-icon-url"
+    }
+  ],
+  "_spf.salesforce.com": [
+    {
+      "Service": "Salesforce SPF",
+      "Url": "https://www.salesforce.com",
+      "Icon": "salesforce-icon-url"
+    }
+  ],
+  "spf.mandrillapp.com": [
+    {
+      "Service": "Mandrill SPF",
+      "Url": "https://www.mandrillapp.com",
+      "Icon": "mandrill-icon-url"
+    }
+  ],
+  "servers.mcsv.net": [
+    {
+      "Service": "MailChimp",
+      "Url": "https://www.mailchimp.com",
+      "Icon": "mailchimp-icon-url"
+    }
+  ],
+  "globalsign-domain-verification": [
+    {
+      "Service": "GlobalSign",
+      "Url": "https://www.globalsign.com",
+      "Icon": "globalsign-icon-url"
+    }
+  ],
+  "mailgun.org": [
+    {
+      "Service": "MailGun",
+      "Url": "https://www.mailgun.org",
+      "Icon": "mailgun-icon-url"
+    }
+  ],
+  "miro-verification": [
+    {
+      "Service": "Miro",
+      "Url": "https://www.miro.com",
+      "Icon": "miro-icon-url"
+    }
+  ],
+  "cisco-ci-domain-verification": [
+    {
+      "Service": "Cisco",
+      "Url": "https://www.cisco.com",
+      "Icon": "cisco-icon-url"
+    }
+  ],
+  "onetrust-domain-verification": [
+    {
+      "Service": "OneTrust",
+      "Url": "https://www.onetrust.com",
+      "Icon": "onetrust-icon-url"
+    }
+  ],
+  "stripe-verification": [
+    {
+      "Service": "Stripe",
+      "Url": "https://www.stripe.com",
+      "Icon": "stripe-icon-url"
+    }
+  ],
+  "status-page-domain-verification": [
+    {
+      "Service": "StatusPage",
+      "Url": "https://www.statuspage.io",
+      "Icon": "statuspage-icon-url"
+    }
+  ],
+  "knowbe4-site-verification": [
+    {
+      "Service": "KnowBe4",
+      "Url": "https://www.knowbe4.com",
+      "Icon": "knowbe4-icon-url"
+    }
+  ],
+  "spf.mailjet.com": [
+    {
+      "Service": "Mailjet SPF",
+      "Url": "https://www.mailjet.com",
+      "Icon": "mailjet-icon-url"
+    }
+  ],
+  "docker-verification": [
+    {
+      "Service": "Docker",
+      "Url": "https://www.docker.com",
+      "Icon": "docker-icon-url"
+    }
+  ],
+  "mongodb-site-verification": [
+    {
+      "Service": "MongoDB",
+      "Url": "https://www.mongodb.com",
+      "Icon": "mongodb-icon-url"
+    }
+  ],
+  "atlassian-sending-domain-verification": [
+    {
+      "Service": "Atlassian",
+      "Url": "https://www.atlassian.com",
+      "Icon": "atlassian-icon-url"
+    }
+  ],
+  "mktomail.com": [
+    {
+      "Service": "Marketo",
+      "Url": "https://www.marketo.com",
+      "Icon": "marketo-icon-url"
+    }
+  ],
+  "smartsheet-site-validation": [
+    {
+      "Service": "Smartsheet",
+      "Url": "https://www.smartsheet.com",
+      "Icon": "smartsheet-icon-url"
+    }
+  ],
+  "slack-domain-verification": [
+    {
+      "Service": "Slack",
+      "Url": "https://www.slack.com",
+      "Icon": "slack-icon-url"
+    }
+  ],
+  "yahoo-verification-key": [
+    {
+      "Service": "Yahoo",
+      "Url": "https://www.yahoo.com",
+      "Icon": "yahoo-icon-url"
+    }
+  ],
+  "openai-domain-verification": [
+    {
+      "Service": "OpenAI",
+      "Url": "https://www.openai.com",
+      "Icon": "openai-icon-url"
+    }
+  ],
+  "spf.efwd.registrar-servers.com": [
+    {
+      "Service": "Registrar SPF",
+      "Url": "https://www.registrar.com",
+      "Icon": "registrar-icon-url"
+    }
+  ],
+  "%{ir}.%{v}.%{d}.spf.has.pphosted.com": [
+    {
+      "Service": "PPHosted SPF",
+      "Url": "https://www.pphosted.com",
+      "Icon": "pphosted-icon-url"
+    }
+  ],
+  "_spf.mx.cloudflare.net": [
+    {
+      "Service": "Cloudflare SPF",
+      "Url": "https://www.cloudflare.com",
+      "Icon": "cloudflare-icon-url"
+    }
+  ],
+  "stspg-customer.com": [
+    {
+      "Service": "Stspg Customer",
+      "Url": "https://www.stspg-customer.com",
+      "Icon": "stspg-customer-icon-url"
+    }
+  ],
+  "1password-site-verification": [
+    {
+      "Service": "1Password",
+      "Url": "https://www.1password.com",
+      "Icon": "1password-icon-url"
+    }
+  ],
+  "klaviyo-site-verification": [
+    {
+      "Service": "Klaviyo",
+      "Url": "https://www.klaviyo.com",
+      "Icon": "klaviyo-icon-url"
+    }
+  ],
+  "aspmx.pardot.com": [
+    {
+      "Service": "Pardot",
+      "Url": "https://www.pardot.com",
+      "Icon": "pardot-icon-url"
+    }
+  ],
+  "asv": [
+    {
+      "Service": "ASV",
+      "Url": "https://www.asv.com",
+      "Icon": "asv-icon-url"
+    }
+  ],
+  "zoho-verification": [
+    {
+      "Service": "Zoho",
+      "Url": "https://www.zoho.com",
+      "Icon": "zoho-icon-url"
+    }
+  ],
+  "have-i-been-pwned-verification": [
+    {
+      "Service": "Have I Been Pwned",
+      "Url": "https://www.haveibeenpwned.com",
+      "Icon": "haveibeenpwned-icon-url"
+    }
+  ],
+  "google-gws-recovery-domain-verification": [
+    {
+      "Service": "Google GWS",
+      "Url": "https://www.google.com",
+      "Icon": "google-gws-icon-url"
+    }
+  ],
+  "spf.sendinblue.com": [
+    {
+      "Service": "Sendinblue SPF",
+      "Url": "https://www.sendinblue.com",
+      "Icon": "sendinblue-icon-url"
+    }
+  ],
+  "Dynatrace-site-verification": [
+    {
+      "Service": "Dynatrace",
+      "Url": "https://www.dynatrace.com",
+      "Icon": "dynatrace-icon-url"
+    }
+  ],
+  "teamviewer-sso-verification": [
+    {
+      "Service": "TeamViewer",
+      "Url": "https://www.teamviewer.com",
+      "Icon": "teamviewer-icon-url"
+    }
+  ],
+    "postman-domain-verification": [
+      {
+        "Service": "Postman",
+        "Url": "https://www.postman.com",
+        "Icon": "postman-icon-url"
+      }
+    ],
+    "canva-site-verification": [
+      {
+        "Service": "Canva",
+        "Url": "https://www.canva.com",
+        "Icon": "canva-icon-url"
+      }
+    ],
+    "dropbox-domain-verification": [
+      {
+        "Service": "Dropbox",
+        "Url": "https://www.dropbox.com",
+        "Icon": "dropbox-icon-url"
+      }
+    ],
+    "pinterest-site-verification": [
+      {
+        "Service": "Pinterest",
+        "Url": "https://www.pinterest.com",
+        "Icon": "pinterest-icon-url"
+      }
+    ],
+    "twilio-domain-verification": [
+      {
+        "Service": "Twilio",
+        "Url": "https://www.twilio.com",
+        "Icon": "twilio-icon-url"
+      }
+    ],
+    "spf.mail.qq.com": [
+      {
+        "Service": "QQ Mail SPF",
+        "Url": "https://mail.qq.com",
+        "Icon": "qq-mail-icon-url"
+      }
+    ],
+    "detectify-verification": [
+      {
+        "Service": "Detectify",
+        "Url": "https://www.detectify.com",
+        "Icon": "detectify-icon-url"
+      }
+    ],
+    "helpscoutemail.com": [
+      {
+        "Service": "HelpScout",
+        "Url": "https://www.helpscout.com",
+        "Icon": "helpscout-icon-url"
+      }
+    ],
+    "%{i}._ip.%{h}._ehlo.%{d}._spf.vali.email": [
+      {
+        "Service": "Vali SPF",
+        "Url": "https://www.vali.email",
+        "Icon": "vali-email-icon-url"
+      }
+    ],
+    "notion-domain-verification": [
+      {
+        "Service": "Notion",
+        "Url": "https://www.notion.so",
+        "Icon": "notion-icon-url"
+      }
+    ],
+    "hubspot-developer-verification": [
+      {
+        "Service": "HubSpot",
+        "Url": "https://www.hubspot.com",
+        "Icon": "hubspot-icon-url"
+      }
+    ],
+    "mixpanel-domain-verify": [
+      {
+        "Service": "Mixpanel",
+        "Url": "https://www.mixpanel.com",
+        "Icon": "mixpanel-icon-url"
+      }
+    ],
+    "cust-spf.exacttarget.com": [
+      {
+        "Service": "ExactTarget SPF",
+        "Url": "https://www.exacttarget.com",
+        "Icon": "exacttarget-icon-url"
+      }
+    ],
+    "zoho.com": [
+      {
+        "Service": "Zoho",
+        "Url": "https://www.zoho.com",
+        "Icon": "zoho-icon-url"
+      }
+    ],
+    "bw": [
+      {
+        "Service": "BW",
+        "Url": "https://www.bw.com",
+        "Icon": "bw-icon-url"
+      }
+    ],
+    "spf.mtasv.net": [
+      {
+        "Service": "MTASV SPF",
+        "Url": "https://www.mtasv.net",
+        "Icon": "mtasv-icon-url"
+      }
+    ],
+    "us._netblocks.mimecast.com": [
+      {
+        "Service": "Mimecast SPF",
+        "Url": "https://www.mimecast.com",
+        "Icon": "mimecast-icon-url"
+      }
+    ],
+    "h1-domain-verification": [
+      {
+        "Service": "H1",
+        "Url": "https://www.h1.com",
+        "Icon": "h1-icon-url"
+      }
+    ],
+    "d365mktkey": [
+      {
+        "Service": "D365 Marketing",
+        "Url": "https://www.dynamics365.com",
+        "Icon": "d365-icon-url"
+      }
+    ],
+    "adobe-sign-verification": [
+      {
+        "Service": "Adobe Sign",
+        "Url": "https://www.adobe.com/sign",
+        "Icon": "adobe-sign-icon-url"
+      }
+    ],
+      "airtable-verification": [
+        {
+          "Service": "Airtable",
+          "Url": "https://www.airtable.com",
+          "Icon": "airtable-icon-url"
+        }
+      ],
+      "duo_sso_verification": [
+        {
+          "Service": "Duo Security",
+          "Url": "https://www.duo.com",
+          "Icon": "duo-icon-url"
+        }
+      ],
+      "firebase": [
+        {
+          "Service": "Firebase",
+          "Url": "https://firebase.google.com",
+          "Icon": "firebase-icon-url"
+        }
+      ],
+      "logmein-verification-code": [
+        {
+          "Service": "LogMeIn",
+          "Url": "https://www.logmein.com",
+          "Icon": "logmein-icon-url"
+        }
+      ],
+      "_spf.mlsend.com": [
+        {
+          "Service": "MLSend SPF",
+          "Url": "https://www.mlsend.com",
+          "Icon": "mlsend-icon-url"
+        }
+      ],
+      "_spf.psm.knowbe4.com": [
+        {
+          "Service": "KnowBe4 SPF",
+          "Url": "https://www.knowbe4.com",
+          "Icon": "knowbe4-icon-url"
+        }
+      ],
+      "workplace-domain-verification": [
+        {
+          "Service": "Workplace by Facebook",
+          "Url": "https://www.workplace.com",
+          "Icon": "workplace-icon-url"
+        }
+      ],
+      "ciscocidomainverification": [
+        {
+          "Service": "Cisco CID",
+          "Url": "https://www.cisco.com",
+          "Icon": "cisco-icon-url"
+        }
+      ],
+      "segment-site-verification": [
+        {
+          "Service": "Segment",
+          "Url": "https://www.segment.com",
+          "Icon": "segment-icon-url"
+        }
+      ],
+      "_spf.atlassian.net": [
+        {
+          "Service": "Atlassian SPF",
+          "Url": "https://www.atlassian.com",
+          "Icon": "atlassian-icon-url"
+        }
+      ],
+      "brave-ledger-verification": [
+        {
+          "Service": "Brave Ledger",
+          "Url": "https://brave.com",
+          "Icon": "brave-icon-url"
+        }
+      ],
+      "sparkpostmail.com": [
+        {
+          "Service": "SparkPost",
+          "Url": "https://www.sparkpost.com",
+          "Icon": "sparkpost-icon-url"
+        }
+      ],
+      "sophos-domain-verification": [
+        {
+          "Service": "Sophos",
+          "Url": "https://www.sophos.com",
+          "Icon": "sophos-icon-url"
+        }
+      ],
+      "shops.shopify.com": [
+        {
+          "Service": "Shopify",
+          "Url": "https://www.shopify.com",
+          "Icon": "shopify-icon-url"
+        }
+      ],
+      "figma-domain-verification": [
+        {
+          "Service": "Figma",
+          "Url": "https://www.figma.com",
+          "Icon": "figma-icon-url"
+        }
+      ],
+      "box-domain-verification": [
+        {
+          "Service": "Box",
+          "Url": "https://www.box.com",
+          "Icon": "box-icon-url"
+        }
+      ],
+      "wiz-domain-verification": [
+        {
+          "Service": "Wiz",
+          "Url": "https://www.wiz.io",
+          "Icon": "wiz-icon-url"
+        }
+      ],
+      "autodesk-domain-verification": [
+        {
+          "Service": "Autodesk",
+          "Url": "https://www.autodesk.com",
+          "Icon": "autodesk-icon-url"
+        }
+      ],
+      "emsd1.com": [
+        {
+          "Service": "EMSD1",
+          "Url": "https://www.emsd1.com",
+          "Icon": "emsd1-icon-url"
+        }
+      ],
+      "QuoVadis": [
+        {
+          "Service": "QuoVadis",
+          "Url": "https://www.quovadisglobal.com",
+          "Icon": "quovadis-icon-url"
+        }
+      ],
+      "zapier-domain-verification-challenge": [
+        {
+          "Service": "Zapier",
+          "Url": "https://www.zapier.com",
+          "Icon": "zapier-icon-url"
+        }
+      ],
+      "_incspfcheck.mailspike.net": [
+        {
+          "Service": "Mailspike SPF",
+          "Url": "https://www.mailspike.net",
+          "Icon": "mailspike-icon-url"
+        }
+      ],
+      "_spf.yandex.net": [
+        {
+          "Service": "Yandex SPF",
+          "Url": "https://www.yandex.com",
+          "Icon": "yandex-icon-url"
+        }
+      ],
+      "_spf.elasticemail.com": [
+        {
+          "Service": "Elastic Email SPF",
+          "Url": "https://www.elasticemail.com",
+          "Icon": "elasticemail-icon-url"
+        }
+      ],
+      "shopify-verification-code": [
+        {
+          "Service": "Shopify",
+          "Url": "https://www.shopify.com",
+          "Icon": "shopify-icon-url"
+        }
+      ],
+      "protonmail-verification": [
+        {
+          "Service": "ProtonMail",
+          "Url": "https://www.protonmail.com",
+          "Icon": "protonmail-icon-url"
+        }
+      ],
+      "wrike-verification": [
+        {
+          "Service": "Wrike",
+          "Url": "https://www.wrike.com",
+          "Icon": "wrike-icon-url"
+        }
+      ],
+      "spf.mxhichina.com": [
+        {
+          "Service": "HiChina SPF",
+          "Url": "https://www.mxhichina.com",
+          "Icon": "hichina-icon-url"
+        }
+      ],
+      "ms-domain-verification": [
+        {
+          "Service": "Microsoft",
+          "Url": "https://www.microsoft.com",
+          "Icon": "microsoft-icon-url"
+        }
+      ],
+      "_spf.qualtrics.com": [
+        {
+          "Service": "Qualtrics SPF",
+          "Url": "https://www.qualtrics.com",
+          "Icon": "qualtrics-icon-url"
+        }
+      ],
+        "secureserver.net": [
+          {
+            "Service": "GoDaddy SecureServer",
+            "Url": "https://www.godaddy.com",
+            "Icon": "godaddy-icon-url"
+          }
+        ],
+        "successfactors-site-verification": [
+          {
+            "Service": "SuccessFactors",
+            "Url": "https://www.successfactors.com",
+            "Icon": "successfactors-icon-url"
+          }
+        ],
+        "mgverify": [
+          {
+            "Service": "Mailgun",
+            "Url": "https://www.mailgun.com",
+            "Icon": "mailgun-icon-url"
+          }
+        ],
+        "_netblocks.m.feishu.cn": [
+          {
+            "Service": "Feishu",
+            "Url": "https://www.feishu.cn",
+            "Icon": "feishu-icon-url"
+          }
+        ],
+        "mx.ovh.com": [
+          {
+            "Service": "OVH",
+            "Url": "https://www.ovh.com",
+            "Icon": "ovh-icon-url"
+          }
+        ],
+        "verification-code-site-App_feishu": [
+          {
+            "Service": "Feishu",
+            "Url": "https://www.feishu.cn",
+            "Icon": "feishu-icon-url"
+          }
+        ],
+        "_spf.firebasemail.com": [
+          {
+            "Service": "Firebase Mail SPF",
+            "Url": "https://firebase.google.com",
+            "Icon": "firebase-icon-url"
+          }
+        ],
+        "_spf.createsend.com": [
+          {
+            "Service": "Campaign Monitor SPF",
+            "Url": "https://www.campaignmonitor.com",
+            "Icon": "campaignmonitor-icon-url"
+          }
+        ],
+        "pendo-domain-verification": [
+          {
+            "Service": "Pendo",
+            "Url": "https://www.pendo.io",
+            "Icon": "pendo-icon-url"
+          }
+        ],
+        "spf.unisender.com": [
+          {
+            "Service": "Unisender SPF",
+            "Url": "https://www.unisender.com",
+            "Icon": "unisender-icon-url"
+          }
+        ],
+        "aspmx.sailthru.com": [
+          {
+            "Service": "Sailthru",
+            "Url": "https://www.sailthru.com",
+            "Icon": "sailthru-icon-url"
+          }
+        ],
+        "eu._netblocks.mimecast.com": [
+          {
+            "Service": "Mimecast SPF",
+            "Url": "https://www.mimecast.com",
+            "Icon": "mimecast-icon-url"
+          }
+        ],
+        "trustpilotservice.com": [
+          {
+            "Service": "Trustpilot",
+            "Url": "https://www.trustpilot.com",
+            "Icon": "trustpilot-icon-url"
+          }
+        ],
+        "zcsend.net": [
+          {
+            "Service": "ZCSend",
+            "Url": "https://www.zcsend.net",
+            "Icon": "zcsend-icon-url"
+          }
+        ],
+        "intersight": [
+          {
+            "Service": "Cisco Intersight",
+            "Url": "https://www.intersight.com",
+            "Icon": "intersight-icon-url"
+          }
+        ],
+        "jamf-site-verification": [
+          {
+            "Service": "Jamf",
+            "Url": "https://www.jamf.com",
+            "Icon": "jamf-icon-url"
+          }
+        ],
+        "mg-spf.greenhouse.io": [
+          {
+            "Service": "Greenhouse SPF",
+            "Url": "https://www.greenhouse.io",
+            "Icon": "greenhouse-icon-url"
+          }
+        ],
+        "_spf.rdstation.com.br": [
+          {
+            "Service": "RD Station SPF",
+            "Url": "https://www.rdstation.com.br",
+            "Icon": "rdstation-icon-url"
+          }
+        ],
+        "hcp-domain-verification": [
+          {
+            "Service": "HCP",
+            "Url": "https://www.hcp.com",
+            "Icon": "hcp-icon-url"
+          }
+        ],
+        "loaderio": [
+          {
+            "Service": "Loader.io",
+            "Url": "https://www.loader.io",
+            "Icon": "loaderio-icon-url"
+          }
+        ],
+          "_spf.protonmail.ch": [
+            {
+              "Service": "ProtonMail SPF",
+              "Url": "https://protonmail.com",
+              "Icon": "protonmail-icon-url"
+            }
+          ],
+          "transmail.net": [
+            {
+              "Service": "TransMail",
+              "Url": "https://www.transmail.net",
+              "Icon": "transmail-icon-url"
+            }
+          ],
+          "drift-domain-verification": [
+            {
+              "Service": "Drift",
+              "Url": "https://www.drift.com",
+              "Icon": "drift-icon-url"
+            }
+          ],
+          "spf.messagingengine.com": [
+            {
+              "Service": "MessagingEngine SPF",
+              "Url": "https://www.messagingengine.com",
+              "Icon": "messagingengine-icon-url"
+            }
+          ],
+          "relay.mailchannels.net": [
+            {
+              "Service": "MailChannels Relay",
+              "Url": "https://www.mailchannels.net",
+              "Icon": "mailchannels-icon-url"
+            }
+          ],
+          "cloudhealth": [
+            {
+              "Service": "CloudHealth",
+              "Url": "https://www.cloudhealthtech.com",
+              "Icon": "cloudhealth-icon-url"
+            }
+          ],
+          "mxsspf.sendpulse.com": [
+            {
+              "Service": "SendPulse SPF",
+              "Url": "https://www.sendpulse.com",
+              "Icon": "sendpulse-icon-url"
+            }
+          ],
+          "docebosaas.com": [
+            {
+              "Service": "Docebo",
+              "Url": "https://www.docebo.com",
+              "Icon": "docebo-icon-url"
+            }
+          ],
+          "et._spf.pardot.com": [
+            {
+              "Service": "Pardot SPF",
+              "Url": "https://www.pardot.com",
+              "Icon": "pardot-icon-url"
+            }
+          ],
+          "k": [
+            {
+              "Service": "Unknown",
+              "Url": "Unknown",
+              "Icon": "unknown-icon-url"
+            }
+          ],
+          "hubspot-domain-verification": [
+            {
+              "Service": "HubSpot",
+              "Url": "https://www.hubspot.com",
+              "Icon": "hubspot-icon-url"
+            }
+          ],
+          "spf.messagelabs.com": [
+            {
+              "Service": "MessageLabs SPF",
+              "Url": "https://www.messagelabs.com",
+              "Icon": "messagelabs-icon-url"
+            }
+          ],
+          "spf.privateemail.com": [
+            {
+              "Service": "PrivateEmail SPF",
+              "Url": "https://www.privateemail.com",
+              "Icon": "privateemail-icon-url"
+            }
+          ],
+          "keybase-site-verification": [
+            {
+              "Service": "Keybase",
+              "Url": "https://www.keybase.io",
+              "Icon": "keybase-icon-url"
+            }
+          ],
+          "email.freshdesk.com": [
+            {
+              "Service": "Freshdesk",
+              "Url": "https://www.freshdesk.com",
+              "Icon": "freshdesk-icon-url"
+            }
+          ],
+          "dtm-domain-verification": [
+            {
+              "Service": "DTM",
+              "Url": "https://www.dtm.com",
+              "Icon": "dtm-icon-url"
+            }
+          ],
+          "msfpkey": [
+            {
+              "Service": "Unknown",
+              "Url": "Unknown",
+              "Icon": "unknown-icon-url"
+            }
+          ],
+          "e2ma-verification": [
+            {
+              "Service": "E2Ma",
+              "Url": "https://www.e2ma.com",
+              "Icon": "e2ma-icon-url"
+            }
+          ],
+          "spycloud-domain-verification": [
+            {
+              "Service": "SpyCloud",
+              "Url": "https://www.spycloud.com",
+              "Icon": "spycloud-icon-url"
+            }
+          ],
+          "spf.163.com": [
+            {
+              "Service": "163 Mail SPF",
+              "Url": "https://mail.163.com",
+              "Icon": "163mail-icon-url"
+            }
+          ],
+          "spf.mail.intercom.io": [
+            {
+              "Service": "Intercom SPF",
+              "Url": "https://www.intercom.com",
+              "Icon": "intercom-icon-url"
+            }
+          ],
+          "emailsrvr.com": [
+            {
+              "Service": "Email Server",
+              "Url": "https://www.emailsrvr.com",
+              "Icon": "emailsrvr-icon-url"
+            }
+          ],
+          "swisssign-check": [
+            {
+              "Service": "SwissSign",
+              "Url": "https://www.swisssign.com",
+              "Icon": "swisssign-icon-url"
+            }
+          ],
+          "rovag_verification_token": [
+            {
+              "Service": "Rovag",
+              "Url": "https://www.rovag.com",
+              "Icon": "rovag-icon-url"
+            }
+          ],
+          "aspmx.googlemail.com": [
+            {
+              "Service": "Google Mail SPF",
+              "Url": "https://mail.google.com",
+              "Icon": "googlemail-icon-url"
+            }
+          ],
+          "new-relic-domain-verification": [
+            {
+              "Service": "New Relic",
+              "Url": "https://www.newrelic.com",
+              "Icon": "newrelic-icon-url"
+            }
+          ],
+          "Validity-Domain-Verification": [
+            {
+              "Service": "Validity",
+              "Url": "https://www.validity.com",
+              "Icon": "validity-icon-url"
+            }
+          ],
+          "tmes": [
+            {
+              "Service": "Unknown",
+              "Url": "Unknown",
+              "Icon": "unknown-icon-url"
+            }
+          ],
+          "spf.emailsignatures365.com": [
+            {
+              "Service": "EmailSignatures365",
+              "Url": "https://www.emailsignatures365.com",
+              "Icon": "emailsignatures365-icon-url"
+            }
+          ],
+          "spf.qiye.aliyun.com": [
+            {
+              "Service": "Aliyun SPF",
+              "Url": "https://www.aliyun.com",
+              "Icon": "aliyun-icon-url"
+            }
+          ],
+            "infoblox-domain-mastery": [
+              {
+                "Service": "Infoblox Domain Mastery",
+                "Url": "https://www.infoblox.com",
+                "Icon": "infoblox-icon-url"
+              }
+            ],
+            "site24x7-signals-domain-verification": [
+              {
+                "Service": "Site24x7",
+                "Url": "https://www.site24x7.com",
+                "Icon": "site24x7-icon-url"
+              }
+            ],
+            "citrix-verification-code": [
+              {
+                "Service": "Citrix Verification",
+                "Url": "https://www.citrix.com",
+                "Icon": "citrix-icon-url"
+              }
+            ],
+            "identrust_validate": [
+              {
+                "Service": "Identrust",
+                "Url": "https://www.identrust.com",
+                "Icon": "identrust-icon-url"
+              }
+            ],
+            "spf.zoho.com": [
+              {
+                "Service": "Zoho SPF",
+                "Url": "https://www.zoho.com",
+                "Icon": "zoho-icon-url"
+              }
+            ],
+            "_spf.intacct.com": [
+              {
+                "Service": "Intacct SPF",
+                "Url": "https://www.intacct.com",
+                "Icon": "intacct-icon-url"
+              }
+            ],
+            "spf.braintreegateway.com": [
+              {
+                "Service": "Braintree Gateway SPF",
+                "Url": "https://www.braintreepayments.com",
+                "Icon": "braintree-icon-url"
+              }
+            ],
+            "rippling-domain-verification": [
+              {
+                "Service": "Rippling Domain Verification",
+                "Url": "https://www.rippling.com",
+                "Icon": "rippling-icon-url"
+              }
+            ],
+            "amazon-business-verification": [
+              {
+                "Service": "Amazon Business Verification",
+                "Url": "https://www.amazon.com/business",
+                "Icon": "amazon-business-icon-url"
+              }
+            ],
+            "intacct-esk": [
+              {
+                "Service": "Intacct ESK",
+                "Url": "https://www.intacct.com",
+                "Icon": "intacct-esk-icon-url"
+              }
+            ],
+            "tiktok-developers-site-verification": [
+              {
+                "Service": "TikTok Developers Verification",
+                "Url": "https://developers.tiktok.com",
+                "Icon": "tiktok-icon-url"
+              }
+            ],
+            "_netblocks.google.com": [
+              {
+                "Service": "Google Netblocks",
+                "Url": "https://www.google.com",
+                "Icon": "google-icon-url"
+              }
+            ],
+            "spf.dynect.net": [
+              {
+                "Service": "Dynect SPF",
+                "Url": "https://www.dyn.com",
+                "Icon": "dynect-icon-url"
+              }
+            ],
+            "_netblocks.mimecast.com": [
+              {
+                "Service": "Mimecast Netblocks",
+                "Url": "https://www.mimecast.com",
+                "Icon": "mimecast-icon-url"
+              }
+            ],
+            "zoom-domain-verification": [
+              {
+                "Service": "Zoom Domain Verification",
+                "Url": "https://www.zoom.us",
+                "Icon": "zoom-icon-url"
+              }
+            ],
+            "_spf.smtp.com": [
+              {
+                "Service": "SMTP SPF",
+                "Url": "https://www.smtp.com",
+                "Icon": "smtp-icon-url"
+              }
+            ],
+            "spf_c.oraclecloud.com": [
+              {
+                "Service": "Oracle Cloud SPF",
+                "Url": "https://www.oracle.com/cloud",
+                "Icon": "oraclecloud-icon-url"
+              }
+            ],
+            "zoho.eu": [
+              {
+                "Service": "Zoho EU",
+                "Url": "https://www.zoho.eu",
+                "Icon": "zoho-eu-icon-url"
+              }
+            ],
+            "ibmid": [
+              {
+                "Service": "IBM ID",
+                "Url": "https://www.ibm.com",
+                "Icon": "ibm-icon-url"
+              }
+            ],
+            "parallels-domain-verification": [
+              {
+                "Service": "Parallels Domain Verification",
+                "Url": "https://www.parallels.com",
+                "Icon": "parallels-icon-url"
+              }
+            ],
+              "loom-site-verification": [
+                {
+                  "Service": "Loom Site Verification",
+                  "Url": "https://www.loom.com",
+                  "Icon": "loom-icon-url"
+                }
+              ],
+              "_netblocks2.google.com": [
+                {
+                  "Service": "Google Netblocks 2",
+                  "Url": "https://www.google.com",
+                  "Icon": "google-icon-url"
+                }
+              ],
+              "abuseipdb-verification": [
+                {
+                  "Service": "AbuseIPDB Verification",
+                  "Url": "https://www.abuseipdb.com",
+                  "Icon": "abuseipdb-icon-url"
+                }
+              ],
+              "spf.ess.barracudanetworks.com": [
+                {
+                  "Service": "Barracuda Networks SPF",
+                  "Url": "https://www.barracuda.com",
+                  "Icon": "barracuda-icon-url"
+                }
+              ],
+              "pexip-ms-tenant-domain-verification": [
+                {
+                  "Service": "Pexip MS Tenant Domain Verification",
+                  "Url": "https://www.pexip.com",
+                  "Icon": "pexip-icon-url"
+                }
+              ],
+              "mailsenders.netsuite.com": [
+                {
+                  "Service": "Mail Senders NetSuite",
+                  "Url": "https://www.netsuite.com",
+                  "Icon": "netsuite-icon-url"
+                }
+              ],
+              "_spf.mailgun.org": [
+                {
+                  "Service": "Mailgun SPF",
+                  "Url": "https://www.mailgun.com",
+                  "Icon": "mailgun-icon-url"
+                }
+              ],
+              "customeriomail.com": [
+                {
+                  "Service": "CustomerIO Mail",
+                  "Url": "https://www.customer.io",
+                  "Icon": "customerio-icon-url"
+                }
+              ],
+              "paloaltonetworks-site-verification": [
+                {
+                  "Service": "Palo Alto Networks Site Verification",
+                  "Url": "https://www.paloaltonetworks.com",
+                  "Icon": "paloaltonetworks-icon-url"
+                }
+              ],
+              "authsmtp.com": [
+                {
+                  "Service": "AuthSMTP",
+                  "Url": "https://www.authsmtp.com",
+                  "Icon": "authsmtp-icon-url"
+                }
+              ],
+              "ms": [
+                {
+                  "Service": "Microsoft",
+                  "Url": "https://www.microsoft.com",
+                  "Icon": "microsoft-icon-url"
+                }
+              ],
+              "_spf.mailersend.net": [
+                {
+                  "Service": "Mailersend SPF",
+                  "Url": "https://www.mailersend.com",
+                  "Icon": "mailersend-icon-url"
+                }
+              ],
+              "_netblocks3.google.com": [
+                {
+                  "Service": "Google Netblocks 3",
+                  "Url": "https://www.google.com",
+                  "Icon": "google-icon-url"
+                }
+              ],
+              "hj-ownership": [
+                {
+                  "Service": "HJ Ownership",
+                  "Url": "https://www.hjownership.com",
+                  "Icon": "hjownership-icon-url"
+                }
+              ],
+              "webexdomainverification": [
+                {
+                  "Service": "Webex Domain Verification",
+                  "Url": "https://www.webex.com",
+                  "Icon": "webex-icon-url"
+                }
+              ],
+              "_mailcust.gandi.net": [
+                {
+                  "Service": "Gandi Mail Cust",
+                  "Url": "https://www.gandi.net",
+                  "Icon": "gandi-icon-url"
+                }
+              ],
+              "_spf.mail.hostinger.com": [
+                {
+                  "Service": "Hostinger Mail SPF",
+                  "Url": "https://www.hostinger.com",
+                  "Icon": "hostinger-icon-url"
+                }
+              ],
+              "Foxit-domain-verification": [
+                {
+                  "Service": "Foxit Domain Verification",
+                  "Url": "https://www.foxitsoftware.com",
+                  "Icon": "foxit-icon-url"
+                }
+              ],
+              "_spf.mail.ru": [
+                {
+                  "Service": "Mail.ru SPF",
+                  "Url": "https://www.mail.ru",
+                  "Icon": "mailru-icon-url"
+                }
+              ],
+              "spf.exclaimer.net": [
+                {
+                  "Service": "Exclaimer SPF",
+                  "Url": "https://www.exclaimer.com",
+                  "Icon": "exclaimer-icon-url"
+                }
+              ],
+              "one.zoho.com": [
+                {
+                  "Service": "Zoho One",
+                  "Url": "https://www.zoho.com",
+                  "Icon": "zoho-one-icon-url"
+                }
+              ],
+              "prowly-verification": [
+                {
+                  "Service": "Prowly Verification",
+                  "Url": "https://www.prowly.com",
+                  "Icon": "prowly-icon-url"
+                }
+              ],
+              "spf-bma.mpme.jp": [
+                {
+                  "Service": "MPME SPF",
+                  "Url": "https://www.mpme.jp",
+                  "Icon": "mpme-icon-url"
+                }
+              ],
+              "rp.oracleemaildelivery.com": [
+                {
+                  "Service": "Oracle Email Delivery",
+                  "Url": "https://www.oracle.com",
+                  "Icon": "oracleemaildelivery-icon-url"
+                }
+              ],
+              "lucid-verification": [
+                {
+                  "Service": "Lucid Verification",
+                  "Url": "https://www.lucid.com",
+                  "Icon": "lucid-icon-url"
+                }
+              ],
+              "access-domain-verification": [
+                {
+                  "Service": "Access Domain Verification",
+                  "Url": "https://www.access.com",
+                  "Icon": "access-icon-url"
+                }
+              ],
+              "email.chargebee.com": [
+                {
+                  "Service": "Chargebee Email",
+                  "Url": "https://www.chargebee.com",
+                  "Icon": "chargebee-icon-url"
+                }
+              ],
+              "extensis-domain-verification": [
+                {
+                  "Service": "Extensis Domain Verification",
+                  "Url": "https://www.extensis.com",
+                  "Icon": "extensis-icon-url"
+                }
+              ],
+              "spf.constantcontact.com": [
+                {
+                  "Service": "Constant Contact SPF",
+                  "Url": "https://www.constantcontact.com",
+                  "Icon": "constantcontact-icon-url"
+                }
+              ],
+              "de._netblocks.mimecast.com": [
+                {
+                  "Service": "Mimecast Netblocks DE",
+                  "Url": "https://www.mimecast.com",
+                  "Icon": "mimecast-icon-url"
+                }
+              ],
+
+                "spf.tipalti.com": [
+                  {
+                    "Service": "Tipalti SPF",
+                    "Url": "https://www.tipalti.com",
+                    "Icon": "tipalti-icon-url"
+                  }
+                ],
+                "spf.sendsay.ru": [
+                  {
+                    "Service": "Sendsay SPF",
+                    "Url": "https://www.sendsay.ru",
+                    "Icon": "sendsay-icon-url"
+                  }
+                ],
+                "spf.mindbox.ru": [
+                  {
+                    "Service": "Mindbox SPF",
+                    "Url": "https://www.mindbox.ru",
+                    "Icon": "mindbox-icon-url"
+                  }
+                ],
+                "reachdesk-verification": [
+                  {
+                    "Service": "Reachdesk Verification",
+                    "Url": "https://www.reachdesk.com",
+                    "Icon": "reachdesk-icon-url"
+                  }
+                ],
+                "eu.mailgun.org": [
+                  {
+                    "Service": "Mailgun EU SPF",
+                    "Url": "https://www.mailgun.org",
+                    "Icon": "mailgun-eu-icon-url"
+                  }
+                ],
+                "heritage": [
+                  {
+                    "Service": "Heritage",
+                    "Url": "https://www.heritage.com",
+                    "Icon": "heritage-icon-url"
+                  }
+                ],
+                "linear-domain-verification": [
+                  {
+                    "Service": "Linear Domain Verification",
+                    "Url": "https://www.linear.com",
+                    "Icon": "linear-icon-url"
+                  }
+                ],
+                "jetbrains-domain-verification": [
+                  {
+                    "Service": "JetBrains Domain Verification",
+                    "Url": "https://www.jetbrains.com",
+                    "Icon": "jetbrains-icon-url"
+                  }
+                ],
+                "ZA": [
+                  {
+                    "Service": "ZA",
+                    "Url": "https://www.za.com",
+                    "Icon": "za-icon-url"
+                  }
+                ],
+                "tollbit-domain-verification": [
+                  {
+                    "Service": "Tollbit Domain Verification",
+                    "Url": "https://www.tollbit.com",
+                    "Icon": "tollbit-icon-url"
+                  }
+                ],
+                "spf.improvmx.com": [
+                  {
+                    "Service": "Improvmx SPF",
+                    "Url": "https://www.improvmx.com",
+                    "Icon": "improvmx-icon-url"
+                  }
+                ],
+                "dell-technologies-domain-verification": [
+                  {
+                    "Service": "Dell Technologies Domain Verification",
+                    "Url": "https://www.delltechnologies.com",
+                    "Icon": "delltechnologies-icon-url"
+                  }
+                ],
+                "cust-senderid.exacttarget.com": [
+                  {
+                    "Service": "ExactTarget SenderID",
+                    "Url": "https://www.exacttarget.com",
+                    "Icon": "exacttarget-icon-url"
+                  }
+                ],
+                "_spf.eu.mailgun.org": [
+                  {
+                    "Service": "Mailgun EU SPF",
+                    "Url": "https://www.mailgun.org",
+                    "Icon": "mailgun-eu-icon-url"
+                  }
+                ],
+                "spf.brevo.com": [
+                  {
+                    "Service": "Brevo SPF",
+                    "Url": "https://www.brevo.com",
+                    "Icon": "brevo-icon-url"
+                  }
+                ],
+                "wallet-connect-dns-verification": [
+                  {
+                    "Service": "Wallet Connect DNS Verification",
+                    "Url": "https://www.walletconnect.com",
+                    "Icon": "walletconnect-icon-url"
+                  }
+                ],
+                "au._netblocks.mimecast.com": [
+                  {
+                    "Service": "Mimecast Netblocks AU",
+                    "Url": "https://www.mimecast.com",
+                    "Icon": "mimecast-au-icon-url"
+                  }
+                ],
+                "monday-com-verification": [
+                  {
+                    "Service": "Monday.com Verification",
+                    "Url": "https://www.monday.com",
+                    "Icon": "monday-icon-url"
+                  }
+                ],
+                "spf.esputnik.com": [
+                  {
+                    "Service": "eSputnik SPF",
+                    "Url": "https://www.esputnik.com",
+                    "Icon": "esputnik-icon-url"
+                  }
+                ],
+                "spf.dm.aliyun.com": [
+                  {
+                    "Service": "Aliyun DM SPF",
+                    "Url": "https://www.aliyun.com",
+                    "Icon": "aliyun-icon-url"
+                  }
+                ],
+                "uber-domain-verification": [
+                  {
+                    "Service": "Uber Domain Verification",
+                    "Url": "https://www.uber.com",
+                    "Icon": "uber-icon-url"
+                  }
+                ],
+                "bugcrowd-verification": [
+                  {
+                    "Service": "Bugcrowd Verification",
+                    "Url": "https://www.bugcrowd.com",
+                    "Icon": "bugcrowd-icon-url"
+                  }
+                ],
+                "\\\"v": [
+                  {
+                    "Service": "V",
+                    "Url": "https://www.v.com",
+                    "Icon": "v-icon-url"
+                  }
+                ],
+                "spf.autopilothq.com": [
+                  {
+                    "Service": "Autopilot SPF",
+                    "Url": "https://www.autopilothq.com",
+                    "Icon": "autopilothq-icon-url"
+                  }
+                ],
+                "sent-via.netsuite.com": [
+                  {
+                    "Service": "NetSuite Sent Via",
+                    "Url": "https://www.netsuite.com",
+                    "Icon": "netsuite-icon-url"
+                  }
+                ],
+                "spf.crsend.com": [
+                  {
+                    "Service": "CRSend SPF",
+                    "Url": "https://www.crsend.com",
+                    "Icon": "crsend-icon-url"
+                  }
+                ],
+                "spf.tmes.trendmicro.com": [
+                  {
+                    "Service": "Trend Micro SPF",
+                    "Url": "https://www.trendmicro.com",
+                    "Icon": "trendmicro-icon-url"
+                  }
+                ],
+                "CKO": [
+                  {
+                    "Service": "CKO",
+                    "Url": "https://www.cko.com",
+                    "Icon": "cko-icon-url"
+                  }
+                ],
+                "spfa.cpmails.com": [
+                  {
+                    "Service": "CP Mails SPF",
+                    "Url": "https://www.cpmails.com",
+                    "Icon": "cpmails-icon-url"
+                  }
+                ],
+                "musvc.com": [
+                  {
+                    "Service": "MUSVC",
+                    "Url": "https://www.musvc.com",
+                    "Icon": "musvc-icon-url"
+                  }
+                ],
+                  "paddle-verification": [
+                    {
+                      "Service": "Paddle Verification",
+                      "Url": "https://www.paddle.com",
+                      "Icon": "paddle-icon-url"
+                    }
+                  ],
+                  "dailymotion-domain-verification": [
+                    {
+                      "Service": "Dailymotion Domain Verification",
+                      "Url": "https://www.dailymotion.com",
+                      "Icon": "dailymotion-icon-url"
+                    }
+                  ],
+                  "_telesec-domain-validation": [
+                    {
+                      "Service": "Telesec Domain Validation",
+                      "Url": "https://www.telesec.com",
+                      "Icon": "telesec-icon-url"
+                    }
+                  ],
+                  "spf.flowmailer.net": [
+                    {
+                      "Service": "Flowmailer SPF",
+                      "Url": "https://www.flowmailer.net",
+                      "Icon": "flowmailer-icon-url"
+                    }
+                  ],
+                  "esputnik-verification": [
+                    {
+                      "Service": "eSputnik Verification",
+                      "Url": "https://www.esputnik.com",
+                      "Icon": "esputnik-icon-url"
+                    }
+                  ],
+                  "rm_verify": [
+                    {
+                      "Service": "RM Verify",
+                      "Url": "https://www.rmverify.com",
+                      "Icon": "rmverify-icon-url"
+                    }
+                  ],
+                  "zohomail.com": [
+                    {
+                      "Service": "Zoho Mail",
+                      "Url": "https://www.zoho.com/mail",
+                      "Icon": "zoho-icon-url"
+                    }
+                  ],
+                  "ps-cd-verification": [
+                    {
+                      "Service": "PS CD Verification",
+                      "Url": "https://www.ps.com",
+                      "Icon": "ps-cd-icon-url"
+                    }
+                  ],
+                  "senderid.unisender.com": [
+                    {
+                      "Service": "Unisender SenderID",
+                      "Url": "https://www.unisender.com",
+                      "Icon": "unisender-icon-url"
+                    }
+                  ],
+                  "support.zendesk.com": [
+                    {
+                      "Service": "Zendesk Support",
+                      "Url": "https://www.zendesk.com",
+                      "Icon": "zendesk-icon-url"
+                    }
+                  ],
+                  "mxsmtp.sendpulse.com": [
+                    {
+                      "Service": "SendPulse SMTP",
+                      "Url": "https://www.sendpulse.com",
+                      "Icon": "sendpulse-icon-url"
+                    }
+                  ],
+                  "spf.smtp2go.com": [
+                    {
+                      "Service": "SMTP2Go SPF",
+                      "Url": "https://www.smtp2go.com",
+                      "Icon": "smtp2go-icon-url"
+                    }
+                  ],
+                  "mxlogin.com": [
+                    {
+                      "Service": "MXLogin",
+                      "Url": "https://www.mxlogin.com",
+                      "Icon": "mxlogin-icon-url"
+                    }
+                  ],
+                  "traction-guest": [
+                    {
+                      "Service": "Traction Guest",
+                      "Url": "https://www.tractionguest.com",
+                      "Icon": "tractionguest-icon-url"
+                    }
+                  ],
+                  "_spf.hostedemail.com": [
+                    {
+                      "Service": "Hosted Email SPF",
+                      "Url": "https://www.hostedemail.com",
+                      "Icon": "hostedemail-icon-url"
+                    }
+                  ],
+                  "rnmk.com": [
+                    {
+                      "Service": "RNMK",
+                      "Url": "https://www.rnmk.com",
+                      "Icon": "rnmk-icon-url"
+                    }
+                  ],
+                  "_spf.sendergen.com": [
+                    {
+                      "Service": "SenderGen SPF",
+                      "Url": "https://www.sendergen.com",
+                      "Icon": "sendergen-icon-url"
+                    }
+                  ],
+                  "ngenix-verification": [
+                    {
+                      "Service": "Ngenix Verification",
+                      "Url": "https://www.ngenix.com",
+                      "Icon": "ngenix-icon-url"
+                    }
+                  ],
+                  "blitz": [
+                    {
+                      "Service": "Blitz",
+                      "Url": "https://www.blitz.com",
+                      "Icon": "blitz-icon-url"
+                    }
+                  ],
+                  "_spf.sparkpostmail.com": [
+                    {
+                      "Service": "SparkPost SPF",
+                      "Url": "https://www.sparkpost.com",
+                      "Icon": "sparkpost-icon-url"
+                    }
+                  ],
+                  "fdspfus.freshemail.io": [
+                    {
+                      "Service": "FreshEmail SPF",
+                      "Url": "https://www.freshemail.io",
+                      "Icon": "freshemail-icon-url"
+                    }
+                  ],
+                  "calendly-site-verification": [
+                    {
+                      "Service": "Calendly Site Verification",
+                      "Url": "https://www.calendly.com",
+                      "Icon": "calendly-icon-url"
+                    }
+                  ],
+                  "DirectFedAuthUrl": [
+                    {
+                      "Service": "DirectFed Auth URL",
+                      "Url": "https://www.directfed.com",
+                      "Icon": "directfed-icon-url"
+                    }
+                  ],
+                  "email-messaging.com": [
+                    {
+                      "Service": "Email Messaging",
+                      "Url": "https://www.email-messaging.com",
+                      "Icon": "email-messaging-icon-url"
+                    }
+                  ],
+                  "spf.hornetsecurity.com": [
+                    {
+                      "Service": "Hornet Security SPF",
+                      "Url": "https://www.hornetsecurity.com",
+                      "Icon": "hornetsecurity-icon-url"
+                    }
+                  ],
+                  "_spf-eu.ionos.com": [
+                    {
+                      "Service": "IONOS EU SPF",
+                      "Url": "https://www.ionos.com",
+                      "Icon": "ionos-icon-url"
+                    }
+                  ],
+                  "ncapp02.com": [
+                    {
+                      "Service": "NCApp02",
+                      "Url": "https://www.ncapp02.com",
+                      "Icon": "ncapp02-icon-url"
+                    }
+                  ],
+                  "_spf.emaillabs.net.pl": [
+                    {
+                      "Service": "EmailLabs SPF",
+                      "Url": "https://www.emaillabs.net.pl",
+                      "Icon": "emaillabs-icon-url"
+                    }
+                  ],
+                  "smtp.groovehq.com": [
+                    {
+                      "Service": "GrooveHQ SMTP",
+                      "Url": "https://www.groovehq.com",
+                      "Icon": "groovehq-icon-url"
+                    }
+                  ],
+                  "cryptomus": [
+                    {
+                      "Service": "Cryptomus",
+                      "Url": "https://www.cryptomus.com",
+                      "Icon": "cryptomus-icon-url"
+                    }
+                  ],
+                    "_netblocks.eloqua.com": [
+                      {
+                        "Service": "Eloqua Netblocks",
+                        "Url": "https://www.eloqua.com",
+                        "Icon": "eloqua-icon-url"
+                      }
+                    ],
+                    "eu.transmail.net": [
+                      {
+                        "Service": "Transmail EU",
+                        "Url": "https://www.transmail.net",
+                        "Icon": "transmail-icon-url"
+                      }
+                    ],
+                    "email-od.com": [
+                      {
+                        "Service": "Email OD",
+                        "Url": "https://www.email-od.com",
+                        "Icon": "emailod-icon-url"
+                      }
+                    ],
+                    "cmail1.com": [
+                      {
+                        "Service": "Cmail1",
+                        "Url": "https://www.cmail1.com",
+                        "Icon": "cmail1-icon-url"
+                      }
+                    ],
+                    "as": [
+                      {
+                        "Service": "AS",
+                        "Url": "https://www.as.com",
+                        "Icon": "as-icon-url"
+                      }
+                    ],
+                    "nitro-verification-code": [
+                      {
+                        "Service": "Nitro Verification",
+                        "Url": "https://www.gonitro.com",
+                        "Icon": "nitro-icon-url"
+                      }
+                    ],
+                    "usb._netblocks.mimecast.com": [
+                      {
+                        "Service": "Mimecast USB Netblocks",
+                        "Url": "https://www.mimecast.com",
+                        "Icon": "mimecast-icon-url"
+                      }
+                    ],
+                    "spfdm-ap-southeast-1.aliyun.com": [
+                      {
+                        "Service": "Aliyun SPF DM",
+                        "Url": "https://www.aliyun.com",
+                        "Icon": "aliyun-icon-url"
+                      }
+                    ],
+                    "citrix.mobile.ads.otp": [
+                      {
+                        "Service": "Citrix Mobile OTP",
+                        "Url": "https://www.citrix.com",
+                        "Icon": "citrix-icon-url"
+                      }
+                    ],
+                    "verification-code-site-App_lark": [
+                      {
+                        "Service": "Lark App Verification",
+                        "Url": "https://www.larksuite.com",
+                        "Icon": "lark-icon-url"
+                      }
+                    ],
+                    "unisender-go-validate-hash": [
+                      {
+                        "Service": "Unisender Go Validate Hash",
+                        "Url": "https://www.unisender.com",
+                        "Icon": "unisender-icon-url"
+                      }
+                    ],
+                    "VISA": [
+                      {
+                        "Service": "VISA",
+                        "Url": "https://www.visa.com",
+                        "Icon": "visa-icon-url"
+                      }
+                    ],
+                    "trustpilot-one-time-verification-id": [
+                      {
+                        "Service": "Trustpilot Verification",
+                        "Url": "https://www.trustpilot.com",
+                        "Icon": "trustpilot-icon-url"
+                      }
+                    ],
+                    "mindmanager-verification": [
+                      {
+                        "Service": "MindManager Verification",
+                        "Url": "https://www.mindmanager.com",
+                        "Icon": "mindmanager-icon-url"
+                      }
+                    ],
+                    "spf.protection.partner.outlook.cn": [
+                      {
+                        "Service": "Outlook CN SPF",
+                        "Url": "https://www.outlook.com",
+                        "Icon": "outlook-icon-url"
+                      }
+                    ],
+                    "hes": [
+                      {
+                        "Service": "HES",
+                        "Url": "https://www.hes.com",
+                        "Icon": "hes-icon-url"
+                      }
+                    ],
+                    "spf.tapfiliate.com": [
+                      {
+                        "Service": "Tapfiliate SPF",
+                        "Url": "https://www.tapfiliate.com",
+                        "Icon": "tapfiliate-icon-url"
+                      }
+                    ],
+                    "mailcontrol.com": [
+                      {
+                        "Service": "MailControl",
+                        "Url": "https://www.mailcontrol.com",
+                        "Icon": "mailcontrol-icon-url"
+                      }
+                    ],
+                    "ecostruxure-it-verification": [
+                      {
+                        "Service": "EcoStruxure IT Verification",
+                        "Url": "https://www.ecostruxure.com",
+                        "Icon": "ecostruxure-icon-url"
+                      }
+                    ],
+                    "_spf.locaweb.com.br": [
+                      {
+                        "Service": "Locaweb SPF",
+                        "Url": "https://www.locaweb.com.br",
+                        "Icon": "locaweb-icon-url"
+                      }
+                    ],
+                    "spf.happyfox.com": [
+                      {
+                        "Service": "HappyFox SPF",
+                        "Url": "https://www.happyfox.com",
+                        "Icon": "happyfox-icon-url"
+                      }
+                    ],
+                    "spfa.mailendo.com": [
+                      {
+                        "Service": "Mailendo SPF",
+                        "Url": "https://www.mailendo.com",
+                        "Icon": "mailendo-icon-url"
+                      }
+                    ],
+                    "spf.onlarksuite.com": [
+                      {
+                        "Service": "Lark Suite SPF",
+                        "Url": "https://www.larksuite.com",
+                        "Icon": "larksuite-icon-url"
+                      }
+                    ],
+                    "liveramp-site-verification": [
+                      {
+                        "Service": "LiveRamp Site Verification",
+                        "Url": "https://www.liveramp.com",
+                        "Icon": "liveramp-icon-url"
+                      }
+                    ],
+                    "sendersrv.com": [
+                      {
+                        "Service": "SenderSrv",
+                        "Url": "https://www.sendersrv.com",
+                        "Icon": "sendersrv-icon-url"
+                      }
+                    ],
+                    "smtp1.uservoice.com": [
+                      {
+                        "Service": "UserVoice SMTP",
+                        "Url": "https://www.uservoice.com",
+                        "Icon": "uservoice-icon-url"
+                      }
+                    ],
+                    "websitewelcome.com": [
+                      {
+                        "Service": "Website Welcome",
+                        "Url": "https://www.websitewelcome.com",
+                        "Icon": "websitewelcome-icon-url"
+                      }
+                    ],
+                    "mailer.chargify.com": [
+                      {
+                        "Service": "Chargify Mailer",
+                        "Url": "https://www.chargify.com",
+                        "Icon": "chargify-icon-url"
+                      }
+                    ],
+                    "_spf.ultipro.com": [
+                      {
+                        "Service": "UltiPro SPF",
+                        "Url": "https://www.ultipro.com",
+                        "Icon": "ultipro-icon-url"
+                      }
+                    ],
+                    "_spf.smtp.mailtrap.live": [
+                      {
+                        "Service": "Mailtrap SMTP SPF",
+                        "Url": "https://www.mailtrap.io",
+                        "Icon": "mailtrap-icon-url"
+                      }
+                    ],
+                    "hosted-email-verify": [
+                      {
+                        "Service": "Hosted Email Verify",
+                        "Url": "https://www.hosted-email.com",
+                        "Icon": "hosted-email-icon-url"
+                      }
+                    ],
+                    "registrarmail.net": [
+                      {
+                        "Service": "Registrar Mail",
+                        "Url": "https://www.registrarmail.net",
+                        "Icon": "registrarmail-icon-url"
+                      }
+                    ],
+                    "spf.myconnectwise.net": [
+                      {
+                        "Service": "MyConnectWise SPF",
+                        "Url": "https://www.connectwise.com",
+                        "Icon": "connectwise-icon-url"
+                      }
+                    ],
+                    "outboundmail.blackbaud.net": [
+                      {
+                        "Service": "Blackbaud Outbound Mail",
+                        "Url": "https://www.blackbaud.com",
+                        "Icon": "blackbaud-icon-url"
+                      }
+                    ],
+                    "unione-validate-hash": [
+                      {
+                        "Service": "Unione Validate Hash",
+                        "Url": "https://www.unione.com",
+                        "Icon": "unione-icon-url"
+                      }
+                    ],
+                    "browserstack-domain-verification": [
+                      {
+                        "Service": "BrowserStack Domain Verification",
+                        "Url": "https://www.browserstack.com",
+                        "Icon": "browserstack-icon-url"
+                      }
+                    ],
+                    "_spf.kmitd.com": [
+                      {
+                        "Service": "KMITD SPF",
+                        "Url": "https://www.kmitd.com",
+                        "Icon": "kmitd-icon-url"
+                      }
+                    ],
+                    "eu.zcsend.net": [
+                      {
+                        "Service": "ZCSend EU",
+                        "Url": "https://www.zcsend.net",
+                        "Icon": "zcsend-icon-url"
+                      }
+                    ],
+                    "spf.securemx.jp": [
+                      {
+                        "Service": "SecureMX JP SPF",
+                        "Url": "https://www.securemx.jp",
+                        "Icon": "securemx-icon-url"
+                      }
+                    ],
+                    "sender.zohobooks.com": [
+                      {
+                        "Service": "ZohoBooks Sender",
+                        "Url": "https://www.zoho.com/books",
+                        "Icon": "zohobooks-icon-url"
+                      }
+                    ],
+                      "_spf.dashasender.ru": [
+                        {
+                          "Service": "Dashasender SPF",
+                          "Url": "https://www.dashasender.ru",
+                          "Icon": "dashasender-icon-url"
+                        }
+                      ],
+                      "spf.migadu.com": [
+                        {
+                          "Service": "Migadu SPF",
+                          "Url": "https://www.migadu.com",
+                          "Icon": "migadu-icon-url"
+                        }
+                      ],
+                      "sendinblue-site-verification": [
+                        {
+                          "Service": "Sendinblue Verification",
+                          "Url": "https://www.sendinblue.com",
+                          "Icon": "sendinblue-icon-url"
+                        }
+                      ],
+                      "unbounce": [
+                        {
+                          "Service": "Unbounce",
+                          "Url": "https://www.unbounce.com",
+                          "Icon": "unbounce-icon-url"
+                        }
+                      ],
+                      "spf.zoho.eu": [
+                        {
+                          "Service": "Zoho EU SPF",
+                          "Url": "https://www.zoho.eu",
+                          "Icon": "zoho-eu-icon-url"
+                        }
+                      ],
+                      "spf.extole.io": [
+                        {
+                          "Service": "Extole SPF",
+                          "Url": "https://www.extole.io",
+                          "Icon": "extole-icon-url"
+                        }
+                      ],
+                      "configcat-domain-verification": [
+                        {
+                          "Service": "ConfigCat Domain Verification",
+                          "Url": "https://www.configcat.com",
+                          "Icon": "configcat-icon-url"
+                        }
+                      ],
+                      "zeptomail.net": [
+                        {
+                          "Service": "ZeptoMail",
+                          "Url": "https://www.zeptomail.net",
+                          "Icon": "zeptomail-icon-url"
+                        }
+                      ],
+                      "no-ip.com": [
+                        {
+                          "Service": "No-IP",
+                          "Url": "https://www.no-ip.com",
+                          "Icon": "no-ip-icon-url"
+                        }
+                      ],
+                      "fk-verify": [
+                        {
+                          "Service": "FK Verify",
+                          "Url": "https://www.fk.com",
+                          "Icon": "fk-verify-icon-url"
+                        }
+                      ],
+                      "spf-de.emailsignatures365.com": [
+                        {
+                          "Service": "Email Signatures 365 SPF",
+                          "Url": "https://www.emailsignatures365.com",
+                          "Icon": "emailsignatures365-icon-url"
+                        }
+                      ],
+                      "customers.clickdimensions.com": [
+                        {
+                          "Service": "ClickDimensions",
+                          "Url": "https://www.clickdimensions.com",
+                          "Icon": "clickdimensions-icon-url"
+                        }
+                      ],
+                      "actalis-dcv": [
+                        {
+                          "Service": "Actalis DCV",
+                          "Url": "https://www.actalis.com",
+                          "Icon": "actalis-icon-url"
+                        }
+                      ],
+                      "_spf.embluemail.com": [
+                        {
+                          "Service": "EmbluMail SPF",
+                          "Url": "https://www.embluemail.com",
+                          "Icon": "embluemail-icon-url"
+                        }
+                      ],
+                      "spf.unisender.ru": [
+                        {
+                          "Service": "Unisender RU SPF",
+                          "Url": "https://www.unisender.ru",
+                          "Icon": "unisender-ru-icon-url"
+                        }
+                      ],
+                      "spf.afas.online": [
+                        {
+                          "Service": "Afas Online SPF",
+                          "Url": "https://www.afas.online",
+                          "Icon": "afas-online-icon-url"
+                        }
+                      ],
+                      "service-now.com": [
+                        {
+                          "Service": "ServiceNow",
+                          "Url": "https://www.service-now.com",
+                          "Icon": "servicenow-icon-url"
+                        }
+                      ],
+                      "\\\"google-site-verification": [
+                        {
+                          "Service": "Google Site Verification",
+                          "Url": "https://www.google.com",
+                          "Icon": "google-icon-url"
+                        }
+                      ],
+                      "heroku-domain-verification": [
+                        {
+                          "Service": "Heroku Domain Verification",
+                          "Url": "https://www.heroku.com",
+                          "Icon": "heroku-icon-url"
+                        }
+                      ],
+                      "_spf.messagegears.net": [
+                        {
+                          "Service": "MessageGears SPF",
+                          "Url": "https://www.messagegears.com",
+                          "Icon": "messagegears-icon-url"
+                        }
+                      ],
+                      "msgfocus.com": [
+                        {
+                          "Service": "MsgFocus",
+                          "Url": "https://www.msgfocus.com",
+                          "Icon": "msgfocus-icon-url"
+                        }
+                      ],
+                      "botify-site-verification": [
+                        {
+                          "Service": "Botify Site Verification",
+                          "Url": "https://www.botify.com",
+                          "Icon": "botify-icon-url"
+                        }
+                      ],
+                      "spf.splio.com": [
+                        {
+                          "Service": "Splio SPF",
+                          "Url": "https://www.splio.com",
+                          "Icon": "splio-icon-url"
+                        }
+                      ],
+                      "emarsys.net": [
+                        {
+                          "Service": "Emarsys",
+                          "Url": "https://www.emarsys.com",
+                          "Icon": "emarsys-icon-url"
+                        }
+                      ],
+                      "DomainVerification": [
+                        {
+                          "Service": "Domain Verification",
+                          "Url": "https://www.domainverification.com",
+                          "Icon": "domainverification-icon-url"
+                        }
+                      ],
+                      "_spf.jupiter.salesmanago.pl": [
+                        {
+                          "Service": "SalesManago SPF",
+                          "Url": "https://www.salesmanago.pl",
+                          "Icon": "salesmanago-icon-url"
+                        }
+                      ],
+                      "aliyun-site-verification": [
+                        {
+                          "Service": "Aliyun Site Verification",
+                          "Url": "https://www.aliyun.com",
+                          "Icon": "aliyun-icon-url"
+                        }
+                      ],
+                      "wpe-verification": [
+                        {
+                          "Service": "WPE Verification",
+                          "Url": "https://www.wpe.com",
+                          "Icon": "wpe-icon-url"
+                        }
+                      ],
+                      "astro-domain-verification": [
+                        {
+                          "Service": "Astro Domain Verification",
+                          "Url": "https://www.astro.com",
+                          "Icon": "astro-icon-url"
+                        }
+                      ],
+                      "_spf.emailcampaigns.net": [
+                        {
+                          "Service": "EmailCampaigns SPF",
+                          "Url": "https://www.emailcampaigns.net",
+                          "Icon": "emailcampaigns-icon-url"
+                        }
+                      ],
+                        "spf-0018d701.pphosted.com": [
+                          {
+                            "Service": "PPHosted SPF",
+                            "Url": "https://www.pphosted.com",
+                            "Icon": "pphosted-icon-url"
+                          }
+                        ],
+                        "_spf.kundenserver.de": [
+                          {
+                            "Service": "KundenServer SPF",
+                            "Url": "https://www.kundenserver.de",
+                            "Icon": "kundenserver-icon-url"
+                          }
+                        ],
+                        "netblocks.dreamhost.com": [
+                          {
+                            "Service": "DreamHost NetBlocks",
+                            "Url": "https://www.dreamhost.com",
+                            "Icon": "dreamhost-icon-url"
+                          }
+                        ],
+                        "spf.eu.exclaimer.net": [
+                          {
+                            "Service": "Exclaimer EU SPF",
+                            "Url": "https://www.exclaimer.net",
+                            "Icon": "exclaimer-icon-url"
+                          }
+                        ],
+                        "turbo-smtp.com": [
+                          {
+                            "Service": "Turbo SMTP",
+                            "Url": "https://www.turbo-smtp.com",
+                            "Icon": "turbo-smtp-icon-url"
+                          }
+                        ],
+                        "_spf.fireeyecloud.com": [
+                          {
+                            "Service": "FireEye Cloud SPF",
+                            "Url": "https://www.fireeye.com",
+                            "Icon": "fireeye-icon-url"
+                          }
+                        ],
+                        "mailerlite-domain-verification": [
+                          {
+                            "Service": "MailerLite Verification",
+                            "Url": "https://www.mailerlite.com",
+                            "Icon": "mailerlite-icon-url"
+                          }
+                        ],
+                        "_spf.qemailserver.com": [
+                          {
+                            "Service": "QEmailServer SPF",
+                            "Url": "https://www.qemailserver.com",
+                            "Icon": "qemailserver-icon-url"
+                          }
+                        ],
+                        "onx": [
+                          {
+                            "Service": "ONX",
+                            "Url": "https://www.onx.com",
+                            "Icon": "onx-icon-url"
+                          }
+                        ],
+                        "e2ma.net": [
+                          {
+                            "Service": "E2MA",
+                            "Url": "https://www.e2ma.net",
+                            "Icon": "e2ma-icon-url"
+                          }
+                        ],
+                        "spf.titan.email": [
+                          {
+                            "Service": "Titan Email SPF",
+                            "Url": "https://www.titan.email",
+                            "Icon": "titan-email-icon-url"
+                          }
+                        ],
+                        "spf.recurly.com": [
+                          {
+                            "Service": "Recurly SPF",
+                            "Url": "https://www.recurly.com",
+                            "Icon": "recurly-icon-url"
+                          }
+                        ],
+                        "spf.unione.io": [
+                          {
+                            "Service": "Unione.io SPF",
+                            "Url": "https://www.unione.io",
+                            "Icon": "unione-io-icon-url"
+                          }
+                        ],
+                        "spf.salesforce.com": [
+                          {
+                            "Service": "Salesforce SPF",
+                            "Url": "https://www.salesforce.com",
+                            "Icon": "salesforce-icon-url"
+                          }
+                        ],
+                        "spf.nl2go.com": [
+                          {
+                            "Service": "NL2Go SPF",
+                            "Url": "https://www.nl2go.com",
+                            "Icon": "nl2go-icon-url"
+                          }
+                        ],
+                        "_spf.amocrmmail.com": [
+                          {
+                            "Service": "AmoCRM Mail SPF",
+                            "Url": "https://www.amocrm.com",
+                            "Icon": "amocrm-icon-url"
+                          }
+                        ],
+                        "parsec-domain-verification": [
+                          {
+                            "Service": "Parsec Domain Verification",
+                            "Url": "https://www.parsec.io",
+                            "Icon": "parsec-icon-url"
+                          }
+                        ],
+                        "sitecore-domain-verification": [
+                          {
+                            "Service": "Sitecore Domain Verification",
+                            "Url": "https://www.sitecore.com",
+                            "Icon": "sitecore-icon-url"
+                          }
+                        ],
+                        "mxroute.com": [
+                          {
+                            "Service": "MXRoute",
+                            "Url": "https://www.mxroute.com",
+                            "Icon": "mxroute-icon-url"
+                          }
+                        ],
+                        "safebreach-domain-verification": [
+                          {
+                            "Service": "SafeBreach Domain Verification",
+                            "Url": "https://www.safebreach.com",
+                            "Icon": "safebreach-icon-url"
+                          }
+                        ],
+                        "_spf.cmail.ondemand.com": [
+                          {
+                            "Service": "Cmail OnDemand SPF",
+                            "Url": "https://www.cmail.ondemand.com",
+                            "Icon": "cmail-ondemand-icon-url"
+                          }
+                        ],
+                        "spf-us.emailsignatures365.com": [
+                          {
+                            "Service": "Email Signatures 365 US SPF",
+                            "Url": "https://www.emailsignatures365.com",
+                            "Icon": "emailsignatures365-us-icon-url"
+                          }
+                        ],
+                        "eu.rp.oracleemaildelivery.com": [
+                          {
+                            "Service": "Oracle Email Delivery EU",
+                            "Url": "https://www.oracle.com",
+                            "Icon": "oracle-email-delivery-icon-url"
+                          }
+                        ],
+                        "launchdarkly-domain-verification": [
+                          {
+                            "Service": "LaunchDarkly Domain Verification",
+                            "Url": "https://www.launchdarkly.com",
+                            "Icon": "launchdarkly-icon-url"
+                          }
+                        ],
+                        "_spf.yandex.ru": [
+                          {
+                            "Service": "Yandex SPF",
+                            "Url": "https://www.yandex.ru",
+                            "Icon": "yandex-icon-url"
+                          }
+                        ],
+                        "spf.auinmeio.com.br": [
+                          {
+                            "Service": "AUinMeio SPF",
+                            "Url": "https://www.auinmeio.com.br",
+                            "Icon": "auinmeio-icon-url"
+                          }
+                        ],
+                        "forward-email": [
+                          {
+                            "Service": "Forward Email",
+                            "Url": "https://www.forwardemail.net",
+                            "Icon": "forward-email-icon-url"
+                          }
+                        ],
+                        "fdspfeuc.freshemail.io": [
+                          {
+                            "Service": "FreshEmail EU SPF",
+                            "Url": "https://www.freshemail.io",
+                            "Icon": "freshemail-icon-url"
+                          }
+                        ],
+                        "northpass-domain-verification": [
+                          {
+                            "Service": "Northpass Domain Verification",
+                            "Url": "https://www.northpass.com",
+                            "Icon": "northpass-icon-url"
+                          }
+                        ],
+                        "spf.de.umantis.com": [
+                          {
+                            "Service": "Umantis SPF",
+                            "Url": "https://www.umantis.com",
+                            "Icon": "umantis-icon-url"
+                          }
+                        ],
+                          "_spf.perfora.net": [
+                            {
+                              "Service": "Perfora SPF",
+                              "Url": "https://www.perfora.net",
+                              "Icon": "perfora-icon-url"
+                            }
+                          ],
+                          "spf.topdesk.net": [
+                            {
+                              "Service": "Topdesk SPF",
+                              "Url": "https://www.topdesk.net",
+                              "Icon": "topdesk-icon-url"
+                            }
+                          ],
+                          "whimsical": [
+                            {
+                              "Service": "Whimsical",
+                              "Url": "https://www.whimsical.com",
+                              "Icon": "whimsical-icon-url"
+                            }
+                          ],
+                          "spf.us.exclaimer.net": [
+                            {
+                              "Service": "Exclaimer US SPF",
+                              "Url": "https://www.exclaimer.net",
+                              "Icon": "exclaimer-us-icon-url"
+                            }
+                          ],
+                          "hosting-site": [
+                            {
+                              "Service": "Hosting Site",
+                              "Url": "https://www.hosting-site.com",
+                              "Icon": "hosting-site-icon-url"
+                            }
+                          ],
+                          "apple-domain": [
+                            {
+                              "Service": "Apple Domain",
+                              "Url": "https://www.apple.com",
+                              "Icon": "apple-icon-url"
+                            }
+                          ],
+                          "loom-verification": [
+                            {
+                              "Service": "Loom Verification",
+                              "Url": "https://www.loom.com",
+                              "Icon": "loom-icon-url"
+                            }
+                          ],
+                          "mail.stibee.com": [
+                            {
+                              "Service": "Stibee Mail",
+                              "Url": "https://www.stibee.com",
+                              "Icon": "stibee-icon-url"
+                            }
+                          ],
+                          "D-TRUST": [
+                            {
+                              "Service": "D-TRUST",
+                              "Url": "https://www.d-trust.net",
+                              "Icon": "d-trust-icon-url"
+                            }
+                          ],
+                          "email.prnewswire.com": [
+                            {
+                              "Service": "PR Newswire Email",
+                              "Url": "https://www.prnewswire.com",
+                              "Icon": "prnewswire-icon-url"
+                            }
+                          ],
+                          "virtru-site-verify": [
+                            {
+                              "Service": "Virtru Site Verification",
+                              "Url": "https://www.virtru.com",
+                              "Icon": "virtru-icon-url"
+                            }
+                          ],
+                          "spf.workfront.com": [
+                            {
+                              "Service": "Workfront SPF",
+                              "Url": "https://www.workfront.com",
+                              "Icon": "workfront-icon-url"
+                            }
+                          ],
+                          "spf.smtp.bz": [
+                            {
+                              "Service": "SMTP BZ SPF",
+                              "Url": "https://www.smtp.bz",
+                              "Icon": "smtp-bz-icon-url"
+                            }
+                          ],
+                          "_spf.act-on.net": [
+                            {
+                              "Service": "Act-On SPF",
+                              "Url": "https://www.act-on.net",
+                              "Icon": "act-on-icon-url"
+                            }
+                          ],
+                          "_spf.centercode.com": [
+                            {
+                              "Service": "Centercode SPF",
+                              "Url": "https://www.centercode.com",
+                              "Icon": "centercode-icon-url"
+                            }
+                          ],
+                          "Probely": [
+                            {
+                              "Service": "Probely",
+                              "Url": "https://www.probely.com",
+                              "Icon": "probely-icon-url"
+                            }
+                          ],
+                          "outlook.com": [
+                            {
+                              "Service": "Outlook",
+                              "Url": "https://www.outlook.com",
+                              "Icon": "outlook-icon-url"
+                            }
+                          ],
+                          "infor-cloudsuite-domain-verification": [
+                            {
+                              "Service": "Infor CloudSuite Domain Verification",
+                              "Url": "https://www.infor.com",
+                              "Icon": "infor-cloudsuite-icon-url"
+                            }
+                          ],
+                          "heyhack-verification": [
+                            {
+                              "Service": "Heyhack Verification",
+                              "Url": "https://www.heyhack.com",
+                              "Icon": "heyhack-icon-url"
+                            }
+                          ],
+                          "transmail.net.in": [
+                            {
+                              "Service": "Transmail India",
+                              "Url": "https://www.transmail.net.in",
+                              "Icon": "transmail-icon-url"
+                            }
+                          ],
+                          "contractworksverify": [
+                            {
+                              "Service": "ContractWorks Verification",
+                              "Url": "https://www.contractworks.com",
+                              "Icon": "contractworks-icon-url"
+                            }
+                          ],
+                          "spf.mailanyone.net": [
+                            {
+                              "Service": "MailAnyone SPF",
+                              "Url": "https://www.mailanyone.net",
+                              "Icon": "mailanyone-icon-url"
+                            }
+                          ],
+                          "spf.icoremail.net": [
+                            {
+                              "Service": "iCoreMail SPF",
+                              "Url": "https://www.icoremail.net",
+                              "Icon": "icoremail-icon-url"
+                            }
+                          ],
+                          "google.com": [
+                            {
+                              "Service": "Google",
+                              "Url": "https://www.google.com",
+                              "Icon": "google-icon-url"
+                            }
+                          ],
+                          "onet-domain-verification": [
+                            {
+                              "Service": "ONET Domain Verification",
+                              "Url": "https://www.onet.pl",
+                              "Icon": "onet-icon-url"
+                            }
+                          ],
+                          "nordpass-domain-verification": [
+                            {
+                              "Service": "NordPass Domain Verification",
+                              "Url": "https://www.nordpass.com",
+                              "Icon": "nordpass-icon-url"
+                            }
+                          ],
+                          "zalo-platform-site-verification": [
+                            {
+                              "Service": "Zalo Platform Site Verification",
+                              "Url": "https://www.zalo.me",
+                              "Icon": "zalo-icon-url"
+                            }
+                          ],
+                          "webcas.net": [
+                            {
+                              "Service": "Webcas",
+                              "Url": "https://www.webcas.net",
+                              "Icon": "webcas-icon-url"
+                            }
+                          ],
+                          "bcn": [
+                            {
+                              "Service": "BCN",
+                              "Url": "https://www.bcn.net",
+                              "Icon": "bcn-icon-url"
+                            }
+                          ],
+                          "emsmtp.com": [
+                            {
+                              "Service": "EMSMTP",
+                              "Url": "https://www.emsmtp.com",
+                              "Icon": "emsmtp-icon-url"
+                            }
+                          ],
+                          "qcloudmail.com": [
+                            {
+                              "Service": "QCloudMail",
+                              "Url": "https://www.qcloudmail.com",
+                              "Icon": "qcloudmail-icon-url"
+                            }
+                          ],
+                          "zoho.in": [
+                            {
+                              "Service": "Zoho India",
+                              "Url": "https://www.zoho.in",
+                              "Icon": "zoho-in-icon-url"
+                            }
+                          ],
+                          "_spf.edhost.eu": [
+                            {
+                              "Service": "EdHost EU SPF",
+                              "Url": "https://www.edhost.eu",
+                              "Icon": "edhost-icon-url"
+                            }
+                          ],
+                          "forward-email-site-verification": [
+                            {
+                              "Service": "Forward Email Site Verification",
+                              "Url": "https://www.forwardemail.net",
+                              "Icon": "forward-email-site-icon-url"
+                            }
+                          ],
+                          "BPL": [
+                            {
+                              "Service": "BPL",
+                              "Url": "https://www.bpl.com",
+                              "Icon": "bpl-icon-url"
+                            }
+                          ],
+                          "spf.clearslide.com": [
+                            {
+                              "Service": "ClearSlide SPF",
+                              "Url": "https://www.clearslide.com",
+                              "Icon": "clearslide-icon-url"
+                            }
+                          ],
+                          "ispgateway.de": [
+                            {
+                              "Service": "ISP Gateway DE",
+                              "Url": "https://www.ispgateway.de",
+                              "Icon": "ispgateway-icon-url"
+                            }
+                          ],
+                          "_spf.zimpel.de": [
+                            {
+                              "Service": "Zimpel DE SPF",
+                              "Url": "https://www.zimpel.de",
+                              "Icon": "zimpel-icon-url"
+                            }
+                          ],
+                          "icloud.com": [
+                            {
+                              "Service": "iCloud",
+                              "Url": "https://www.icloud.com",
+                              "Icon": "icloud-icon-url"
+                            }
+                          ],
+                          "druide-validation-domaine": [
+                            {
+                              "Service": "Druide Domain Validation",
+                              "Url": "https://www.druide.com",
+                              "Icon": "druide-icon-url"
+                            }
+                          ],
+                            "zcsend.in": [
+                              {
+                                "Service": "ZC Send",
+                                "Url": "https://www.zcsend.in",
+                                "Icon": "zcsend-icon-url"
+                              }
+                            ],
+                            "cvent-planner.com": [
+                              {
+                                "Service": "Cvent Planner",
+                                "Url": "https://www.cvent-planner.com",
+                                "Icon": "cvent-planner-icon-url"
+                              }
+                            ],
+                            "_spf.freshsales.io": [
+                              {
+                                "Service": "Freshsales SPF",
+                                "Url": "https://www.freshsales.io",
+                                "Icon": "freshsales-icon-url"
+                              }
+                            ],
+                            "spf.sendcloud.org": [
+                              {
+                                "Service": "SendCloud SPF",
+                                "Url": "https://www.sendcloud.org",
+                                "Icon": "sendcloud-icon-url"
+                              }
+                            ],
+                            "DZC": [
+                              {
+                                "Service": "DZC",
+                                "Url": "https://www.dzc.com",
+                                "Icon": "dzc-icon-url"
+                              }
+                            ],
+                            "spf.maropost.com": [
+                              {
+                                "Service": "Maropost SPF",
+                                "Url": "https://www.maropost.com",
+                                "Icon": "maropost-icon-url"
+                              }
+                            ],
+                            "prodpad-domain-verification": [
+                              {
+                                "Service": "Prodpad Domain Verification",
+                                "Url": "https://www.prodpad.com",
+                                "Icon": "prodpad-icon-url"
+                              }
+                            ],
+                            "spf.givex.com": [
+                              {
+                                "Service": "Givex SPF",
+                                "Url": "https://www.givex.com",
+                                "Icon": "givex-icon-url"
+                              }
+                            ],
+                            "GOOGLE-SITE-VERIFICATION": [
+                              {
+                                "Service": "Google Site Verification",
+                                "Url": "https://www.google.com",
+                                "Icon": "google-site-verification-icon-url"
+                              }
+                            ],
+                            "_spf.bigcommerce.com": [
+                              {
+                                "Service": "BigCommerce SPF",
+                                "Url": "https://www.bigcommerce.com",
+                                "Icon": "bigcommerce-icon-url"
+                              }
+                            ],
+                            "spf.uk.exclaimer.net": [
+                              {
+                                "Service": "Exclaimer UK SPF",
+                                "Url": "https://www.exclaimer.net",
+                                "Icon": "exclaimer-uk-icon-url"
+                              }
+                            ],
+                            "domain-verification": [
+                              {
+                                "Service": "Domain Verification",
+                                "Url": "https://www.domain-verification.com",
+                                "Icon": "domain-verification-icon-url"
+                              }
+                            ],
+                            "_spf.anpdm.com": [
+                              {
+                                "Service": "ANPDM SPF",
+                                "Url": "https://www.anpdm.com",
+                                "Icon": "anpdm-icon-url"
+                              }
+                            ],
+                            "tcpshield-network-verification": [
+                              {
+                                "Service": "TCPShield Network Verification",
+                                "Url": "https://www.tcpshield.com",
+                                "Icon": "tcpshield-icon-url"
+                              }
+                            ],
+                            "spfhost.messageprovider.com": [
+                              {
+                                "Service": "MessageProvider SPFHost",
+                                "Url": "https://www.messageprovider.com",
+                                "Icon": "messageprovider-icon-url"
+                              }
+                            ],
+                            "spf.web-hosting.com": [
+                              {
+                                "Service": "Web Hosting SPF",
+                                "Url": "https://www.web-hosting.com",
+                                "Icon": "web-hosting-icon-url"
+                              }
+                            ],
+                            "spf.gannett.com": [
+                              {
+                                "Service": "Gannett SPF",
+                                "Url": "https://www.gannett.com",
+                                "Icon": "gannett-icon-url"
+                              }
+                            ],
+                            "spf.servicemail24.de": [
+                              {
+                                "Service": "Servicemail24 SPF",
+                                "Url": "https://www.servicemail24.de",
+                                "Icon": "servicemail24-icon-url"
+                              }
+                            ],
+                            "spf.antispamcloud.com": [
+                              {
+                                "Service": "Antispam Cloud SPF",
+                                "Url": "https://www.antispamcloud.com",
+                                "Icon": "antispamcloud-icon-url"
+                              }
+                            ],
+                            "_spf.superlogica.com": [
+                              {
+                                "Service": "Superlogica SPF",
+                                "Url": "https://www.superlogica.com",
+                                "Icon": "superlogica-icon-url"
+                              }
+                            ],
+                            "_spf.getresponse.com": [
+                              {
+                                "Service": "GetResponse SPF",
+                                "Url": "https://www.getresponse.com",
+                                "Icon": "getresponse-icon-url"
+                              }
+                            ],
+                            "_spf.qp-mail.com": [
+                              {
+                                "Service": "QP Mail SPF",
+                                "Url": "https://www.qp-mail.com",
+                                "Icon": "qp-mail-icon-url"
+                              }
+                            ],
+                            "wombat-verification": [
+                              {
+                                "Service": "Wombat Verification",
+                                "Url": "https://www.wombat.com",
+                                "Icon": "wombat-icon-url"
+                              }
+                            ],
+                            "zohomail.eu": [
+                              {
+                                "Service": "Zoho Mail EU",
+                                "Url": "https://www.zohomail.eu",
+                                "Icon": "zohomail-icon-url"
+                              }
+                            ],
+                            "spf.falconide.com": [
+                              {
+                                "Service": "Falconide SPF",
+                                "Url": "https://www.falconide.com",
+                                "Icon": "falconide-icon-url"
+                              }
+                            ],
+                            "spf.intermedia.net": [
+                              {
+                                "Service": "Intermedia SPF",
+                                "Url": "https://www.intermedia.net",
+                                "Icon": "intermedia-icon-url"
+                              }
+                            ],
+                            "_spf1.mailgun.org": [
+                              {
+                                "Service": "Mailgun SPF1",
+                                "Url": "https://www.mailgun.org",
+                                "Icon": "mailgun-icon-url"
+                              }
+                            ],
+                            "m.lessonly.com": [
+                              {
+                                "Service": "Lessonly",
+                                "Url": "https://www.lessonly.com",
+                                "Icon": "lessonly-icon-url"
+                              }
+                            ],
+                            "infusionmail.com": [
+                              {
+                                "Service": "InfusionMail",
+                                "Url": "https://www.infusionmail.com",
+                                "Icon": "infusionmail-icon-url"
+                              }
+                            ],
+                            "appspace-domain-verification": [
+                              {
+                                "Service": "Appspace Domain Verification",
+                                "Url": "https://www.appspace.com",
+                                "Icon": "appspace-icon-url"
+                              }
+                            ],
+                              "activeprospect-domain-verification": [
+                                {
+                                  "Service": "ActiveProspect Domain Verification",
+                                  "Url": "https://www.activeprospect.com",
+                                  "Icon": "activeprospect-icon-url"
+                                }
+                              ],
+                              "md02.com": [
+                                {
+                                  "Service": "MD02",
+                                  "Url": "https://www.md02.com",
+                                  "Icon": "md02-icon-url"
+                                }
+                              ],
+                              "_spf.transip.email": [
+                                {
+                                  "Service": "TransIP SPF",
+                                  "Url": "https://www.transip.email",
+                                  "Icon": "transip-icon-url"
+                                }
+                              ],
+                              "_spf-dc2.successfactors.com": [
+                                {
+                                  "Service": "SuccessFactors SPF DC2",
+                                  "Url": "https://www.successfactors.com",
+                                  "Icon": "successfactors-icon-url"
+                                }
+                              ],
+                              "spf.mta.hdems.com": [
+                                {
+                                  "Service": "HDems SPF",
+                                  "Url": "https://www.hdems.com",
+                                  "Icon": "hdems-icon-url"
+                                }
+                              ],
+                              "mandrillapp.com": [
+                                {
+                                  "Service": "Mandrill App",
+                                  "Url": "https://www.mandrillapp.com",
+                                  "Icon": "mandrillapp-icon-url"
+                                }
+                              ],
+                              "_spf.mailspamprotection.com": [
+                                {
+                                  "Service": "MailSpamProtection SPF",
+                                  "Url": "https://www.mailspamprotection.com",
+                                  "Icon": "mailspamprotection-icon-url"
+                                }
+                              ],
+                              "_spf.general.transactional-mail-a.com": [
+                                {
+                                  "Service": "Transactional Mail SPF",
+                                  "Url": "https://www.transactional-mail-a.com",
+                                  "Icon": "transactional-mail-a-icon-url"
+                                }
+                              ],
+                              "mh.blackboard.com": [
+                                {
+                                  "Service": "Blackboard MH",
+                                  "Url": "https://www.blackboard.com",
+                                  "Icon": "blackboard-icon-url"
+                                }
+                              ],
+                              "_spf.myorderbox.com": [
+                                {
+                                  "Service": "MyOrderBox SPF",
+                                  "Url": "https://www.myorderbox.com",
+                                  "Icon": "myorderbox-icon-url"
+                                }
+                              ],
+                              "webinar-verification": [
+                                {
+                                  "Service": "Webinar Verification",
+                                  "Url": "https://www.webinar.com",
+                                  "Icon": "webinar-icon-url"
+                                }
+                              ],
+                              "_spf.zdsys.com": [
+                                {
+                                  "Service": "ZDSYS SPF",
+                                  "Url": "https://www.zdsys.com",
+                                  "Icon": "zdsys-icon-url"
+                                }
+                              ],
+                              "bitrise-verification": [
+                                {
+                                  "Service": "Bitrise Verification",
+                                  "Url": "https://www.bitrise.io",
+                                  "Icon": "bitrise-icon-url"
+                                }
+                              ],
+                              "specops-verification-code": [
+                                {
+                                  "Service": "SpecOps Verification Code",
+                                  "Url": "https://www.specops.com",
+                                  "Icon": "specops-icon-url"
+                                }
+                              ],
+                              "salesforce.com": [
+                                {
+                                  "Service": "Salesforce",
+                                  "Url": "https://www.salesforce.com",
+                                  "Icon": "salesforce-icon-url"
+                                }
+                              ],
+                              "datadome-domain-verify": [
+                                {
+                                  "Service": "DataDome Domain Verification",
+                                  "Url": "https://www.datadome.co",
+                                  "Icon": "datadome-icon-url"
+                                }
+                              ],
+                              "esp1.co": [
+                                {
+                                  "Service": "ESP1",
+                                  "Url": "https://www.esp1.co",
+                                  "Icon": "esp1-icon-url"
+                                }
+                              ],
+                              "spf.formassembly.com": [
+                                {
+                                  "Service": "FormAssembly SPF",
+                                  "Url": "https://www.formassembly.com",
+                                  "Icon": "formassembly-icon-url"
+                                }
+                              ],
+                              "_spf.retarus.com": [
+                                {
+                                  "Service": "Retarus SPF",
+                                  "Url": "https://www.retarus.com",
+                                  "Icon": "retarus-icon-url"
+                                }
+                              ],
+                              "verification": [
+                                {
+                                  "Service": "Verification Service",
+                                  "Url": "https://www.verification.com",
+                                  "Icon": "verification-icon-url"
+                                }
+                              ],
+                              "spf.masterbase.com": [
+                                {
+                                  "Service": "MasterBase SPF",
+                                  "Url": "https://www.masterbase.com",
+                                  "Icon": "masterbase-icon-url"
+                                }
+                              ],
+                              "email.freshservice.com": [
+                                {
+                                  "Service": "Freshservice Email",
+                                  "Url": "https://www.freshservice.com",
+                                  "Icon": "freshservice-icon-url"
+                                }
+                              ],
+                              "email.influitive.com": [
+                                {
+                                  "Service": "Influitive Email",
+                                  "Url": "https://www.influitive.com",
+                                  "Icon": "influitive-icon-url"
+                                }
+                              ],
+                              "_spf2.mailgun.org": [
+                                {
+                                  "Service": "Mailgun SPF2",
+                                  "Url": "https://www.mailgun.org",
+                                  "Icon": "mailgun-icon-url"
+                                }
+                              ],
+                              "smp.ne.jp": [
+                                {
+                                  "Service": "SMP Japan",
+                                  "Url": "https://www.smp.ne.jp",
+                                  "Icon": "smp-icon-url"
+                                }
+                              ],
+                              "datadrivenemail.com": [
+                                {
+                                  "Service": "DataDrivenEmail",
+                                  "Url": "https://www.datadrivenemail.com",
+                                  "Icon": "datadrivenemail-icon-url"
+                                }
+                              ],
+                              "inxserver.com": [
+                                {
+                                  "Service": "InxServer",
+                                  "Url": "https://www.inxserver.com",
+                                  "Icon": "inxserver-icon-url"
+                                }
+                              ],
+                              "a._spf.brightspace.com": [
+                                {
+                                  "Service": "Brightspace SPF",
+                                  "Url": "https://www.brightspace.com",
+                                  "Icon": "brightspace-icon-url"
+                                }
+                              ],
+                              "_phishspf.knowbe4.com": [
+                                {
+                                  "Service": "KnowBe4 Phishing SPF",
+                                  "Url": "https://www.knowbe4.com",
+                                  "Icon": "knowbe4-icon-url"
+                                }
+                              ],
+                              "mailbox.org": [
+                                {
+                                  "Service": "Mailbox.org",
+                                  "Url": "https://www.mailbox.org",
+                                  "Icon": "mailbox-org-icon-url"
+                                }
+                              ],
+                                "spf-0024c501.pphosted.com": [
+                                  {
+                                    "Service": "PPHosted SPF",
+                                    "Url": "https://www.pphosted.com",
+                                    "Icon": "pphosted-icon-url"
+                                  }
+                                ],
+                                "icpbounce.com": [
+                                  {
+                                    "Service": "ICP Bounce",
+                                    "Url": "https://www.icpbounce.com",
+                                    "Icon": "icpbounce-icon-url"
+                                  }
+                                ],
+                                "@": [
+                                  {
+                                    "Service": "Root Domain",
+                                    "Url": "https://www.example.com",
+                                    "Icon": "root-domain-icon-url"
+                                  }
+                                ],
+                                "parkable-domain-verification": [
+                                  {
+                                    "Service": "Parkable Domain Verification",
+                                    "Url": "https://www.parkable.com",
+                                    "Icon": "parkable-icon-url"
+                                  }
+                                ],
+                                "site-verification": [
+                                  {
+                                    "Service": "Site Verification",
+                                    "Url": "https://www.siteverification.com",
+                                    "Icon": "siteverification-icon-url"
+                                  }
+                                ],
+                                "c._spf.ebay.com": [
+                                  {
+                                    "Service": "eBay SPF",
+                                    "Url": "https://www.ebay.com",
+                                    "Icon": "ebay-icon-url"
+                                  }
+                                ],
+                                "_spf.reply.io": [
+                                  {
+                                    "Service": "Reply.io SPF",
+                                    "Url": "https://www.reply.io",
+                                    "Icon": "reply.io-icon-url"
+                                  }
+                                ],
+                                "linkedin-site-verification": [
+                                  {
+                                    "Service": "LinkedIn Site Verification",
+                                    "Url": "https://www.linkedin.com",
+                                    "Icon": "linkedin-icon-url"
+                                  }
+                                ],
+                                "app.sgizmo.com": [
+                                  {
+                                    "Service": "SurveyMonkey (SGizmo)",
+                                    "Url": "https://www.surveygizmo.com",
+                                    "Icon": "sgizmo-icon-url"
+                                  }
+                                ],
+                                "_spf.emfwd.name-services.com": [
+                                  {
+                                    "Service": "EMFWD SPF",
+                                    "Url": "https://www.emfwd.name-services.com",
+                                    "Icon": "emfwd-icon-url"
+                                  }
+                                ],
+                                "\\\"MS": [
+                                  {
+                                    "Service": "MS Domain Verification",
+                                    "Url": "https://www.microsoft.com",
+                                    "Icon": "ms-icon-url"
+                                  }
+                                ],
+                                "_relay.amadeus.com": [
+                                  {
+                                    "Service": "Amadeus Relay",
+                                    "Url": "https://www.amadeus.com",
+                                    "Icon": "amadeus-icon-url"
+                                  }
+                                ],
+                                "hj": [
+                                  {
+                                    "Service": "HJ Domain",
+                                    "Url": "https://www.hj.com",
+                                    "Icon": "hj-icon-url"
+                                  }
+                                ],
+                                "krisp-domain-verification": [
+                                  {
+                                    "Service": "Krisp Domain Verification",
+                                    "Url": "https://www.krisp.ai",
+                                    "Icon": "krisp-icon-url"
+                                  }
+                                ],
+                                "reftab-domain-verification": [
+                                  {
+                                    "Service": "Reftab Domain Verification",
+                                    "Url": "https://www.reftab.com",
+                                    "Icon": "reftab-icon-url"
+                                  }
+                                ],
+                                "gitlab-pages-verification-code": [
+                                  {
+                                    "Service": "GitLab Pages Verification",
+                                    "Url": "https://www.gitlab.com",
+                                    "Icon": "gitlab-icon-url"
+                                  }
+                                ],
+                                "ap.rp.oracleemaildelivery.com": [
+                                  {
+                                    "Service": "Oracle Email Delivery",
+                                    "Url": "https://www.oracle.com",
+                                    "Icon": "oracle-icon-url"
+                                  }
+                                ],
+                                "es._spf.adp.com": [
+                                  {
+                                    "Service": "ADP SPF",
+                                    "Url": "https://www.adp.com",
+                                    "Icon": "adp-icon-url"
+                                  }
+                                ],
+                                "emailus.freshservice.com": [
+                                  {
+                                    "Service": "Freshservice Email",
+                                    "Url": "https://www.freshservice.com",
+                                    "Icon": "freshservice-icon-url"
+                                  }
+                                ],
+                                "_spf-ssg-a.microsoft.com": [
+                                  {
+                                    "Service": "Microsoft SPF-SSG",
+                                    "Url": "https://www.microsoft.com",
+                                    "Icon": "microsoft-icon-url"
+                                  }
+                                ],
+                                "yandex-verification": [
+                                  {
+                                    "Service": "Yandex Verification",
+                                    "Url": "https://www.yandex.com",
+                                    "Icon": "yandex-icon-url"
+                                  }
+                                ],
+                                "spf-westeu.emailsignatures365.com": [
+                                  {
+                                    "Service": "Email Signatures 365 SPF",
+                                    "Url": "https://www.emailsignatures365.com",
+                                    "Icon": "emailsignatures365-icon-url"
+                                  }
+                                ],
+                                "spf.qb-feedback.com": [
+                                  {
+                                    "Service": "QB Feedback SPF",
+                                    "Url": "https://www.qb-feedback.com",
+                                    "Icon": "qb-feedback-icon-url"
+                                  }
+                                ],
+                                "hubspotemail.net": [
+                                  {
+                                    "Service": "HubSpot Email",
+                                    "Url": "https://www.hubspot.com",
+                                    "Icon": "hubspot-icon-url"
+                                  }
+                                ],
+                                "_spf.activegate-ss.jp": [
+                                  {
+                                    "Service": "ActiveGate SPF",
+                                    "Url": "https://www.activegate-ss.jp",
+                                    "Icon": "activegate-ss-icon-url"
+                                  }
+                                ],
+                                "security_contact": [
+                                  {
+                                    "Service": "Security Contact",
+                                    "Url": "https://www.securitycontact.com",
+                                    "Icon": "securitycontact-icon-url"
+                                  }
+                                ],
+                                "relay.mailbaby.net": [
+                                  {
+                                    "Service": "MailBaby Relay",
+                                    "Url": "https://www.mailbaby.net",
+                                    "Icon": "mailbaby-icon-url"
+                                  }
+                                ],
+                                "one.zoho.eu": [
+                                  {
+                                    "Service": "Zoho One",
+                                    "Url": "https://www.zoho.eu",
+                                    "Icon": "zoho-icon-url"
+                                  }
+                                ],
+                                "spf.mailgun.org": [
+                                  {
+                                    "Service": "Mailgun SPF",
+                                    "Url": "https://www.mailgun.org",
+                                    "Icon": "mailgun-icon-url"
+                                  }
+                                ],
+                                "_spf.paubox.com": [
+                                  {
+                                    "Service": "Paubox SPF",
+                                    "Url": "https://www.paubox.com",
+                                    "Icon": "paubox-icon-url"
+                                  }
+                                ],
+                                "za._netblocks.mimecast.com": [
+                                  {
+                                    "Service": "Mimecast SPF ZA",
+                                    "Url": "https://www.mimecast.com",
+                                    "Icon": "mimecast-icon-url"
+                                  }
+                                ],
+                                "spf.websitewelcome.com": [
+                                  {
+                                    "Service": "Website Welcome SPF",
+                                    "Url": "https://www.websitewelcome.com",
+                                    "Icon": "websitewelcome-icon-url"
+                                  }
+                                ],
+                                "autotask.net": [
+                                  {
+                                    "Service": "Autotask",
+                                    "Url": "https://www.autotask.net",
+                                    "Icon": "autotask-icon-url"
+                                  }
+                                ],
+                                "spf.mailganer.com": [
+                                  {
+                                    "Service": "Mailganer SPF",
+                                    "Url": "https://www.mailganer.com",
+                                    "Icon": "mailganer-icon-url"
+                                  }
+                                ],
+                                "_spf.timeweb.ru": [
+                                  {
+                                    "Service": "TimeWeb SPF",
+                                    "Url": "https://www.timeweb.ru",
+                                    "Icon": "timeweb-icon-url"
+                                  }
+                                ],
+                                "p._spf.ebay.com": [
+                                  {
+                                    "Service": "eBay SPF P",
+                                    "Url": "https://www.ebay.com",
+                                    "Icon": "ebay-icon-url"
+                                  }
+                                ],
+                                "mailer.domain.verification": [
+                                  {
+                                    "Service": "Mailer Domain Verification",
+                                    "Url": "https://www.mailer.com",
+                                    "Icon": "mailer-icon-url"
+                                  }
+                                ],
+                                "everbridge.net": [
+                                  {
+                                    "Service": "Everbridge",
+                                    "Url": "https://www.everbridge.com",
+                                    "Icon": "everbridge-icon-url"
+                                  }
+                                ],
+                                "bmsend.com": [
+                                  {
+                                    "Service": "BMSend",
+                                    "Url": "https://www.bmsend.com",
+                                    "Icon": "bmsend-icon-url"
+                                  }
+                                ],
+                                "stytch_verification_dns": [
+                                  {
+                                    "Service": "Stytch DNS Verification",
+                                    "Url": "https://www.stytch.com",
+                                    "Icon": "stytch-icon-url"
+                                  }
+                                ]
+                              }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
