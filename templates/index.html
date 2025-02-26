@@ -5,36 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DNS Servis Arama</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
-            --primary: #6b48ff;
-            --secondary: #a3bffa;
-            --success: #00d4ff;
-            --danger: #ff4d4f;
-            --warning: #ffaa00;
-            --background: #0f1324;
-            --card-bg: #1a1e33;
-            --text: #ffffff;
-            --shadow: 0 4px 20px rgba(107, 72, 255, 0.25);
-            --border-radius: 20px;
-            --transition: all 0.3s ease;
-            --glow: 0 0 12px rgba(107, 72, 255, 0.5);
-            --gradient: linear-gradient(135deg, #6b48ff, #00d4ff);
+            --primary: #6c63ff; /* Socradar moru */
+            --secondary: #a3bffa; /* Hafif mavi ton */
+            --success: #00eaff; /* Turkuaz vurgu */
+            --danger: #ff5c5c;
+            --background: #0e1327; /* Socradar koyu lacivert */
+            --card-bg: rgba(24, 30, 51, 0.95); /* Hafif şeffaf kart arka planı */
+            --text: #f4f5fb; /* Beyaz metin */
+            --shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+            --border-radius: 16px;
+            --transition: all 0.3s ease-in-out;
+            --gradient: linear-gradient(135deg, #6c63ff 0%, #00eaff 100%);
+            --hover-glow: 0 0 15px rgba(108, 99, 255, 0.4);
         }
 
         [data-theme="light"] {
-            --primary: #5a3ecc;
-            --secondary: #8b9bff;
-            --success: #00b3cc;
-            --danger: #e63946;
-            --warning: #ff8c00;
-            --background: #f0f4f8;
-            --card-bg: #ffffff;
-            --text: #1a1e33;
-            --shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
-            --glow: 0 0 10px rgba(90, 62, 204, 0.4);
-            --gradient: linear-gradient(135deg, #5a3ecc, #00b3cc);
+            --primary: #6c63ff;
+            --secondary: #b3c8ff;
+            --success: #00d8e6;
+            --danger: #ff4d4d;
+            --background: #f7f9fc;
+            --card-bg: rgba(255, 255, 255, 0.98);
+            --text: #1a1e38;
+            --shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+            --gradient: linear-gradient(135deg, #6c63ff 0%, #00d8e6 100%);
+            --hover-glow: 0 0 15px rgba(108, 99, 255, 0.2);
         }
 
         body {
@@ -42,56 +40,43 @@
             background: var(--background);
             color: var(--text);
             margin: 0;
-            padding: 30px;
+            padding: 40px;
             transition: var(--transition);
-            line-height: 1.6;
+            line-height: 1.8;
             overflow-x: hidden;
-            background-image: url('data:image/svg+xml,%3Csvg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="%23ffffff" fill-opacity="0.05" fill-rule="evenodd"%3E%3Cpath d="M0 40L40 0H20L0 20zM40 40V20L20 40z"/%3E%3C/g%3E%3C/svg%3E');
         }
 
         .container {
-            max-width: 1400px;
+            max-width: 1300px;
             margin: 0 auto;
             background: var(--card-bg);
-            padding: 45px;
+            padding: 40px;
             border-radius: var(--border-radius);
             box-shadow: var(--shadow);
-            position: relative;
-            overflow: hidden;
-        }
-
-        .container::before {
-            content: '';
-            position: absolute;
-            top: -50%;
-            left: -50%;
-            width: 200%;
-            height: 200%;
-            background: var(--gradient);
-            opacity: 0.05;
-            transform: rotate(30deg);
-            pointer-events: none;
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
         }
 
         .header {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 45px;
-            padding-bottom: 25px;
-            border-bottom: 2px solid rgba(163, 191, 250, 0.25);
-            position: relative;
-            z-index: 1;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid rgba(163, 191, 250, 0.1);
         }
 
         h1 {
             margin: 0;
-            font-size: 36px;
+            font-size: 34px;
             font-weight: 600;
-            letter-spacing: 1.2px;
-            background: var(--gradient);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            color: var(--text);
+            letter-spacing: 0.5px;
+        }
+
+        h1 i {
+            margin-right: 10px;
+            color: var(--primary);
         }
 
         .header-controls {
@@ -99,123 +84,109 @@
             gap: 20px;
         }
 
-        .settings-btn, .theme-toggle, .export-btn {
-            background: rgba(255, 255, 255, 0.15);
+        .settings-btn, .theme-toggle {
+            background: var(--primary);
             border: none;
-            font-size: 24px;
+            font-size: 20px;
             cursor: pointer;
-            color: var(--text);
+            color: white;
             padding: 12px;
             border-radius: 50%;
             transition: var(--transition);
-            position: relative;
-            overflow: hidden;
+            box-shadow: var(--hover-glow);
         }
 
-        .settings-btn::after, .theme-toggle::after, .export-btn::after {
-            content: '';
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            width: 0;
-            height: 0;
-            background: rgba(255, 255, 255, 0.2);
-            border-radius: 50%;
-            transform: translate(-50%, -50%);
-            transition: width 0.4s ease, height 0.4s ease;
+        .settings-btn:hover, .theme-toggle:hover {
+            background: var(--gradient);
+            transform: scale(1.1);
+            box-shadow: 0 0 20px rgba(108, 99, 255, 0.5);
         }
 
-        .settings-btn:hover::after, .theme-toggle:hover::after, .export-btn:hover::after {
-            width: 200%;
-            height: 200%;
-        }
-
-        .settings-btn:hover, .theme-toggle:hover, .export-btn:hover {
-            transform: scale(1.15);
-            box-shadow: var(--glow);
+        .settings-btn:active, .theme-toggle:active {
+            transform: scale(0.95);
         }
 
         .search-container {
             position: relative;
-            margin-bottom: 45px;
+            margin-bottom: 40px;
             display: flex;
             align-items: center;
-            gap: 20px;
-            background: rgba(255, 255, 255, 0.08);
+            gap: 15px;
+            background: rgba(255, 255, 255, 0.03);
             padding: 15px;
             border-radius: var(--border-radius);
             box-shadow: var(--shadow);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
         }
 
         .search-bar {
             flex: 1;
-            padding: 20px 30px;
+            padding: 16px 25px;
             border-radius: 12px;
             border: none;
-            background: rgba(255, 255, 255, 0.1);
+            background: rgba(255, 255, 255, 0.05);
             color: var(--text);
-            font-size: 18px;
+            font-size: 16px;
             outline: none;
             transition: var(--transition);
-            box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
-            width: 100%;
-            min-width: 800px;
+            box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1);
         }
 
         .search-bar:focus {
-            background: rgba(255, 255, 255, 0.15);
-            box-shadow: var(--glow), inset 0 2px 5px rgba(0, 0, 0, 0.1);
+            background: rgba(255, 255, 255, 0.1);
+            box-shadow: 0 0 15px rgba(108, 99, 255, 0.3);
         }
 
         .search-controls {
             display: flex;
-            gap: 15px;
+            gap: 12px;
         }
 
-        .search-button, .clear-btn, .bookmark-btn, .voice-btn {
-            padding: 15px;
+        .search-button, .clear-btn, .bookmark-btn, .clear-all-btn, .voice-btn {
+            padding: 12px;
             border: none;
             border-radius: 50%;
             cursor: pointer;
             color: white;
-            font-size: 22px;
-            width: 50px;
-            height: 50px;
+            font-size: 18px;
+            width: 48px;
+            height: 48px;
             display: flex;
             align-items: center;
             justify-content: center;
             transition: var(--transition);
-            box-shadow: var(--shadow);
-            position: relative;
-            overflow: hidden;
+            box-shadow: var(--hover-glow);
         }
 
         .search-button { background: var(--primary); }
         .clear-btn { background: var(--danger); }
         .bookmark-btn { background: var(--success); }
-        .voice-btn { background: var(--warning); }
+        .clear-all-btn { background: var(--danger); }
+        .voice-btn { background: var(--secondary); }
 
-        .search-button::after, .clear-btn::after, .bookmark-btn::after, .voice-btn::after {
-            content: '';
+        .search-button:hover, .clear-btn:hover, .bookmark-btn:hover, .clear-all-btn:hover, .voice-btn:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 20px rgba(108, 99, 255, 0.5);
+        }
+
+        .voice-btn.active {
+            background: var(--success);
+            box-shadow: 0 0 20px rgba(0, 234, 255, 0.5);
+        }
+
+        .loader {
+            display: none;
             position: absolute;
             top: 50%;
             left: 50%;
-            width: 0;
-            height: 0;
-            background: rgba(255, 255, 255, 0.3);
-            border-radius: 50%;
             transform: translate(-50%, -50%);
-            transition: width 0.4s ease, height 0.4s ease;
-        }
-
-        .search-button:hover::after, .clear-btn:hover::after, .bookmark-btn:hover::after, .voice-btn:hover::after {
-            width: 200%;
-            height: 200%;
-        }
-
-        .search-button:hover, .clear-btn:hover, .bookmark-btn:hover, .voice-btn:hover {
-            transform: scale(1.1);
-            box-shadow: var(--glow);
+            border: 4px solid rgba(255, 255, 255, 0.2);
+            border-top: 4px solid var(--primary);
+            border-radius: 50%;
+            width: 28px;
+            height: 28px;
+            animation: spin 1s linear infinite;
         }
 
         .suggestions {
@@ -226,193 +197,267 @@
             background: var(--card-bg);
             border-radius: var(--border-radius);
             box-shadow: var(--shadow);
-            max-height: 300px;
+            max-height: 280px;
             overflow-y: auto;
             z-index: 1000;
             display: none;
-            margin-top: 15px;
-            border: 1px solid rgba(107, 72, 255, 0.2);
+            margin-top: 10px;
+            backdrop-filter: blur(8px);
         }
 
         .suggestion-item {
-            padding: 18px 30px;
+            padding: 14px 25px;
             cursor: pointer;
             transition: var(--transition);
             border-bottom: 1px solid rgba(163, 191, 250, 0.1);
-            display: flex;
-            align-items: center;
-            gap: 10px;
         }
 
         .suggestion-item:hover {
-            background: var(--gradient);
+            background: var(--primary);
             color: white;
-            transform: translateX(5px);
         }
 
         .history-container, .bookmarks-container {
             margin-bottom: 40px;
-            padding: 25px;
+            padding: 30px;
             border-radius: var(--border-radius);
-            background: rgba(255, 255, 255, 0.05);
+            background: rgba(255, 255, 255, 0.03);
+            max-height: 350px;
+            overflow-y: auto;
             box-shadow: var(--shadow);
-            position: relative;
-            overflow: hidden;
+            backdrop-filter: blur(8px);
+        }
+
+        .history-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .history-controls {
+            display: flex;
+            gap: 15px;
         }
 
         .bookmarks-container {
-            background: rgba(0, 212, 255, 0.08);
+            background: rgba(0, 234, 255, 0.03);
+        }
+
+        h3 {
+            font-size: 22px;
+            font-weight: 500;
+            margin: 0;
+            color: var(--secondary);
         }
 
         .history-item, .bookmark-item {
-            padding: 18px 25px;
+            padding: 16px 25px;
             border-radius: 12px;
             cursor: pointer;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 12px;
-            background: rgba(255, 255, 255, 0.08);
+            margin-bottom: 15px;
+            background: rgba(255, 255, 255, 0.05);
             transition: var(--transition);
-            box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+            opacity: 0;
+            box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .history-item.visible, .bookmark-item.visible {
+            opacity: 1;
         }
 
         .history-item:hover, .bookmark-item:hover {
-            background: var(--gradient);
-            color: white;
-            transform: translateX(8px);
-            box-shadow: var(--glow);
-        }
-
-        .history-item button, .bookmark-item button {
-            background: none;
-            border: none;
-            color: var(--secondary);
-            cursor: pointer;
-            font-size: 20px;
-            padding: 8px;
-            transition: var(--transition);
-        }
-
-        .history-item button:hover, .bookmark-item button:hover {
-            color: white;
-            transform: scale(1.3) rotate(5deg);
+            background: var(--primary);
+            transform: translateX(5px);
+            box-shadow: 0 0 15px rgba(108, 99, 255, 0.3);
         }
 
         .results-section {
-            margin-top: 35px;
+            margin-top: 40px;
         }
 
         .results-header h2 {
             margin: 0 0 25px;
-            font-size: 28px;
-            font-weight: 600;
-            background: var(--gradient);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            font-size: 26px;
+            font-weight: 500;
+            color: var(--text);
         }
 
-        .result-card {
-            background: var(--card-bg);
+        .service-list {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .service-item {
+            background: rgba(255, 255, 255, 0.05);
             border-radius: var(--border-radius);
-            padding: 30px;
-            margin-bottom: 25px;
-            box-shadow: var(--shadow);
+            padding: 20px;
+            cursor: pointer;
+            transition: var(--transition);
             display: flex;
             align-items: center;
-            gap: 30px;
-            transition: var(--transition);
+            gap: 20px;
+            box-shadow: var(--shadow);
+            backdrop-filter: blur(8px);
             position: relative;
-            overflow: hidden;
-            border: 1px solid rgba(107, 72, 255, 0.1);
         }
 
-        .result-card:hover {
-            transform: translateY(-5px);
-            box-shadow: var(--glow);
-            border: 1px solid var(--primary);
+        .service-item:hover {
+            background: rgba(108, 99, 255, 0.1);
+            box-shadow: 0 0 20px rgba(108, 99, 255, 0.3);
         }
 
-        .result-card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 6px;
-            height: 100%;
-            background: var(--gradient);
-            transition: var(--transition);
+        .service-item.active {
+            background: rgba(108, 99, 255, 0.2);
+            box-shadow: 0 0 20px rgba(108, 99, 255, 0.4);
         }
 
-        .result-card:hover::before {
-            width: 12px;
-        }
-
-        .result-card img {
-            width: 80px;
-            height: 80px;
+        .service-item img {
+            width: 48px;
+            height: 48px;
+            border-radius: 8px;
             object-fit: cover;
-            border-radius: 15px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-            transition: var(--transition);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
         }
 
-        .result-card:hover img {
-            transform: scale(1.05);
-        }
-
-        .result-content {
+        .service-item span {
             flex: 1;
-            position: relative;
-            z-index: 1;
+            font-size: 18px;
+            font-weight: 400;
         }
 
-        .result-content strong {
+        .service-item .chevron {
+            font-size: 18px;
+            transition: transform 0.3s ease, color 0.3s ease;
+            position: absolute;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
             color: var(--secondary);
-            font-weight: 500;
-            background: rgba(163, 191, 250, 0.1);
-            padding: 2px 8px;
-            border-radius: 6px;
         }
 
-        .result-content a {
-            color: var(--success);
-            text-decoration: none;
-            transition: var(--transition);
-            padding: 2px 8px;
-            border-radius: 6px;
-        }
-
-        .result-content a:hover {
-            background: rgba(0, 212, 255, 0.1);
+        .service-item.active .chevron {
+            transform: translateY(-50%) rotate(180deg);
             color: var(--primary);
         }
 
-        .copy-btn {
-            background: var(--success);
-            border: none;
-            padding: 8px 12px;
-            border-radius: 8px;
-            color: white;
-            cursor: pointer;
+        .service-details {
+            max-height: 0;
+            overflow-y: auto;
+            transition: max-height 0.5s ease;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 0 0 var(--border-radius) var(--border-radius);
+            padding: 0 20px;
+            box-shadow: inset 0 2px 10px rgba(0, 0, 0, 0.15);
+            scrollbar-width: thin;
+            scrollbar-color: var(--primary) var(--card-bg);
+            backdrop-filter: blur(8px);
+        }
+
+        .service-details::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        .service-details::-webkit-scrollbar-thumb {
+            background: var(--primary);
+            border-radius: 4px;
+        }
+
+        .service-details::-webkit-scrollbar-track {
+            background: var(--card-bg);
+        }
+
+        .service-details.open {
+            max-height: 400px;
+            padding: 20px;
+        }
+
+        .detail-card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: var(--border-radius);
+            padding: 18px;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1);
+            opacity: 0;
+            transform: translateY(20px);
             transition: var(--transition);
         }
 
-        .copy-btn:hover {
-            background: var(--primary);
-            transform: scale(1.05);
-            box-shadow: var(--glow);
+        .detail-card.visible {
+            opacity: 1;
+            transform: translateY(0);
         }
 
-        .no-results {
-            padding: 30px;
+        .detail-card:hover {
+            background: rgba(108, 99, 255, 0.1);
+            box-shadow: 0 0 15px rgba(108, 99, 255, 0.2);
+        }
+
+        .detail-card img {
+            width: 60px;
+            height: 60px;
+            border-radius: 10px;
+            object-fit: cover;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        .detail-content {
+            flex: 1;
+        }
+
+        .detail-content strong {
+            color: var(--secondary);
+            font-weight: 500;
+        }
+
+        .detail-content a {
+            color: var(--primary);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .detail-content a:hover {
+            color: var(--success);
+            text-decoration: underline;
+        }
+
+        .copy-btn {
+            background: var(--primary);
+            border: none;
+            padding: 10px 20px;
+            border-radius: 10px;
+            color: white;
+            cursor: pointer;
+            transition: var(--transition);
+            font-weight: 500;
+        }
+
+        .copy-btn:hover {
+            background: var(--gradient);
+            transform: scale(1.05);
+            box-shadow: 0 0 15px rgba(108, 99, 255, 0.3);
+        }
+
+        .copy-btn:active {
+            transform: scale(0.95);
+        }
+
+        .no-results, .no-history {
+            padding: 25px;
             text-align: center;
             color: var(--secondary);
-            font-size: 20px;
-            background: rgba(255, 255, 255, 0.05);
+            font-size: 18px;
+            background: rgba(255, 255, 255, 0.03);
             border-radius: var(--border-radius);
             box-shadow: var(--shadow);
-            border: 1px dashed var(--secondary);
+            backdrop-filter: blur(8px);
         }
 
         .modal {
@@ -422,29 +467,34 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: rgba(0, 0, 0, 0.85);
+            background: rgba(0, 0, 0, 0.8);
             z-index: 2000;
             backdrop-filter: blur(5px);
         }
 
         .modal-content {
             background: var(--card-bg);
-            margin: 8% auto;
-            padding: 40px;
+            margin: 10% auto;
+            padding: 35px;
             width: 90%;
             max-width: 450px;
             border-radius: var(--border-radius);
             box-shadow: var(--shadow);
-            position: relative;
-            border: 1px solid rgba(107, 72, 255, 0.2);
+            transform: scale(0.9);
+            opacity: 0;
+            transition: var(--transition);
+            backdrop-filter: blur(8px);
+        }
+
+        .modal-content.visible {
+            transform: scale(1);
+            opacity: 1;
         }
 
         .modal-content h3 {
-            margin: 0 0 25px;
-            font-weight: 600;
-            background: var(--gradient);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            margin: 0 0 20px;
+            font-weight: 500;
+            color: var(--secondary);
         }
 
         .modal-content label {
@@ -452,55 +502,64 @@
             align-items: center;
             margin-bottom: 20px;
             font-size: 16px;
+            color: var(--text);
         }
 
         .modal-content input[type="checkbox"] {
-            margin-right: 12px;
+            margin-right: 15px;
+            accent-color: var(--primary);
             width: 18px;
             height: 18px;
-            accent-color: var(--primary);
         }
 
         .modal-content button {
-            background: var(--gradient);
+            background: var(--primary);
             color: white;
             border: none;
             padding: 14px;
             border-radius: 12px;
             cursor: pointer;
             width: 100%;
-            margin-top: 25px;
             transition: var(--transition);
             font-weight: 500;
-            text-transform: uppercase;
-            letter-spacing: 1px;
         }
 
         .modal-content button:hover {
-            transform: scale(1.02);
-            box-shadow: var(--glow);
+            background: var(--gradient);
+            transform: scale(1.05);
+            box-shadow: 0 0 15px rgba(108, 99, 255, 0.3);
         }
 
-        .loading {
-            text-align: center;
-            padding: 30px;
-            color: var(--primary);
-            font-size: 22px;
+        .progress-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 0%;
+            height: 4px;
+            background: var(--gradient);
+            z-index: 3000;
+            transition: width 0.5s ease;
+            box-shadow: 0 0 10px rgba(108, 99, 255, 0.5);
+        }
+
+        .clock {
+            font-size: 16px;
+            font-weight: 500;
+            color: var(--secondary);
+            padding: 10px 20px;
             background: rgba(255, 255, 255, 0.05);
-            border-radius: var(--border-radius);
-            box-shadow: var(--shadow);
-            margin-bottom: 25px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 15px;
+            border-radius: 10px;
+            box-shadow: var(--hover-glow);
         }
 
-        @keyframes fadeInOut {
-            0% { opacity: 0; transform: translateY(-20px); }
-            20% { opacity: 1; transform: translateY(0); }
-            80% { opacity: 1; transform: translateY(0); }
-            100% { opacity: 0; transform: translateY(-20px); }
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes slideFade {
+            0% { opacity: 0; transform: translateX(-20px); }
+            100% { opacity: 1; transform: translateX(0); }
         }
 
         @keyframes pulse {
@@ -508,18 +567,46 @@
             50% { transform: scale(1.05); }
             100% { transform: scale(1); }
         }
+
+        @keyframes spin {
+            0% { transform: translate(-50%, -50%) rotate(0deg); }
+            100% { transform: translate(-50%, -50%) rotate(360deg); }
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 25px;
+            }
+            .service-item {
+                padding: 15px;
+            }
+            .detail-card {
+                flex-direction: column;
+                text-align: center;
+                padding: 15px;
+            }
+            .detail-card img {
+                width: 50px;
+                height: 50px;
+            }
+            .search-bar {
+                padding: 14px 20px;
+            }
+            .modal-content {
+                padding: 25px;
+            }
+        }
     </style>
 </head>
 <body>
+    <div class="progress-bar" id="progressBar"></div>
     <div class="container">
         <div class="header">
             <h1><i class="fas fa-search"></i> DNS Servis Arama</h1>
             <div class="header-controls">
+                <div class="clock" id="realTimeClock"></div>
                 <button class="settings-btn" title="Ayarlar" onclick="showSettings()">
                     <i class="fas fa-cog"></i>
-                </button>
-                <button class="export-btn" title="Sonuçları Dışa Aktar" onclick="exportResults()">
-                    <i class="fas fa-download"></i>
                 </button>
                 <button class="theme-toggle" title="Tema Değiştir" onclick="toggleTheme()">
                     <i class="fas fa-moon"></i>
@@ -536,15 +623,16 @@
                     <button type="submit" class="search-button" title="Ara">
                         <i class="fas fa-search"></i>
                     </button>
-                   <!-- <button type="button" class="voice-btn" title="Sesle Ara" onclick="startVoiceRecognition()">
+                    <button type="button" class="voice-btn" title="Sesle Ara" onclick="startVoiceSearch()">
                         <i class="fas fa-microphone"></i>
-                    </button>-->
+                    </button>
                     <button type="button" class="bookmark-btn" title="Favorilere Ekle" onclick="bookmarkSearch()">
                         <i class="fas fa-bookmark"></i>
                     </button>
                     <button type="button" class="clear-btn" title="Temizle" onclick="clearSearch()">
                         <i class="fas fa-times"></i>
                     </button>
+                    <div class="loader" id="searchLoader"></div>
                 </div>
             </form>
             <div class="suggestions" id="suggestions"></div>
@@ -555,11 +643,15 @@
         </div>
 
         <div class="history-container" id="searchHistory">
-            <h3>Geçmiş Aramalar</h3>
-        </div>
-
-        <div id="loading" class="loading" style="display: none;">
-            <i class="fas fa-spinner fa-spin"></i> Arama yapılıyor...
+            <div class="history-header">
+                <h3>Geçmiş Aramalar (<span id="searchCount">0</span>)</h3>
+                <div class="history-controls">
+                    <button class="clear-all-btn" title="Tümünü Temizle (Ctrl+Shift+C)" onclick="clearAllHistory()">
+                        <i class="fas fa-trash-alt"></i>
+                    </button>
+                </div>
+            </div>
+            <div id="historyContent" class="no-history">Henüz bir geçmiş arama yok</div>
         </div>
 
         <div class="results-section" id="resultsSection">
@@ -568,21 +660,35 @@
                 <h2>Sonuçlar: "{{ domain }}"</h2>
             </div>
             {% if results %}
-            <div class="results" id="resultsContainer">
-                {% for res in results %}
-                <div class="result-card">
-                    {% if res['Icon'] %}
-                    <img src="{{ res['Icon'] }}" alt="{{ res['Service'] | default('Service') }}">
+            <div class="service-list">
+                {% set services = results | map(attribute='Service') | unique | list %}
+                {% for service in services %}
+                <div class="service-item" onclick="toggleDetails(this)">
+                    {% set first_result = results | selectattr('Service', 'equalto', service) | first %}
+                    {% if first_result['Icon'] %}
+                    <img src="{{ first_result['Icon'] }}" alt="{{ service }}">
                     {% else %}
-                    <i class="fas fa-globe" style="font-size: 60px; color: var(--secondary);"></i>
+                    <i class="fas fa-globe" style="font-size: 36px; color: var(--secondary);"></i>
                     {% endif %}
-                    <div class="result-content">
-                        <strong>Keyword:</strong> {{ res['Keyword'] | default('Bilinmeyen') }}<br>
-                        <strong>Servis:</strong> {{ res['Service'] | default('Bilinmeyen') }}<br>
-                        <strong>URL:</strong>
-                        <a href="{{ res['Url'] | default('#') }}" target="_blank">{{ res['Url'] | default('URL Yok') }}</a><br>
-                        <strong>Tarih:</strong> {{ "now"|default('Bilinmeyen') }}<br>
-                        <button class="copy-btn" onclick="copyToClipboard('{{ res['Url'] | default('#') }}')">Kopyala</button>
+                    <span>{{ service | default('Bilinmeyen Servis') }}</span>
+                    <i class="fas fa-chevron-down chevron"></i>
+                    <div class="service-details">
+                        {% for res in results | selectattr('Service', 'equalto', service) %}
+                        <div class="detail-card">
+                            {% if res['Icon'] %}
+                            <img src="{{ res['Icon'] }}" alt="{{ res['Service'] }}">
+                            {% else %}
+                            <i class="fas fa-globe" style="font-size: 48px; color: var(--secondary);"></i>
+                            {% endif %}
+                            <div class="detail-content">
+                                <strong>Keyword:</strong> {{ res['Keyword'] | default('Bilinmeyen') }}<br>
+                                <strong>URL:</strong>
+                                <a href="{{ res['Url'] | default('#') }}" target="_blank">{{ res['Url'] | default('URL Yok') }}</a><br>
+                                <strong>Tarih:</strong> {{ "now" | default('Bilinmeyen') }}<br>
+                                <button class="copy-btn" onclick="copyToClipboard('{{ res['Url'] | default('#') }}'); event.stopPropagation();">Kopyala</button>
+                            </div>
+                        </div>
+                        {% endfor %}
                     </div>
                 </div>
                 {% endfor %}
@@ -604,12 +710,6 @@
         <div class="modal-content">
             <h3>Ayarlar</h3>
             <label>
-                <input type="checkbox" id="soundEffects" onchange="updateSettings()"> Ses Efektleri
-            </label>
-            <label>
-                <input type="checkbox" id="animations" checked onchange="updateSettings()"> Animasyonlar
-            </label>
-            <label>
                 <input type="checkbox" id="autoScroll" onchange="updateSettings()"> Sonuçlara Otomatik Kaydır
             </label>
             <label>
@@ -618,65 +718,72 @@
             <label>
                 <input type="checkbox" id="highlightRecent" onchange="updateSettings()"> Yeni Aramaları Vurgula
             </label>
-            <label>
-                <input type="checkbox" id="voiceControl" onchange="updateSettings()"> Ses Kontrolü
-            </label>
-            <label>
-                <input type="checkbox" id="autoSave" onchange="updateSettings()"> Otomatik Kaydet
-            </label>
             <button onclick="closeSettings()">Kaydet ve Kapat</button>
         </div>
     </div>
 
     <script>
+        const notificationSound = new Audio('https://www.soundjay.com/buttons/beep-01a.mp3');
         let searchHistory = JSON.parse(localStorage.getItem('searchHistory')) || [];
         let bookmarks = JSON.parse(localStorage.getItem('bookmarks')) || [];
         let settings = JSON.parse(localStorage.getItem('dnsSettings')) || {
-            soundEffects: false,
-            animations: true,
             autoScroll: false,
             compactMode: false,
-            highlightRecent: false,
-            voiceControl: false,
-            autoSave: false
+            highlightRecent: false
         };
+        let searchCount = parseInt(localStorage.getItem('searchCount')) || 0;
 
         document.addEventListener('DOMContentLoaded', () => {
-            document.getElementById('soundEffects').checked = settings.soundEffects;
-            document.getElementById('animations').checked = settings.animations;
             document.getElementById('autoScroll').checked = settings.autoScroll;
             document.getElementById('compactMode').checked = settings.compactMode;
             document.getElementById('highlightRecent').checked = settings.highlightRecent;
-            document.getElementById('voiceControl').checked = settings.voiceControl;
-            document.getElementById('autoSave').checked = settings.autoSave;
+            document.getElementById('searchCount').textContent = searchCount;
+            loadTheme();
             updateHistory();
             updateBookmarks();
             updateCompactMode();
             updateHighlightRecent();
-            setTimeout(() => {
-                if (!document.getElementById('domain').value) {
-                    document.getElementById('loading').style.display = 'none';
-                }
-            }, 100);
+            animateResults();
+            updateClock();
         });
 
         function toggleTheme() {
-            document.body.dataset.theme = document.body.dataset.theme === 'light' ? '' : 'light';
+            const newTheme = document.body.dataset.theme === 'light' ? '' : 'light';
+            document.body.dataset.theme = newTheme;
+            localStorage.setItem('theme', newTheme);
             const icon = document.querySelector('.theme-toggle i');
-            icon.className = icon.className.includes('moon') ? 'fas fa-sun' : 'fas fa-moon';
-            playSound('toggle');
-            updateCompactMode();
-            animateElements();
+            icon.className = newTheme === 'light' ? 'fas fa-sun' : 'fas fa-moon';
+        }
+
+        function loadTheme() {
+            const savedTheme = localStorage.getItem('theme') || '';
+            document.body.dataset.theme = savedTheme;
+            const icon = document.querySelector('.theme-toggle i');
+            icon.className = savedTheme === 'light' ? 'fas fa-sun' : 'fas fa-moon';
         }
 
         function handleSearch(event) {
             event.preventDefault();
             const domain = document.getElementById('domain').value.trim();
+            const domainRegex = /^[a-zA-Z0-9][a-zA-Z0-9-]{0,61}[a-zA-Z0-9](?:\.[a-zA-Z]{2,})+$/;
             if (!domain) {
                 showNotification('Lütfen bir domain girin!', true);
                 return;
             }
-            document.getElementById('loading').style.display = 'flex';
+            if (!domainRegex.test(domain)) {
+                showNotification('Geçersiz domain formatı!', true);
+                return;
+            }
+
+            const progressBar = document.getElementById('progressBar');
+            const loader = document.getElementById('searchLoader');
+            progressBar.style.width = '100%';
+            loader.style.display = 'block';
+
+            setTimeout(() => {
+                progressBar.style.width = '0%';
+                loader.style.display = 'none';
+            }, 1000);
 
             const searchData = {
                 domain,
@@ -685,17 +792,16 @@
 
             if (!searchHistory.some(item => item.domain === domain)) {
                 searchHistory.unshift(searchData);
-                if (searchHistory.length > 10) searchHistory.pop();
+                searchCount++;
+                localStorage.setItem('searchCount', searchCount);
+                document.getElementById('searchCount').textContent = searchCount;
                 localStorage.setItem('searchHistory', JSON.stringify(searchHistory));
                 updateHistory();
             }
-            playSound('search');
-
             document.getElementById('searchForm').submit();
             if (settings.autoScroll) {
-                setTimeout(() => window.scrollTo({ top: document.getElementById('resultsSection').offsetTop - 30, behavior: 'smooth' }), 500);
+                setTimeout(() => window.scrollTo({ top: document.getElementById('resultsSection').offsetTop - 20, behavior: 'smooth' }), 300);
             }
-            if (settings.autoSave) saveResults();
         }
 
         function showSuggestions(value) {
@@ -704,40 +810,18 @@
                 suggestions.style.display = 'none';
                 return;
             }
-            fetch(`/suggest?query=${encodeURIComponent(value)}`)
-                .then(response => {
-                    if (!response.ok) throw new Error('Öneri alınamadı');
-                    return response.json();
-                })
-                .then(data => {
-                    suggestions.innerHTML = data.suggestions
-                        .map(s => `
-                            <div class="suggestion-item" onclick="selectSuggestion('${s}')">
-                                <i class="fas fa-search"></i> ${s}
-                            </div>`)
-                        .join('');
-                    suggestions.style.display = data.suggestions.length ? 'block' : 'none';
-                    animateElements('.suggestion-item');
-                })
-                .catch(err => {
-                    console.error(err);
-                    suggestions.style.display = 'none';
-                });
-        }
-
-        function selectSuggestion(value) {
-            document.getElementById('domain').value = value;
-            document.getElementById('suggestions').style.display = 'none';
-            document.getElementById('searchForm').submit();
+            suggestions.style.display = 'none'; // Öneriler şimdilik devre dışı
         }
 
         function updateHistory() {
-            const historyContainer = document.getElementById('searchHistory');
-            historyContainer.innerHTML = '<h3>Geçmiş Aramalar</h3>';
+            const historyContent = document.getElementById('historyContent');
+            historyContent.innerHTML = '';
             if (searchHistory.length === 0) {
-                historyContainer.innerHTML += '<p>Henüz arama yapılmadı.</p>';
+                historyContent.className = 'no-history';
+                historyContent.textContent = 'Henüz bir geçmiş arama yok';
                 return;
             }
+            historyContent.className = '';
             searchHistory.forEach((item, index) => {
                 const div = document.createElement('div');
                 div.className = 'history-item' + (settings.highlightRecent && index === 0 ? ' recent' : '');
@@ -758,12 +842,11 @@
                     }
                 };
                 if (settings.highlightRecent && index === 0) {
-                    div.style.background = 'rgba(107, 72, 255, 0.25)';
-                    div.style.border = '2px solid var(--primary)';
+                    div.style.background = 'rgba(108, 99, 255, 0.15)';
                 }
-                historyContainer.appendChild(div);
+                historyContent.appendChild(div);
             });
-            animateElements('.history-item');
+            animateElements('.history-item', 'slideFade');
         }
 
         function updateBookmarks() {
@@ -789,14 +872,23 @@
                 };
                 bookmarksContainer.appendChild(div);
             });
-            animateElements('.bookmark-item');
+            animateElements('.bookmark-item', 'slideFade');
         }
 
         function removeHistory(domain) {
             searchHistory = searchHistory.filter(item => item.domain !== domain);
             localStorage.setItem('searchHistory', JSON.stringify(searchHistory));
             updateHistory();
-            playSound('clear');
+        }
+
+        function clearAllHistory() {
+            searchHistory = [];
+            searchCount = 0;
+            localStorage.setItem('searchHistory', JSON.stringify(searchHistory));
+            localStorage.setItem('searchCount', searchCount);
+            document.getElementById('searchCount').textContent = searchCount;
+            updateHistory();
+            showNotification('Geçmiş temizlendi!');
         }
 
         function bookmarkSearch(domain = document.getElementById('domain').value.trim()) {
@@ -804,7 +896,6 @@
             bookmarks.unshift(domain);
             localStorage.setItem('bookmarks', JSON.stringify(bookmarks));
             updateBookmarks();
-            playSound('bookmark');
             showNotification('Favorilere eklendi!');
         }
 
@@ -812,25 +903,19 @@
             bookmarks = bookmarks.filter(d => d !== domain);
             localStorage.setItem('bookmarks', JSON.stringify(bookmarks));
             updateBookmarks();
-            playSound('clear');
             showNotification('Favorilerden çıkarıldı.');
         }
 
         function clearSearch() {
             document.getElementById('domain').value = '';
             document.getElementById('suggestions').style.display = 'none';
-            playSound('clear');
-            animateElements('.search-bar');
+            animateElements('.search-bar', 'pulse');
         }
 
         function updateSettings() {
-            settings.soundEffects = document.getElementById('soundEffects').checked;
-            settings.animations = document.getElementById('animations').checked;
             settings.autoScroll = document.getElementById('autoScroll').checked;
             settings.compactMode = document.getElementById('compactMode').checked;
             settings.highlightRecent = document.getElementById('highlightRecent').checked;
-            settings.voiceControl = document.getElementById('voiceControl').checked;
-            settings.autoSave = document.getElementById('autoSave').checked;
             localStorage.setItem('dnsSettings', JSON.stringify(settings));
             updateCompactMode();
             updateHighlightRecent();
@@ -838,14 +923,11 @@
 
         function updateCompactMode() {
             const compact = settings.compactMode;
-            document.querySelectorAll('.result-card').forEach(card => {
-                card.style.padding = compact ? '20px' : '30px';
-                card.style.gap = compact ? '20px' : '30px';
+            document.querySelectorAll('.detail-card').forEach(card => {
+                card.style.padding = compact ? '12px' : '18px';
+                card.style.gap = compact ? '12px' : '20px';
                 const img = card.querySelector('img') || card.querySelector('i');
-                if (img) {
-                    img.style.width = compact ? '60px' : '80px';
-                    img.style.height = compact ? '60px' : '80px';
-                }
+                if (img) img.style.width = img.style.height = compact ? '50px' : '60px';
             });
         }
 
@@ -854,110 +936,113 @@
         }
 
         function showSettings() {
-            document.getElementById('settingsModal').style.display = 'block';
-            animateElements('.modal-content');
+            const modal = document.getElementById('settingsModal');
+            modal.style.display = 'block';
+            setTimeout(() => modal.querySelector('.modal-content').classList.add('visible'), 10);
         }
 
         function closeSettings() {
-            document.getElementById('settingsModal').style.display = 'none';
+            const modal = document.getElementById('settingsModal');
+            modal.querySelector('.modal-content').classList.remove('visible');
+            setTimeout(() => modal.style.display = 'none', 300);
             updateSettings();
-            animateElements('.modal-content', true);
-        }
-
-        function playSound(type) {
-            if (!settings.soundEffects) return;
-            const sounds = {
-                toggle: 'https://www.soundjay.com/buttons/beep-01a.mp3',
-                search: 'https://www.soundjay.com/buttons/beep-07.mp3',
-                clear: 'https://www.soundjay.com/buttons/beep-05.mp3',
-                bookmark: 'https://www.soundjay.com/buttons/beep-06.mp3'
-            };
-            if (sounds[type]) new Audio(sounds[type]).play();
         }
 
         function showNotification(message, isError = false) {
             const noti = document.createElement('div');
-            noti.textContent = message;
             noti.style.cssText = `
-                position: fixed;
-                top: 30px;
-                right: 30px;
-                padding: 15px 30px;
+                position: fixed; top: 20px; right: 20px; padding: 12px 25px;
                 background: ${isError ? 'var(--danger)' : 'var(--success)'};
-                color: white;
-                border-radius: 12px;
-                z-index: 3000;
-                animation: fadeInOut 3s ease forwards;
-                box-shadow: var(--shadow);
-                font-size: 16px;
-                display: flex;
-                align-items: center;
-                gap: 10px;
+                color: white; border-radius: 10px; z-index: 3000;
+                animation: fadeInOut 2.5s ease forwards; box-shadow: var(--shadow);
+                font-weight: 500;
             `;
-            noti.innerHTML = `<i class="fas fa-${isError ? 'exclamation-circle' : 'check-circle'}"></i> ${message}`;
+            noti.textContent = message;
             document.body.appendChild(noti);
-            setTimeout(() => noti.remove(), 3000);
-        }
-
-        function startVoiceRecognition() {
-            if (!('webkitSpeechRecognition' in window)) {
-                showNotification('Tarayıcınız ses tanımayı desteklemiyor!', true);
-                return;
-            }
-            const recognition = new webkitSpeechRecognition();
-            recognition.lang = 'tr-TR';
-            recognition.onresult = (event) => {
-                const transcript = event.results[0][0].transcript;
-                document.getElementById('domain').value = transcript;
-                document.getElementById('searchForm').submit();
-            };
-            recognition.onerror = () => showNotification('Ses tanıma başarısız!', true);
-            recognition.start();
-            showNotification('Konuşmaya başlayın...');
-            playSound('search');
+            notificationSound.play().catch(() => console.log('Ses çalma başarısız'));
+            setTimeout(() => noti.remove(), 2500);
         }
 
         function copyToClipboard(text) {
             navigator.clipboard.writeText(text)
                 .then(() => showNotification('URL kopyalandı!'))
                 .catch(() => showNotification('Kopyalama başarısız!', true));
-            playSound('bookmark');
         }
 
-        function saveResults() {
-            const results = document.querySelectorAll('.result-card');
-            const data = Array.from(results).map(card => {
-                const content = card.querySelector('.result-content');
-                return {
-                    keyword: content.children[0].textContent.split(': ')[1],
-                    service: content.children[2].textContent.split(': ')[1],
-                    url: content.children[4].textContent.split(': ')[1],
-                    timestamp: content.children[6].textContent.split(': ')[1]
-                };
+        function toggleDetails(item) {
+            const details = item.querySelector('.service-details');
+            const isOpen = details.classList.contains('open');
+            document.querySelectorAll('.service-details').forEach(d => {
+                if (d !== details) d.classList.remove('open');
             });
-            const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
-            const url = URL.createObjectURL(blob);
-            const a = document.createElement('a');
-            a.href = url;
-            a.download = `dns_results_${new Date().toISOString().split('T')[0]}.json`;
-            a.click();
-            URL.revokeObjectURL(url);
-            showNotification('Sonuçlar kaydedildi!');
-        }
-
-        function exportResults() {
-            saveResults();
-            playSound('toggle');
-        }
-
-        function animateElements(selector, reverse = false) {
-            if (!settings.animations) return;
-            const elements = document.querySelectorAll(selector);
-            elements.forEach((el, index) => {
-                el.style.animation = reverse
-                    ? 'fadeInOut 0.3s ease reverse'
-                    : `pulse 0.5s ease ${index * 0.1}s`;
+            document.querySelectorAll('.service-item').forEach(i => {
+                if (i !== item) i.classList.remove('active');
             });
+            details.classList.toggle('open', !isOpen);
+            item.classList.toggle('active', !isOpen);
+            if (!isOpen) {
+                setTimeout(() => {
+                    details.querySelectorAll('.detail-card').forEach((card, index) => {
+                        setTimeout(() => card.classList.add('visible'), index * 100);
+                    });
+                }, 50);
+            }
+        }
+
+        function animateResults() {
+            document.querySelectorAll('.service-item').forEach((item, index) => {
+                setTimeout(() => {
+                    item.style.opacity = '1';
+                    item.style.transform = 'translateY(0)';
+                }, index * 100);
+            });
+        }
+
+        function animateElements(selector, animationType = 'slideFade') {
+            document.querySelectorAll(selector).forEach((el, index) => {
+                el.style.animation = `${animationType} 0.4s ease ${index * 0.05}s forwards`;
+                el.classList.add('visible');
+            });
+        }
+
+        function updateClock() {
+            const clock = document.getElementById('realTimeClock');
+            const now = new Date();
+            clock.textContent = now.toLocaleTimeString();
+        }
+        setInterval(updateClock, 1000);
+
+        function startVoiceSearch() {
+            const micBtn = document.querySelector('.voice-btn');
+            const searchBar = document.getElementById('domain');
+            if (!('webkitSpeechRecognition' in window)) {
+                showNotification('Tarayıcınız ses tanımayı desteklemiyor!', true);
+                return;
+            }
+
+            const recognition = new webkitSpeechRecognition();
+            recognition.lang = 'tr-TR';
+            recognition.continuous = false;
+            recognition.interimResults = false;
+
+            micBtn.classList.add('active');
+            recognition.start();
+
+            recognition.onresult = (event) => {
+                const transcript = event.results[0][0].transcript;
+                searchBar.value = transcript;
+                micBtn.classList.remove('active');
+                document.getElementById('searchForm').submit();
+            };
+
+            recognition.onerror = () => {
+                showNotification('Ses tanıma başarısız!', true);
+                micBtn.classList.remove('active');
+            };
+
+            recognition.onend = () => {
+                micBtn.classList.remove('active');
+            };
         }
 
         document.addEventListener('click', (e) => {
@@ -966,13 +1051,22 @@
             }
         });
 
-        window.addEventListener('keydown', (e) => {
+        document.addEventListener('keydown', (e) => {
             if (e.key === 'Escape') closeSettings();
-            if (e.ctrlKey && e.key === 's' && settings.voiceControl) {
-                e.preventDefault();
-                startVoiceRecognition();
-            }
+            if (e.key === 'Enter' && document.activeElement === document.getElementById('domain')) handleSearch(e);
+            if (e.ctrlKey && e.shiftKey && e.key === 'C') clearAllHistory();
         });
+
+        const styleSheet = document.createElement('style');
+        styleSheet.textContent = `
+            @keyframes fadeInOut {
+                0% { opacity: 0; transform: translateY(-10px); }
+                20% { opacity: 1; transform: translateY(0); }
+                80% { opacity: 1; transform: translateY(0); }
+                100% { opacity: 0; transform: translateY(-10px); }
+            }
+        `;
+        document.head.appendChild(styleSheet);
     </script>
 </body>
 </html>

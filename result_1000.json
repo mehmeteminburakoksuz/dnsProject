@@ -69,13 +69,7 @@
       "Icon": "https://img.icons8.com/?size=100&id=0CISKu55xEhy&format=png&color=000000"
     }
   ],
-  "v": [
-    {
-      "Service": "v",
-      "Url": "https://www.example.com",
-      "Icon": "v-icon-url"
-    }
-  ],
+
   "sendgrid.net": [
     {
       "Service": "SendGrid",
@@ -162,7 +156,7 @@
   ],
   "status-page-domain-verification": [
     {
-      "Service": "StatusPage",
+      "Service": "Atlassian StatusPage",
       "Url": "https://www.statuspage.io",
       "Icon": "statuspage-icon-url"
     }
@@ -204,7 +198,7 @@
   ],
   "mktomail.com": [
     {
-      "Service": "Marketo",
+      "Service": "Adobe Marketo",
       "Url": "https://www.marketo.com",
       "Icon": "marketo-icon-url"
     }
@@ -239,14 +233,14 @@
   ],
   "spf.efwd.registrar-servers.com": [
     {
-      "Service": "Registrar SPF",
+      "Service": "Namecheap",
       "Url": "https://www.registrar.com",
       "Icon": "registrar-icon-url"
     }
   ],
   "%{ir}.%{v}.%{d}.spf.has.pphosted.com": [
     {
-      "Service": "PPHosted SPF",
+      "Service": "Proofpoint SPF",
       "Url": "https://www.pphosted.com",
       "Icon": "pphosted-icon-url"
     }
@@ -309,16 +303,17 @@
   ],
   "google-gws-recovery-domain-verification": [
     {
-      "Service": "Google GWS",
+      "Service": "Google Workspace",
       "Url": "https://www.google.com",
       "Icon": "google-gws-icon-url"
     }
   ],
   "spf.sendinblue.com": [
     {
-      "Service": "Sendinblue SPF",
+      "Service": "Brevo(Sendinblue) SPF",
       "Url": "https://www.sendinblue.com",
-      "Icon": "sendinblue-icon-url"
+      "Icon": "sendinblue-icon-url",
+      "Not": "sendinblue adı 2023de brevo olarak değişti"
     }
   ],
   "Dynatrace-site-verification": [
@@ -456,7 +451,7 @@
     ],
     "h1-domain-verification": [
       {
-        "Service": "H1",
+        "Service": "HackerOne",
         "Url": "https://www.h1.com",
         "Icon": "h1-icon-url"
       }
@@ -888,13 +883,7 @@
       "Icon": ""
     }
   ],
-  "k": [
-    {
-      "Service": "K",
-      "Url": "",
-      "Icon": ""
-    }
-  ],
+
   "hubspot-domain-verification": [
     {
       "Service": "HubSpot",
@@ -990,7 +979,8 @@
     {
       "Service": "Rovag",
       "Url": "",
-      "Icon": ""
+      "Icon": "",
+      "Not": "servis bulunamadı"
     }
   ],
   "aspmx.googlemail.com": [
@@ -1003,34 +993,34 @@
   "new-relic-domain-verification": [
     {
       "Service": "New Relic",
-      "Url": "",
+      "Url": "https://www.newrelic.com",
       "Icon": ""
     }
   ],
   "Validity-Domain-Verification": [
     {
       "Service": "Validity",
-      "Url": "",
+      "Url": "https://www.validity.com",
       "Icon": ""
     }
   ],
   "tmes": [
     {
-      "Service": "TMES",
-      "Url": "",
+      "Service": "Trend Micro Email Security",
+      "Url": "https://www.trendmicro.com",
       "Icon": ""
     }
   ],
   "spf.emailsignatures365.com": [
     {
-      "Service": "Emailsignatures365 SPF",
+      "Service": "CodeTwo Email Signatures 365 SPF",
       "Url": "",
       "Icon": ""
     }
   ],
   "spf.qiye.aliyun.com": [
     {
-      "Service": "Qiye Aliyun SPF",
+      "Service": "Alibaba Mail SPF",
       "Url": "",
       "Icon": ""
     }
@@ -1053,13 +1043,13 @@
     {
       "Service": "Citrix",
       "Url": "",
-      "Icon": ""
+      "Icon": "https://www.citrix.com"
     }
   ],
   "identrust_validate": [
     {
       "Service": "Identrust",
-      "Url": "",
+      "Url": "https://www.identrust.com",
       "Icon": ""
     }
   ],
@@ -1072,14 +1062,14 @@
   ],
   "_spf.intacct.com": [
     {
-      "Service": "Intacct SPF",
+      "Service": "Sage Intacct SPF",
       "Url": "",
       "Icon": ""
     }
   ],
   "spf.braintreegateway.com": [
     {
-      "Service": "Braintree Gateway SPF",
+      "Service": "Braintree SPF",
       "Url": "",
       "Icon": ""
     }
@@ -1087,20 +1077,20 @@
   "rippling-domain-verification": [
     {
       "Service": "Rippling",
-      "Url": "",
-      "Icon": ""
+      "Url": "https://www.rippling.com",
+      "Icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAArlBMVEX/swD/tAD/tQD/tgD/twD/uAD/uQD/ugD/uwD/vAD/vQD/vgD/vwD/wAD/wQD/wgD/xgD/sgD/sQD/sAD/rwD/rgCueQBIMwBVPACIYADuqgBNOQCVbgCgdwD/rQBxTwAAAACldQDcnQAWDwDDkgD/rAB9WQC4hgA4JgDoowDHjgD/qwD/qgArIACaawBgRQD/qQCQYQD/qADUkQD/pwDglwAcFAD/pgD/pQAkGAD4UyxiAAABcElEQVR4AX3RVWLtMAxFUYUT22FOCucyw8O2859YpTL7d5k3kWXbjut5fhBGkdLGxEmSptnDoPyzMooKijqs/mel4gelssjpO6Xqo6pXZWR1gjBwHE+bOAqjJMvSR6Wa1Wrarg/dYey6ITIXY3eZxaJ0JepfA5PAnwIzFaYjME9FaSFalAA8Wy+BlVIDsM4MK6Oo1wIbx9sCSx2kAJQxjDteWleuoP2IfjIDIs23o71oVQGwKOyBVRgMwCGVF9Fe1FkCR8feAPC85MRTDH+GpjNr+Qs4+bnYxguvgT4LQ1b6fealuzXwh6wJcM3PnQFDJEp/Ret/wNopw5HnuMEWOJmAlVHUAlCW9hFoPMcC/hs/YLx5UGKsK0vQtRmhfVa6fdAcwFVNgo5FAJTHSrcPWs7usKjzyWzW2JTj7hC5rIyiZ+62WFzljmtxXk4ueRmfVF70EOFNfMbv9Qmf9eqtMr7q/q1arIKftXjUJ5RjP+s9qeZF+E/JFkUAAAAASUVORK5CYII="
     }
   ],
   "amazon-business-verification": [
     {
       "Service": "Amazon Business",
-      "Url": "",
+      "Url": "https://business.amazon.com",
       "Icon": ""
     }
   ],
   "intacct-esk": [
     {
-      "Service": "Intacct",
+      "Service": "Sage Intacct Email Sender Key",
       "Url": "",
       "Icon": ""
     }
@@ -1108,20 +1098,20 @@
   "tiktok-developers-site-verification": [
     {
       "Service": "TikTok Developers",
-      "Url": "",
+      "Url": "https://developers.tiktok.com",
       "Icon": ""
     }
   ],
   "_netblocks.google.com": [
     {
-      "Service": "Google Netblocks",
+      "Service": "Google SPF",
       "Url": "",
       "Icon": ""
     }
   ],
   "spf.dynect.net": [
     {
-      "Service": "Dynect SPF",
+      "Service": "Oracle Dyn SPF",
       "Url": "",
       "Icon": ""
     }
@@ -1129,7 +1119,7 @@
   "_netblocks.mimecast.com": [
     {
       "Service": "Mimecast",
-      "Url": "",
+      "Url": "https://www.mimecast.com/",
       "Icon": ""
     }
   ],
@@ -1184,7 +1174,7 @@
   ],
   "_netblocks2.google.com": [
     {
-      "Service": "Google Netblocks 2",
+      "Service": "Google SPF",
       "Url": "",
       "Icon": ""
     }
@@ -1441,13 +1431,6 @@
       "Icon": ""
     }
   ],
-  "ZA": [
-    {
-      "Service": "ZA",
-      "Url": "",
-      "Icon": ""
-    }
-  ],
   "tollbit-domain-verification": [
     {
       "Service": "Tollbit",
@@ -1479,13 +1462,6 @@
   "bugcrowd-verification": [
     {
       "Service": "Bugcrowd",
-      "Url": "",
-      "Icon": ""
-    }
-  ],
-  "\\\"v": [
-    {
-      "Service": "V",
       "Url": "",
       "Icon": ""
     }
@@ -2295,16 +2271,10 @@
       "Icon": ""
     }
   ],
-  "onx": [
-    {
-      "Service": "Onx",
-      "Url": "",
-      "Icon": ""
-    }
-  ],
+
   "e2ma.net": [
     {
-      "Service": "E2MA",
+      "Service": "EMMA",
       "Url": "",
       "Icon": "https://myemma.com/wp-content/uploads/2022/05/itemeditorimage_5f87bbe3f2871.jpeg"
     }
@@ -2638,13 +2608,7 @@
       "Icon": ""
     }
   ],
-  "bcn": [
-    {
-      "Service": "BCN",
-      "Url": "",
-      "Icon": ""
-    }
-  ],
+
   "emsmtp.com": [
     {
       "Service": "EMSMTP",
@@ -2682,7 +2646,7 @@
   ],
   "BPL": [
     {
-      "Service": "BPL",
+      "Service": "Barracuda PhishLine",
       "Url": "",
       "Icon": ""
     }
@@ -3065,13 +3029,7 @@
       "Icon": ""
     }
   ],
-  "verification": [
-    {
-      "Service": "Verification",
-      "Url": "",
-      "Icon": ""
-    }
-  ],
+
   "spf.masterbase.com": [
     {
       "Service": "Masterbase SPF",
@@ -3170,13 +3128,6 @@
       "Icon": ""
     }
   ],
-  "site-verification": [
-    {
-      "Service": "Site Verification",
-      "Url": "",
-      "Icon": ""
-    }
-  ],
   "c._spf.ebay.com": [
     {
       "Service": "eBay SPF",
@@ -3222,13 +3173,6 @@
   "_relay.amadeus.com": [
     {
       "Service": "Amadeus Relay",
-      "Url": "",
-      "Icon": ""
-    }
-  ],
-  "hj": [
-    {
-      "Service": "HJ",
       "Url": "",
       "Icon": ""
     }
@@ -3691,13 +3635,6 @@
   "_netlock": [
     {
       "Service": "Netlock",
-      "Url": "",
-      "Icon": ""
-    }
-  ],
-  "p": [
-    {
-      "Service": "P",
       "Url": "",
       "Icon": ""
     }
@@ -4311,13 +4248,6 @@
       "Icon": ""
     }
   ],
-  "s": [
-    {
-      "Service": "S",
-      "Url": "",
-      "Icon": ""
-    }
-  ],
   "cisco-site-verification": [
     {
       "Service": "Cisco",
@@ -4689,13 +4619,7 @@
       "Icon": ""
     }
   ],
-  "_sp": [
-    {
-      "Service": "SP",
-      "Url": "",
-      "Icon": ""
-    }
-  ],
+
   "protection.outlook.com": [
     {
       "Service": "Outlook Protection",
@@ -5228,13 +5152,6 @@
       "Icon": ""
     }
   ],
-  "t": [
-    {
-      "Service": "T",
-      "Url": "",
-      "Icon": ""
-    }
-  ],
   "android-enroll": [
     {
       "Service": "Android Enroll",
@@ -5375,13 +5292,7 @@
       "Icon": ""
     }
   ],
-  "a": [
-    {
-      "Service": "A",
-      "Url": "",
-      "Icon": ""
-    }
-  ],
+
   "spf.icontroller.eu": [
     {
       "Service": "iController EU SPF",
@@ -6187,13 +6098,7 @@
       "Icon": ""
     }
   ],
-  "o": [
-    {
-      "Service": "O",
-      "Url": "",
-      "Icon": ""
-    }
-  ],
+
   "_spf.paytsoftware.com": [
     {
       "Service": "PaytSoftware SPF",
@@ -6766,6 +6671,5 @@
       "Service": "ThoughtIndustries Mail",
       "Url": "",
       "Icon": ""
-    }
-  ]
+    }]
 }
