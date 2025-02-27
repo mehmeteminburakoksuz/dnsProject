@@ -7,12 +7,13 @@ from cachetools import TTLCache
 
 app = Flask(__name__)
 
-# Logging yapılandırması
-logging.basicConfig(
-    filename='dns_search.log',
-    level=logging.DEBUG,
-    format='%(asctime)s - %(levelname)s - %(message)s'
-)
+#
+# # Logging yapılandırması
+# logging.basicConfig(
+#     filename='dns_search.log',
+#     level=logging.DEBUG,
+#     format='%(asctime)s - %(levelname)s - %(message)s'
+# )
 
 # 10 dakikalık önbellek (600 saniye TTL)
 cache = TTLCache(maxsize=100, ttl=600)
