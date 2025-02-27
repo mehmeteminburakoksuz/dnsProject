@@ -1193,13 +1193,6 @@
       "Icon": ""
     }
   ],
-  "pexip-ms-tenant-domain-verification": [
-    {
-      "Service": "Pexip",
-      "Url": "",
-      "Icon": ""
-    }
-  ],
   "mailsenders.netsuite.com": [
     {
       "Service": "Netsuite",
@@ -1749,13 +1742,6 @@
   "cmail1.com": [
     {
       "Service": "Cmail1",
-      "Url": "",
-      "Icon": ""
-    }
-  ],
-  "as": [
-    {
-      "Service": "AS",
       "Url": "",
       "Icon": ""
     }
@@ -3898,13 +3884,6 @@
       "Icon": ""
     }
   ],
-  "pexip-portal-domain-verification": [
-    {
-      "Service": "Pexip Portal",
-      "Url": "",
-      "Icon": ""
-    }
-  ],
   "spf.logicalware.com": [
     {
       "Service": "Logicalware SPF",
@@ -3957,13 +3936,6 @@
   "_spfblocka.toast.com": [
     {
       "Service": "Toast SPF Block",
-      "Url": "",
-      "Icon": ""
-    }
-  ],
-  "spf.prot": [
-    {
-      "Service": "Prot SPF",
       "Url": "",
       "Icon": ""
     }
@@ -4977,13 +4949,6 @@
       "Icon": ""
     }
   ],
-  "spf": [
-    {
-      "Service": "SPF",
-      "Url": "",
-      "Icon": ""
-    }
-  ],
   "eskerondemand.com": [
     {
       "Service": "Esker OnDemand",
@@ -5937,13 +5902,6 @@
       "Icon": ""
     }
   ],
-  "_": [
-    {
-      "Service": "Underscore",
-      "Url": "",
-      "Icon": ""
-    }
-  ],
   "spf.protection.office365.us": [
     {
       "Service": "Office365 US SPF",
@@ -6533,7 +6491,7 @@
       "Icon": ""
     }
   ],
-  "442271.spf04.hubspotemail.net": [
+  "spf04.hubspotemail.net": [
     {
       "Service": "HubSpot SPF",
    "Url": "https://www.hubspot.com",
